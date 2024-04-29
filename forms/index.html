@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <!-- colocar cor em todos os textos com h1 -->
+
     <style>
         * {
             text-align: center;
@@ -17,10 +18,16 @@
 </head>
 
 <body>
+
+
+
+
     <section> 
         <!-- A div vai criar uma divisão no formulário (nas paginas, como se fosse divir em blocos), facilita no momento em que 
         quiser mudar somente uma parte do site -->
 <div>
+  
+
 <h1> Cadastre sua dica culinária</h1>
 
 <form>
@@ -29,22 +36,26 @@
     <!-- dentro das aspas de type e name (name é um atributo para o JS e se tirar não vai influenciar em nada) 
     tem que ser tudo em minusculo -->
 
-    <!-- placeholder serve para colocar uma frase dentro da caixa do formulário, 
-        pode usá-lo ou não (nesse caso deverá escrever o que deseja que seja preenchido) -->
- 
+    <!-- placeholder serve para colocar uma frase dentro da caixa do formulário,pode usá-lo ou não (nesse caso deverá escrever o que deseja que seja preenchido) -->
 <input type="text" name="nome" placeholder="Digite seu nome aqui"><br>  
-<input type="e-mail" name="e-mail" placeholder="Digite seu e-mail aqui"><br>
-<br><input type="submit" name="enviar" value="Enviar">
+<br><input type="text" name="text" placeholder="Digite sua cidade/Estado"><br>
 
+</form>
+</div>
+
+<div>
+    <br>Escreva a dica que deseja compartilhar
+<form>
+    <textarea></textarea><br>   
+    <!-- Tipo de campo para texto, se quiser o campo em branco, não digite nada entre as tag (da pra puxar e aumentar o tamanho)-->
+    <br><input type="submit" name="enviar" value="Enviar">
 </form>
 </div>
 
 
 
 
-
-      </section>
-
+    </section>
 
 </body>
 </html>
