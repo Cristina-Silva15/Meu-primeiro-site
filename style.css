@@ -1,0 +1,8 @@
+h3 {
+    /*cor de fundo*/
+    background-color:rgb(226, 158, 30);
+    /*posição do texto*/
+    text-align: center;
+    /*tamanho da letra*/
+    font-size: 25px;
+}
