@@ -11,64 +11,83 @@
 </head>
 
 <body>
-    <img src="imagens do site\ingredientes3.jpeg" width="1340px"  alt="100px" >
-
-    <header> 
-        
-        <img src="imagens do site/logotipo panela laranja.jpeg" width="35px" alt="10">Receitas & <br>Dicas Culinárias
-
-        <!--colocar um cor de fundo em um elemento-->
-        <h3>Cozinhar não é apenas fazer comida, é uma arte.</h3> 
-    <!--incluindo video que foi baixado-->
-        <br><video width="500" height="340" controls>
-            <source src="videos/cozinhando.mp4" type="video/mp4">
-            <source src="videos/cozinhando.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-
-        <nav> Menu
-
-            <li><a href="receitas.html">Receitas</a></li> <!--tag a para colocar link -->
-            <li><a href="dicas.html">Dicas</a></li>
-            <li><a href="local.html">Local</a></li>   <!--target faz abrir a pagina em uma nova aba-->
     
-        </nav>
+    <header> 
+        <!-- criando uma classe para aplicar o css -->
+        <!-- tem que fechar os simbolos <> antes de colocar a imagem e depois fechar a div -->
+        <div class="headerInicial"><img src="imagens do site/logotipo panela laranja.jpeg" width="35px" alt="10">Receitas & <br>Dicas Culinárias
+        
+            <nav> 
+                    <!-- aplicando css só nos menus -->
+                <div class= "menus">
+                    <h2>Menu</h2> 
+                    <a href="receitas.html">Receitas</a> <!--tag a para colocar link -->
+                    <a href="dicas.html">Dicas</a>
+                    <a href="local.html">Local</a>   <!--target faz abrir a pagina em uma nova aba-->
+                </div>
+
+            </nav>
+        </div>
 
     </header>
-    <main><h1>Breve Historia da culinária</h1> <!-- main para os textos principais da pagina -->
-        <img src="https://images.pexels.com/photos/2403391/pexels-photo-2403391.jpeg?auto=compress&cs=tinysrgb&w=300" alt="400">
-        <selection>
+        <!--colocar um cor de fundo em um elemento-->
+        <h3>Cozinhar não é apenas fazer comida, é uma arte.</h3> 
+
+        <div>
+            <!--incluindo video que foi baixado-->
+            <br><video width="500" height="340" controls>
+                    <source src="videos/cozinhando.mp4" type="video/mp4">
+                    <source src="videos/cozinhando.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+        <div>
+
+        <div>
+            <main><h1>Breve Historia da culinária</h1> <!-- main para os textos principais da pagina -->
+                <img src="https://images.pexels.com/photos/2403391/pexels-photo-2403391.jpeg?auto=compress&cs=tinysrgb&w=300" alt="400">
+            <selection>
             
-            <div>    
-                A prática culinária engloba a habilidade de preparar alimentos e tem progredido ao longo da história da humanidade, assumindo nuances distintas em diversas culturas. 
-                <br>Ela não apenas espelha os costumes de uma comunidade, mas também se entrelaça com outros elementos culturais, como religião e política.
-            </div>
+                <div>    
+                    A prática culinária engloba a habilidade de preparar alimentos e tem progredido ao longo da história da humanidade, assumindo nuances distintas em diversas culturas. 
+                    <br>Ela não apenas espelha os costumes de uma comunidade, mas também se entrelaça com outros elementos culturais, como religião e política.
+                </div>
 
-        </selection>
-    </main>
+            </selection>
+            </main>
+        </div>
 
-    <main><h1>Culinária como uma terapia</h1>
-        <img src="imagens do site/ingredientes2.jpg" width="500" alt="200">
-        <selection>
-            <div> 
-                A cozinha terapêutica, aliada na luta contra o estresse e a ansiedade, se fundamenta na conexão emocional entre o cozinheiro e a elaboração das refeições.
-                <br> É comum que durante o processo de preparação dos alimentos, a pessoa consiga desconectar-se das tensões e preocupações diárias, <br>empregando toda sua inventividade na arte culinária. <!--br é quebra de linha-->
-            </div>
-        </selection>
-    </main>
+    <div>
+        <main><h1>Culinária como uma terapia</h1>
+            <img src="imagens do site/ingredientes2.jpg" width="500" alt="200">
+            <selection>
+                <div> 
+                    A cozinha terapêutica, aliada na luta contra o estresse e a ansiedade, se fundamenta na conexão emocional entre o cozinheiro e a elaboração das refeições.
+                    <br> É comum que durante o processo de preparação dos alimentos, a pessoa consiga desconectar-se das tensões e preocupações diárias, <br>empregando toda sua inventividade na arte culinária. <!--br é quebra de linha-->
+                </div>
+            </selection>
+        </main>
+    </div>
 
+    
      <h3>Cozinhar pode ser algo divertido, mas pode ficar melhor com uma playlist de música para acompanhar esse momento.</h3>
-     
-     <audio controls>
-        <!-- adicionar musica-->
-        <source src="musicas/Alok.mp3" type="audio/ogg">
-        <source src="musicas/Alok.mp3" type="audio/mp3">
-      Your browser does not support the audio element.
-      </audio> 
+    
+     <div> 
+        <audio controls>
+            <!-- adicionar musica-->
+            <source src="musicas/Alok.mp3" type="audio/ogg">
+            <source src="musicas/Alok.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio> 
+    </div>
 
+    <div>
       <!--adicionar link para o youtube-->
      <a href= "https://youtu.be/x6VKvAdMLVc" target="_blank"> Spotify youtube</a> <!--adicionar uma playlist do youtube-->
+    </div>
 
-    <footer><h5>Criado por Cristina Francisca da Silva para fins de estudo</h5></footer> <!--rodapé-->
+    <div>
+        <footer><h4>Criado por Cristina Francisca da Silva para fins de estudo</h4></footer> <!--rodapé-->
+    </div>
+
 </body>
 </html>

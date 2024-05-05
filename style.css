@@ -1,8 +1,68 @@
-h3 {
+ /*corpo*/
+body{background-color: hsl(37, 79%, 81%);
+    
+
+}
+ /*Cabeçalho*/
+.headerInicial {
+    background-color: #df7008;
+    padding: 20px;  
+    color: #ffffff;
+    background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg);
+    top: 0;
+    position: left; /* Define o posicionamento relativo para o elemento pai */
+    width: 1635px;
+    height: 150px;
+    border: 1px solid #e9910d;
+
+}
+
+
+ /*titulos*/
+h1 {
     /*cor de fundo*/
-    background-color:rgb(226, 158, 30);
+    background-color:rgb(245, 166, 19);
     /*posição do texto*/
     text-align: center;
     /*tamanho da letra*/
-    font-size: 25px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/*frases indicativas para fazer algo*/
+h3{
+    color: rgb(189, 77, 12);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*subtitulos*/
+h2 {
+    color: rgb(236, 65, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+ /*menus*/
+/*não esquecer de colocar o . antes do nome da classe que criei*/
+.menus {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: right ;
+    top: 0;
+}
+ /*imagem do cabeçalho pagina Receitas*/
+.imagemReceitas {
+    background-image: url(imagens\ do\ site/ingredientes3.jpeg);
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    height: 190px; /* Altura desejada para o cabeçalho */
+    width: 1678px;
+}
+ /*menus     FALTA ARRUMAR A POSIÇÃO  - VER SE DA P COLOCAR PORCENTAGEM*/
+.menusReceitas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: right;
+
+    
+    }
