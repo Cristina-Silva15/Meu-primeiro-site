@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas & Dicas Culinárias</title>
-    <link rel="shortcut icon" href="imagens do site/panelinha.ico" type="image/x-icon"> <!--colocar icone na aba -->
+    <link rel="shortcut icon" href="imagens do site/panelinhaIco.ico" type="image/x-icon"> <!--colocar icone na aba -->
     <!-- arquivo do css (externo)-->
     <link rel="stylesheet" href="style.css">  
     
@@ -15,23 +15,28 @@
     <header> 
         <!-- criando uma classe para aplicar o css -->
         <!-- tem que fechar os simbolos <> antes de colocar a imagem e depois fechar a div -->
-        <div class="headerInicial"><img src="imagens do site/logotipo panela laranja.jpeg" width="35px" alt="10">Receitas & <br>Dicas Culinárias
-        
-            <nav> 
-                    <!-- aplicando css só nos menus -->
-                <div class= "menus">
-                    <h2>Menu</h2> 
-                    <a href="receitas.html">Receitas</a> <!--tag a para colocar link -->
-                    <a href="dicas.html">Dicas</a>
-                    <a href="local.html">Local</a>   <!--target faz abrir a pagina em uma nova aba-->
-                </div>
-
-            </nav>
+        <div class="imagemInicial"><img src="imagens do site/logotipo panela laranja.jpeg" width="35px" alt="10">Receitas & <br>Dicas Culinárias
+        <!--logotipo colocado aqui para poder sobrepor na imagem inicial que esta no css-->
         </div>
+           
+            <div class="menuInicial"> <!--classe para estilização indiviadual do menu-->
+                <nav> 
+                    <!-- aplicando css só nos menus -->
+                    <div class= "menus">
+                        <div class="link">
+                            <a href="receitas.html">Receitas</a> <!--tag a para colocar link -->
+                            <a href="dicas.html">Dicas</a>
+                            <a href="local.html">Local</a>   <!--target faz abrir a pagina em uma nova aba-->
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
 
     </header>
-        <!--colocar um cor de fundo em um elemento-->
-        <h3>Cozinhar não é apenas fazer comida, é uma arte.</h3> 
+        <!--colocar uma cor de fundo em um elemento-->
+        <br><div class="frase">Cozinhar não é apenas fazer comida, é uma arte e uma terapia.</div>
+        
 
         <div>
             <!--incluindo video que foi baixado-->
@@ -48,8 +53,8 @@
             <selection>
             
                 <div>    
-                    A prática culinária engloba a habilidade de preparar alimentos e tem progredido ao longo da história da humanidade, assumindo nuances distintas em diversas culturas. 
-                    <br>Ela não apenas espelha os costumes de uma comunidade, mas também se entrelaça com outros elementos culturais, como religião e política.
+                    <p>A prática culinária engloba a habilidade de preparar alimentos e tem progredido ao longo da história da humanidade, assumindo nuances distintas em diversas culturas. 
+                    <br>Ela não apenas espelha os costumes de uma comunidade, mas também se entrelaça com outros elementos culturais, como religião e política.</p>
                 </div>
 
             </selection>
@@ -61,15 +66,15 @@
             <img src="imagens do site/ingredientes2.jpg" width="500" alt="200">
             <selection>
                 <div> 
-                    A cozinha terapêutica, aliada na luta contra o estresse e a ansiedade, se fundamenta na conexão emocional entre o cozinheiro e a elaboração das refeições.
-                    <br> É comum que durante o processo de preparação dos alimentos, a pessoa consiga desconectar-se das tensões e preocupações diárias, <br>empregando toda sua inventividade na arte culinária. <!--br é quebra de linha-->
+                    <p>A cozinha terapêutica, aliada na luta contra o estresse e a ansiedade, se fundamenta na conexão emocional entre o cozinheiro e a elaboração das refeições.
+                    <br> É comum que durante o processo de preparação dos alimentos, a pessoa consiga desconectar-se das tensões e preocupações diárias, <br>empregando toda sua inventividade na arte culinária.</p> <!--br é quebra de linha-->
                 </div>
             </selection>
         </main>
     </div>
 
     
-     <h3>Cozinhar pode ser algo divertido, mas pode ficar melhor com uma playlist de música para acompanhar esse momento.</h3>
+    <br><div class="frase">Cozinhar pode ser algo divertido, mas pode ficar melhor com músicas para acompanhar esse momento.</div>
     
      <div> 
         <audio controls>

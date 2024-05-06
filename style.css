@@ -1,21 +1,104 @@
  /*corpo*/
-body{background-color: hsl(37, 79%, 81%);
-    
-
+body{background-color: hsl(120, 33%, 99%);
 }
+
+
+ /* menus de todas as paginas*/
+/*não esquecer de colocar o . antes do nome da classe que criei*/
+/*fontes das letras*/
+.menus {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: right ;
+}
+
  /*Cabeçalho*/
 .headerInicial {
-    background-color: #df7008;
-    padding: 20px;  
-    color: #ffffff;
+    padding: 0px;  
     background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg);
     top: 0;
     position: left; /* Define o posicionamento relativo para o elemento pai */
     width: 1635px;
     height: 150px;
-    border: 1px solid #e9910d;
-
 }
+
+
+/*imagem da pagina inicial*/
+.imagemInicial{
+    background-image: url(imagens\ do\ site/inicial3.png);
+    height: 190px; /* Altura desejada para o cabeçalho */
+    width: 1677px;
+    background-size: cover;  /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    padding: 0px;
+}
+
+
+.menuInicial {
+    background-color: #da7e29;
+    padding: 7px;
+    width: 1663px;
+}
+
+
+ /*imagem do cabeçalho pagina Receitas*/
+.imagemReceitas {
+    background-image: url(imagens\ do\ site/ingredientes3.jpeg);
+    height: 190px; /* Altura desejada para o cabeçalho */
+    width: 1677px;
+    background-size: cover;  /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    padding: 0px;
+}
+
+
+ /*menus*/
+ /*outras estilizações*/
+.menusReceitas {
+    background-color: #da7e29;
+    padding: 7px;
+    width: 1663px;
+    } 
+
+
+.imagemDicas {
+    background-image: url(imagens\ do\ site/Dicas4.png);
+    height: 190px; /* Altura desejada para o cabeçalho */
+    width: 1656px;
+    background-size: cover;  /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    padding: 11px;
+}
+
+
+.menusDicas {
+    background-color: #da7e29;
+    padding: 7px;
+    width: 1663px;   
+}
+
+
+.imagemLocal {
+    background-image: url(imagens\ do\ site/mapa.png);
+    height: 190px; /* Altura desejada para o cabeçalho */
+    width: 1656px;
+    background-size: cover;  /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    padding: 11px;
+}
+
+
+/* */
+.menusLocal {
+    background-color: #da7e29;
+    padding: 7px;
+    width: 1663px;
+}
+
+
+.frase {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 
 
  /*titulos*/
@@ -38,31 +121,19 @@ h3{
 
 /*subtitulos*/
 h2 {
-    color: rgb(236, 65, 8);
+    color: rgb(12, 12, 12);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 26px;  
 }
 
- /*menus*/
-/*não esquecer de colocar o . antes do nome da classe que criei*/
-.menus {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    text-align: right ;
-    top: 0;
-}
- /*imagem do cabeçalho pagina Receitas*/
-.imagemReceitas {
-    background-image: url(imagens\ do\ site/ingredientes3.jpeg);
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-    height: 190px; /* Altura desejada para o cabeçalho */
-    width: 1678px;
-}
- /*menus     FALTA ARRUMAR A POSIÇÃO  - VER SE DA P COLOCAR PORCENTAGEM*/
-.menusReceitas {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    text-align: right;
 
+
+.link {
     
-    }
+
+}
+
+.preencher {
+
+   
+}
