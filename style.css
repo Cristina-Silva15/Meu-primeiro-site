@@ -17,7 +17,7 @@ body{background-color: hsl(120, 33%, 99%);
     padding: 0px;  
     background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg);
     top: 0;
-    position: left; /* Define o posicionamento relativo para o elemento pai */
+    position: left;                                                    /* Define o posicionamento relativo para o elemento pai */
     width: 1635px;
     height: 150px;
 }
@@ -26,9 +26,9 @@ body{background-color: hsl(120, 33%, 99%);
 /*imagem da pagina inicial*/
 .imagemInicial{
     background-image: url(imagens\ do\ site/inicial3.png);
-    height: 190px; /* Altura desejada para o cabeçalho */
+    height: 190px;                                                      /* Altura desejada para o cabeçalho */
     width: 1677px;
-    background-size: cover;  /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
 }
 
@@ -43,9 +43,9 @@ body{background-color: hsl(120, 33%, 99%);
  /*imagem do cabeçalho pagina Receitas*/
 .imagemReceitas {
     background-image: url(imagens\ do\ site/ingredientes3.jpeg);
-    height: 190px; /* Altura desejada para o cabeçalho */
+    height: 190px;                                                      /* Altura desejada para o cabeçalho */
     width: 1677px;
-    background-size: cover;  /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
 }
 
@@ -61,9 +61,9 @@ body{background-color: hsl(120, 33%, 99%);
 
 .imagemDicas {
     background-image: url(imagens\ do\ site/Dicas4.png);
-    height: 190px; /* Altura desejada para o cabeçalho */
+    height: 190px;                                                   /* Altura desejada para o cabeçalho */
     width: 1656px;
-    background-size: cover;  /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    background-size: cover;                                         /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 11px;
 }
 
@@ -77,11 +77,12 @@ body{background-color: hsl(120, 33%, 99%);
 
 .imagemLocal {
     background-image: url(imagens\ do\ site/mapa.png);
-    height: 190px; /* Altura desejada para o cabeçalho */
+    height: 190px;                                          /* Altura desejada para o cabeçalho */
     width: 1656px;
-    background-size: cover;  /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 11px;
 }
+
 
 
 /* */
@@ -103,13 +104,13 @@ body{background-color: hsl(120, 33%, 99%);
 
  /*titulos*/
 h1 {
-    /*cor de fundo*/
-    background-color:rgb(245, 166, 19);
-    /*posição do texto*/
-    text-align: center;
-    /*tamanho da letra*/
-    font-size: 26px;
+    
+    background-color:rgb(245, 166, 19);                             /*cor de fundo*/
+    text-align: center;                                                 /*posição do texto*/
+    font-size: 36px;                                                    /*tamanho da letra*/
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
 }
 
 /*frases indicativas para fazer algo*/
@@ -128,12 +129,3 @@ h2 {
 
 
 
-.link {
-    
-
-}
-
-.preencher {
-
-   
-}

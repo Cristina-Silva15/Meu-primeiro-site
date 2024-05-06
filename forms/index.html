@@ -10,41 +10,61 @@
 
 <body>
 
+    <header>
+      
+        <div class="imagemForm">
+        </div>
 
-    <section> 
+    </header>
+
+
         <!-- A div vai criar uma divisão no formulário (nas paginas, como se fosse divir em blocos), facilita no momento em que 
         quiser mudar somente uma parte do site -->
-<div>
-  
+    <div>
+            <h1> Preencha os campos para cadsatrar sua dica culinária</h1>
 
-    <h1> Preencha os campos para cadsatrar sua dica culinária</h1>
-
-
-    
-        <form>
-            <div class="preencher">
-            <!-- Input é a parte que interage com o usuario, para que seja possivel a digitação das informações  -->
-
-            <!-- dentro das aspas de type e name (name é um atributo para o JS e se tirar não vai influenciar em nada) 
-            tem que ser tudo em minusculo -->
-            <!-- placeholder serve para colocar uma frase dentro da caixa do formulário,pode usá-lo ou não (nesse caso deverá escrever o que deseja que seja preenchido) -->
-            <input type="text" name="nome" placeholder="Digite seu nome aqui"><br>  
-            <br><input type="text" name="text" placeholder="Digite sua cidade/Estado"><br>
-            </div>
-
-        </form>
-</div>
+    </div>
 
     <div>
-        <br>Escreva a dica que deseja compartilhar
-    <form>
-        <textarea></textarea><br>   
-        <!-- Tipo de campo para texto, se quiser o campo em branco, não digite nada entre as tag (da pra puxar e aumentar o tamanho)-->
-        <br><input type="submit" name="enviar" value="Enviar">
-    </form>
-</div>
+        <form>
+            <div class="preencher">
+                <!-- Input é a parte que interage com o usuario, para que seja possivel a digitação das informações  -->
 
-    </section>
+                <!-- dentro das aspas de type e name (name é um atributo para o JS e se tirar não vai influenciar em nada) 
+                tem que ser tudo em minusculo -->
+                <!-- placeholder serve para colocar uma frase dentro da caixa do formulário,pode usá-lo ou não (nesse caso deverá escrever o que deseja que seja preenchido) -->
+                
+                <input type="text" name="nome" placeholder="Digite seu nome aqui"><br>  
+                <br><input type="text" name="text" placeholder="Digite sua cidade/Estado"><br>
+                <br><input type="number" name="number" placeholder="Digite sua idade"><br>  
+                
+                <!-- bordas  -->
+                <style>
+                    form{
+                        width: 50%;
+                        padding: 10px;
+                        margin: 10px 3;
+                        border: 3px solid #d86303;
+                        border-radius: 10px;
+                        box-sizing: border-box;
+                        font-family: Arial, Helvetica, sans-serif;
+
+                        }
+                </style>
+            </div>    
+        </form> 
+    </div>
+
+    <div>
+
+        <br><h3>Escreva a dica que deseja compartilhar</h3>
+        <form>
+            <textarea></textarea><br>   
+                <!-- Tipo de campo para texto, se quiser o campo em branco, não digite nada entre as tag (da pra puxar e aumentar o tamanho)-->
+
+                <br><input type="submit" name="enviar" value="Enviar" >
+        </form>
+    </div>
 
 </body>
 </html>
