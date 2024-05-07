@@ -2,17 +2,7 @@
 body{background-color: hsl(120, 33%, 99%);
 }
 
-
- /* menus de todas as paginas*/
-/*não esquecer de colocar o . antes do nome da classe que criei*/
-/*fontes das letras*/
-.menus {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-    text-align: right ;
-    
-}
-
+  
  /*Cabeçalho*/
 .headerInicial {
     padding: 0px;  
@@ -33,11 +23,10 @@ body{background-color: hsl(120, 33%, 99%);
     padding: 0px;
 }
 
-
 .menuInicial {
-    background-color: #da7e29;
-    padding: 7px;
-    width: 1663px;
+    background-color: #e28b08;
+    padding: 32px;
+    width: 1614px;
     word-spacing: 50px;
 }
 
@@ -51,13 +40,12 @@ body{background-color: hsl(120, 33%, 99%);
     padding: 0px;
 }
 
-
  /*menus*/
  /*outras estilizações*/
 .menusReceitas {
-    background-color: #da7e29;
-    padding: 7px;
-    width: 1663px;
+    background-color: #e28b08;
+    padding: 32px;
+    width: 1614px;
     word-spacing: 50px;
     } 
 
@@ -65,17 +53,15 @@ body{background-color: hsl(120, 33%, 99%);
 .imagemDicas {
     background-image: url(imagens\ do\ site/Dicas4.png);
     height: 190px;                                                   /* Altura desejada para o cabeçalho */
-    width: 1656px;
+    width: 1616px;
     background-size: cover;                                         /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-    padding: 11px;
+    padding: 31px;
 }
 
-
 .menusDicas {
-    background-color: #da7e29;
-    padding: 7px;
-    width: 1663px;   
-    word-spacing: 50px;
+    background-color: #e28b08;
+    padding: 32px;
+    width: 1614px;                   
 }
 
 
@@ -87,14 +73,21 @@ body{background-color: hsl(120, 33%, 99%);
     padding: 11px;
 }
 
-
 /* */
 .menusLocal {
-    background-color: #da7e29;
-    padding: 7px;
-    width: 1663px;
+    background-color: #e28b08;
+    padding: 32px;
+    width: 1614px;
     word-spacing: 50px;                   /*espaçamento entre palavras */
-      
+}
+
+
+/*criado por..*/
+                        /*tentar colocar imagem e link p linkedin depois */
+.criado {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 
@@ -104,41 +97,40 @@ body{background-color: hsl(120, 33%, 99%);
 }
 
 
+p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    
+}
 
 
 
  /*titulos*/
 h1 {
-    
-    background-color:rgb(245, 166, 19);                             /*cor de fundo*/
-    text-align: center;                                                 /*posição do texto*/
-    font-size: 36px;                                                    /*tamanho da letra*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
 
+    background-color:rgb(207, 115, 62);                             /*cor de fundo*/
+    text-align: center;                                                 /*posição do texto*/
+    font-size: 28px;                                                    /*tamanho da letra*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*frases indicativas para fazer algo*/
+/*frases indicativas para fazer algo " clique aqui"*/
+h4 {
+    font-size: 22px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(189, 68, 12)
+}
+
+
+/*titulos das receitas"*/
 h3{
     color: rgb(189, 77, 12);
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/*subtitulos*/
-h2 {
-    color: rgb(12, 12, 12);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;  
-}
-
-
-/*frases curtas indicativas*/
-h4 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(189, 77, 12)
 }
+
 
 /*botão para spotify Youtube*/
 .button1 {
@@ -158,40 +150,77 @@ h4 {
 } 
 
 
+/*formulario da pagina de dicas*/
 .button2 {
     background-color: #da7e29; 
     border: none;
-    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px 24px;                                       /* preenchimento do botão */
+    border-radius: 16px;  
+    
+}
+
+
+/*botoes do menu*/
+  .button5 {
+    display: inline;
+    background-color: #e46816 ; 
+    border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    padding: 6px 24px;                                       /* preenchimento do botão */
-    border-radius: 16px;                                      /* arredonda o botão */
-    
-}
+    padding: 1px 21px;                                                                      /* preenchimento do botão */
+    border-radius: px; 
+    word-spacing: 70px;                                                                     /*espaçamento entre palavras */
 
-p {
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-}
+  }
+   
+  /* cor dos hiperlink do menu*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e28b08 ;
+    float: right;
+    text-align: right;
+  }
 
+  
+  li {
+    float: left;
+                                 /* cria divisoria dos link  */
+  }
 
-/*criado por..*/
-                        /*tentar colocar imagem e link p linkedin depois */
-.criado {
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+  
+  li a {
+    display: block;
+    color: white;
     text-align: center;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+    word-spacing: 50px;  
+  }
 
+  
+  /* Altere a cor do link para #111 (preto) ao passar o mouse */
+  li a:hover {
+    background-color: #ca4507;
+    
+  }
 
-/*tentar mudar a cor dos hiperlink*/
-.a:hover {
-    color: #ff4500;
-}
-
-
+  input {
+    width: 50%;
+    padding: 28px 38px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid red;
+  }
