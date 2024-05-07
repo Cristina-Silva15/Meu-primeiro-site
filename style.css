@@ -10,6 +10,7 @@ body{background-color: hsl(120, 33%, 99%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     text-align: right ;
+    
 }
 
  /*Cabeçalho*/
@@ -37,6 +38,7 @@ body{background-color: hsl(120, 33%, 99%);
     background-color: #da7e29;
     padding: 7px;
     width: 1663px;
+    word-spacing: 50px;
 }
 
 
@@ -56,6 +58,7 @@ body{background-color: hsl(120, 33%, 99%);
     background-color: #da7e29;
     padding: 7px;
     width: 1663px;
+    word-spacing: 50px;
     } 
 
 
@@ -72,6 +75,7 @@ body{background-color: hsl(120, 33%, 99%);
     background-color: #da7e29;
     padding: 7px;
     width: 1663px;   
+    word-spacing: 50px;
 }
 
 
@@ -84,12 +88,13 @@ body{background-color: hsl(120, 33%, 99%);
 }
 
 
-
 /* */
 .menusLocal {
     background-color: #da7e29;
     padding: 7px;
     width: 1663px;
+    word-spacing: 50px;                   /*espaçamento entre palavras */
+      
 }
 
 
@@ -127,5 +132,66 @@ h2 {
     font-size: 26px;  
 }
 
+
+/*frases curtas indicativas*/
+h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(189, 77, 12)
+}
+
+/*botão para spotify Youtube*/
+.button1 {
+    background-color: #da7e29; 
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 15px 24px;                                       /* preenchimento do botão */
+    border-radius: 16px;                                      /* arredonda o botão */
+    
+} 
+
+
+.button2 {
+    background-color: #da7e29; 
+    border: none;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 6px 24px;                                       /* preenchimento do botão */
+    border-radius: 16px;                                      /* arredonda o botão */
+    
+}
+
+p {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+
+/*criado por..*/
+                        /*tentar colocar imagem e link p linkedin depois */
+.criado {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+/*tentar mudar a cor dos hiperlink*/
+.a:hover {
+    color: #ff4500;
+}
 
 
