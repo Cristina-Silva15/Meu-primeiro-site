@@ -1,4 +1,11 @@
- /*corpo*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');  /*(font-family: "Roboto Condensed", sans-serif;)*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); /*font-family: "Courgette", cursiva;*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); /*família de fontes: "Acme", sans-serif;*/
+/*fonte importada do google fonts */
+
+
+
+/*corpo*/
 body{background-color: hsl(120, 33%, 99%);
 }
 
@@ -18,7 +25,7 @@ body{background-color: hsl(120, 33%, 99%);
 .imagemInicial{
     background-image: url(imagens\ do\ site/inicial3.png);
     height: 190px;                                                      /* Altura desejada para o cabeçalho */
-    width: 1677px;
+    width: 1341px;
     background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
 }
@@ -26,7 +33,7 @@ body{background-color: hsl(120, 33%, 99%);
 .menuInicial {
     background-color: #e28b08;
     padding: 32px;
-    width: 1614px;
+    width: 1277px;
     word-spacing: 50px;
 }
 
@@ -35,7 +42,7 @@ body{background-color: hsl(120, 33%, 99%);
 .imagemReceitas {
     background-image: url(imagens\ do\ site/ingredientes3.jpeg);
     height: 190px;                                                      /* Altura desejada para o cabeçalho */
-    width: 1677px;
+    width: 1341px;
     background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
 }
@@ -45,15 +52,16 @@ body{background-color: hsl(120, 33%, 99%);
 .menusReceitas {
     background-color: #e28b08;
     padding: 32px;
-    width: 1614px;
+    width: 1277px;
     word-spacing: 50px;
+    margin-bottom: 4%;
     } 
 
 
 .imagemDicas {
     background-image: url(imagens\ do\ site/Dicas4.png);
     height: 190px;                                                   /* Altura desejada para o cabeçalho */
-    width: 1616px;
+    width: 1279px;
     background-size: cover;                                         /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 31px;
 }
@@ -61,14 +69,14 @@ body{background-color: hsl(120, 33%, 99%);
 .menusDicas {
     background-color: #e28b08;
     padding: 32px;
-    width: 1614px;                   
+    width: 1277px;
 }
 
 
 .imagemLocal {
     background-image: url(imagens\ do\ site/mapa.png);
     height: 190px;                                          /* Altura desejada para o cabeçalho */
-    width: 1656px;
+    width: 1319px;
     background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 11px;
 }
@@ -77,8 +85,8 @@ body{background-color: hsl(120, 33%, 99%);
 .menusLocal {
     background-color: #e28b08;
     padding: 32px;
-    width: 1614px;
-    word-spacing: 50px;                   /*espaçamento entre palavras */
+    width: 1277px;
+    word-spacing: 50px;  
 }
 
 
@@ -86,38 +94,45 @@ body{background-color: hsl(120, 33%, 99%);
                         /*tentar colocar imagem e link p linkedin depois */
 .criado {
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-family: "Courgette", cursiva; 
 }
 
 
 .frase {
-    font-size: 24px;
+    background-color: rgb(247, 211, 171);
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px; /* Espaço entre a imagem e o texto */
+    margin-left: 1%;
+
 }
 
-
 p {
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 1%;
 }
 
 
 
  /*titulos*/
 h1 {
-
-    background-color:rgb(207, 115, 62);                             /*cor de fundo*/
-    text-align: center;                                                 /*posição do texto*/
-    font-size: 28px;                                                    /*tamanho da letra*/
+    width: calc(29% - 7px);  /* 50% menos o espaçamento para a imagem */
+    background-color:rgb(207, 115, 62); 
+    margin-left: 1%;                           /*cor de fundo*/
+    text-align: left;                                                 /*posição do texto*/
+    font-size: 20px;                                                    /*tamanho da letra*/
     font-family: Arial, Helvetica, sans-serif;
+    padding: 6px
+     
 }
 
 /*frases indicativas para fazer algo " clique aqui"*/
 h4 {
-    font-size: 22px;
+    font-size: 18px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(189, 68, 12)
@@ -126,45 +141,41 @@ h4 {
 
 /*titulos das receitas"*/
 h3{
-    color: rgb(189, 77, 12);
+    color: rgb(253, 252, 251);
+    background-color: #e66108;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    width: calc(20% - 7px); /*alinha o background */
+
 }
 
 
 /*botão para spotify Youtube*/
-.button1 {
-    background-color: #da7e29; 
-    border: none;
-    color: white;
-    padding: 15px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 26px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    padding: 15px 24px;                                       /* preenchimento do botão */
-    border-radius: 16px;                                      /* arredonda o botão */
-    
-} 
+.button1 { 
+    text-decoration: none;   /* Remove o sublinhado */
+    padding: 10px 20px; /* Adiciona preenchimento ao botão */
+    background-color: #e66108; /* Define a cor de fundo do botão (substitua pela cor desejada) */
+    color: #fff; /* Define a cor do texto do botão (substitua pela cor desejada) */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    display: inline-block; /* Garante que o botão se comporte como um elemento de bloco */
+    font-size: 18px;
+    margin-bottom: 10px; /* Espaçamento entre os botões */
+  }
 
 
 /*formulario da pagina de dicas*/
 .button2 {
-    background-color: #da7e29; 
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    font-size: 26px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    padding: 10px 24px;                                       /* preenchimento do botão */
-    border-radius: 16px;  
-    
+  text-decoration: none; /* Remove o sublinhado */
+  padding: 10px 20px; /* Adiciona preenchimento ao botão */
+  background-color: #e66108; /* Define a cor de fundo do botão (substitua pela cor desejada) */
+  color: #fff; /* Define a cor do texto do botão (substitua pela cor desejada) */
+  border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+  display: inline-block;
+  font-size: 20px;
+ 
 }
-
+   
 
 /*botoes do menu*/
   .button5 {
@@ -174,12 +185,11 @@ h3{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 26px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    padding: 1px 21px;                                                                      /* preenchimento do botão */
-    border-radius: px; 
-    word-spacing: 70px;                                                                     /*espaçamento entre palavras */
+    padding: 4px 14px;                                                                      /* preenchimento do botão */
+    word-spacing: 50px;                                                                     /*espaçamento entre palavras */
 
   }
    
@@ -197,7 +207,6 @@ h3{
   
   li {
     float: left;
-                                 /* cria divisoria dos link  */
   }
 
   
@@ -224,3 +233,66 @@ h3{
     box-sizing: border-box;
     border-bottom: 2px solid red;
   }
+
+  /*Linkedin*/
+  .linkedin {
+    color: #240cac;
+  }
+
+  .github {
+    color: black;
+  }
+
+
+  /*imagem e texto sobre a historia da culinaria*/
+.historia {
+    overflow: hidden; /* Limpa o float */
+    margin-right: 10%; /* Defina a largura da margem direita conforme necessário */
+    margin-left: 2%;
+    margin-bottom: 50px;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
+}
+
+.image2 {
+    float: left; /* Faz a imagem flutuar à esquerda */
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+    height: auto; /* Altura automática para manter a proporção */
+    width: 259px;
+    margin-left: 1%; /* Defina a largura da margem esquerda conforme necessário */
+
+}
+ 
+
+.fraseInicio{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-style: italic;
+
+}
+
+
+.subtituloReceitas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 1%;
+    color: #ca4507;
+    margin-bottom: 1%;
+}
+
+/*receitas (ingredientes e preparo*/
+.aReceita {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+
+}
+
+/*imagem das receitas*/
+.imgAreceita {
+    height: auto; /* Altura automática para manter a proporção */
+    margin-bottom: 1%;
+    margin-left: 1%;
+
+
+}
