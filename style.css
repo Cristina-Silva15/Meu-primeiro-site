@@ -3,17 +3,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); /*família de fontes: "Acme", sans-serif;*/
 /*fonte importada do google fonts */
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /*corpo*/
 body{background-color: hsl(120, 33%, 99%);
 }
 
+header {
+  margin: 0;
+  top: 0;
+    
+}
+
   
  /*Cabeçalho*/
-.headerInicial {
-    padding: 0px;  
-    background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg);
+.imagemInicial {
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg); /*imagem do logo sobreposta na imagem inicial*/
     top: 0;
     position: left;                                                    /* Define o posicionamento relativo para o elemento pai */
     width: 1635px;
@@ -25,15 +36,17 @@ body{background-color: hsl(120, 33%, 99%);
 .imagemInicial{
     background-image: url(imagens\ do\ site/inicial3.png);
     height: 190px;                                                      /* Altura desejada para o cabeçalho */
-    width: 1341px;
+    width: 1349px;
     background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
+    background-position: 50% 5%;
+    
 }
 
 .menuInicial {
     background-color: #e28b08;
-    padding: 32px;
-    width: 1277px;
+    padding: 23px;
+    width: 1347px;
     word-spacing: 50px;
 }
 
@@ -42,7 +55,7 @@ body{background-color: hsl(120, 33%, 99%);
 .imagemReceitas {
     background-image: url(imagens\ do\ site/ingredientes3.jpeg);
     height: 190px;                                                      /* Altura desejada para o cabeçalho */
-    width: 1341px;
+    width: 1348px;
     background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
 }
@@ -51,41 +64,56 @@ body{background-color: hsl(120, 33%, 99%);
  /*outras estilizações*/
 .menusReceitas {
     background-color: #e28b08;
-    padding: 32px;
-    width: 1277px;
+    padding: 23px;
+    width: 1348px;
     word-spacing: 50px;
     margin-bottom: 4%;
     } 
 
 
 .imagemDicas {
-    background-image: url(imagens\ do\ site/Dicas4.png);
-    height: 190px;                                                   /* Altura desejada para o cabeçalho */
-    width: 1279px;
-    background-size: cover;                                         /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-    padding: 31px;
+    margin-top: 0;
+    background-image: url(imagens\ do\ site/Dicas6.png);
+    height: 190px;                                          /* Altura desejada para o cabeçalho */
+    width: 1349px;
+    background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    padding: 11px;
+    background-position: 50% 50%;
 }
 
 .menusDicas {
     background-color: #e28b08;
-    padding: 32px;
-    width: 1277px;
+    padding: 23px;
+    width: 1349px;
 }
 
 
 .imagemLocal {
     background-image: url(imagens\ do\ site/mapa.png);
     height: 190px;                                          /* Altura desejada para o cabeçalho */
-    width: 1319px;
+    width: 1349px;
     background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 11px;
+    background-position: 50% 40%; 
 }
+
+.imagemForm{
+    margin-top: 0;
+    background-image: url(imagens\ do\ site/formulario.png);
+    height: 190px;                                          /* Altura desejada para o cabeçalho */
+    width: 1349px;
+    background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    padding: 11px;
+    background-position: 50% 40%; /*centraliza a imagem na parte desejada, usando a porcentagem ou center*/
+}
+
+
 
 /* */
 .menusLocal {
     background-color: #e28b08;
-    padding: 32px;
-    width: 1277px;
+    padding: 23px;
+    width: 1349px;
     word-spacing: 50px;  
 }
 
@@ -103,8 +131,10 @@ body{background-color: hsl(120, 33%, 99%);
     background-color: rgb(247, 211, 171);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 2px; /* Espaço entre a imagem e o texto */
-    margin-left: 1%;
+    margin-bottom: 3%; /* Espaço entre a imagem e o texto */
+    margin-left: 3%;
+    padding: 5px;
+    width: calc(97% - 7px); /*tamanho do background da frase/palavra*/
 
 }
 
@@ -113,29 +143,33 @@ p {
     font-family: Arial, Helvetica, sans-serif; 
     text-align: justify;
     margin-right: 10%;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 
 
  /*titulos*/
 h1 {
-    width: calc(29% - 7px);  /* 50% menos o espaçamento para a imagem */
+    width: calc(47% - 7px);  /* 50% menos o espaçamento para a imagem */
     background-color:rgb(207, 115, 62); 
-    margin-left: 1%;                           /*cor de fundo*/
+    margin-left: 3%;                           /*cor de fundo*/
     text-align: left;                                                 /*posição do texto*/
     font-size: 20px;                                                    /*tamanho da letra*/
     font-family: Arial, Helvetica, sans-serif;
-    padding: 6px
+    padding: 5px;
+    margin-bottom: 3%;
      
 }
+
 
 /*frases indicativas para fazer algo " clique aqui"*/
 h4 {
     font-size: 18px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(189, 68, 12)
+    color: rgb(189, 68, 12);
+    margin-left: 3%;
+    margin-bottom: 3%;
 }
 
 
@@ -145,7 +179,8 @@ h3{
     background-color: #e66108;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1%;
+    margin-left: 3%;
+    margin-bottom: 1%;
     width: calc(20% - 7px); /*alinha o background */
 
 }
@@ -160,7 +195,9 @@ h3{
     border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
     display: inline-block; /* Garante que o botão se comporte como um elemento de bloco */
     font-size: 18px;
-    margin-bottom: 10px; /* Espaçamento entre os botões */
+    margin-bottom: 3px; /* Espaçamento entre os botões */
+    margin-left: 3%;
+
   }
 
 
@@ -173,7 +210,8 @@ h3{
   border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
   display: inline-block;
   font-size: 20px;
- 
+  margin-left: 3%;
+  
 }
    
 
@@ -188,8 +226,9 @@ h3{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    padding: 4px 14px;                                                                      /* preenchimento do botão */
-    word-spacing: 50px;                                                                     /*espaçamento entre palavras */
+    padding: 1px 19px;                                                                      /* preenchimento do botão */
+    word-spacing: 50px; 
+    height: 40px;  
 
   }
    
@@ -226,13 +265,65 @@ h3{
     
   }
 
-  input {
-    width: 50%;
-    padding: 28px 38px;
-    margin: 12px 0;
-    box-sizing: border-box;
-    border-bottom: 2px solid red;
+/*frase do cabeçalho*/
+  .fraseForm {
+    font-size: 28px;
+    color: #ca4507;
+    margin-bottom: 4%;
+    margin-left: 3%;
+
+
   }
+
+
+
+
+  /* Estilizando todos os campos de entrada */
+  input {
+    width: 39%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ec3b04;
+    border-radius: 5px;
+    margin-left: 3%;
+    display: block; /*deixa um item embaixo do outro*/
+  }
+
+
+  /* Estilizando a área de texto */
+  textarea {
+    width: 39%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ec3b04;
+    border-radius: 5px;
+    margin-left: 3%;
+    display: block;
+
+}
+
+/*id é acessado por # e não por ponto (.)*/
+#escrevaDica {
+  font-size: 18px;
+  margin-left: 3%;
+  margin-bottom: 10px;
+
+}
+
+
+/* Estilizando o botão de envio */
+input[type="submit"] {
+  width: 40%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+
+}
 
   /*Linkedin*/
   .linkedin {
@@ -256,9 +347,9 @@ h3{
     float: left; /* Faz a imagem flutuar à esquerda */
     margin-right: 10px; /* Espaçamento entre a imagem e o texto */
     height: auto; /* Altura automática para manter a proporção */
-    width: 259px;
-    margin-left: 1%; /* Defina a largura da margem esquerda conforme necessário */
-
+    width: 219px;
+    margin-left: 3%; /* Defina a largura da margem esquerda conforme necessário */
+    margin-bottom: 50px;
 }
  
 
@@ -266,6 +357,8 @@ h3{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 24px;
     font-style: italic;
+    margin-left: 3%;
+
 
 }
 
@@ -273,7 +366,7 @@ h3{
 .subtituloReceitas {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    margin-left: 1%;
+    margin-left: 3%;
     color: #ca4507;
     margin-bottom: 1%;
 }
@@ -282,7 +375,7 @@ h3{
 .aReceita {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1%;
+    margin-left: 3%;
     margin-right: 10%;
     margin-bottom: 2%;
 
@@ -292,7 +385,67 @@ h3{
 .imgAreceita {
     height: auto; /* Altura automática para manter a proporção */
     margin-bottom: 1%;
-    margin-left: 1%;
+    margin-left: 3%;
+
+
+}
+
+.mapa {
+  margin-left: 3%;
+  margin-bottom: 3%;
+  
+}
+
+.video {
+  margin-left: 3%;
+  margin-bottom: 50px;
+  width: 500px;
+  height: 400px;
+
+}
+
+
+
+#culinariaTerapia {
+  text-align: left;
+  background-color:rgb(207, 115, 62);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3%; /* Espaço entre a imagem e o texto */
+  margin-left: 3%;
+  padding: 5px;
+  width: calc(47% - 7px); /*tamanho do background da frase/palavra*/
+    
+
+}
+
+
+.videoSos {
+  margin-left: 3%;
+  margin-bottom: 1%;
+  
+}
+
+.imgTd {
+  margin-left: 3%;
+  width: 140px;
+  height: 130px;
+
+
+}
+
+/*frase para clicar na imagem do site*/
+#cliquenaImagem {
+  margin-left: 3%;
+  margin-bottom: 0%;
+
+}
+
+/*creditos de onde tirei o video e a imagem hiperlink*/
+#creditos {
+  text-align: left;
+  margin-left: 2%;
+  font-size: 9px;
 
 
 }
