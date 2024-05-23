@@ -269,7 +269,7 @@ h3{
     font-size: 28px;
     color: #ca4507;
     margin-bottom: 4%;
-    margin-left: 3%;
+    margin-left: 5%;
 
 
   }
@@ -498,6 +498,9 @@ main{
 }
 
 
+
+
+
 /* Estilos específicos para as listas de ingredientes e modo de preparo */
 .lista-ingredientes{
   list-style-type: none;
@@ -508,3 +511,90 @@ main{
   margin-bottom: 5px;
 }
 
+        /*FORMULARIO seleção */
+
+/* Mostrar elementos se um radio button específico estiver selecionado */
+#dica:checked ~ #dicaFields {
+  display: block;
+  
+}
+
+#receita:checked ~ #receitaFields {
+  display: block;
+}
+
+/* Estilização básica para inputs e textarea */
+input[type="text"],
+input[type="number"],
+textarea {
+  display: block;
+  margin: 10px 3%;
+  padding: 8px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+/* Estilização básica para o select */
+select {
+  display: block;
+  margin: 3px 3%;
+  padding: 3px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+
+/* Estilização para o botão de submit */
+input[type="submit"] {
+  padding: 10px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 3%;
+  width: 100px; /* Define uma largura específica para o botão */
+
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+form {
+  margin-left: 2%;
+}
+
+.escolhaOp {
+  display: block;
+  margin-bottom: 1px;
+  font-weight: bold;
+  margin-left: 3%;
+  font-size: 18px;
+}
+
+/* Estilização para alinhar os radio buttons e labels */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+  margin-left: -23%;
+
+}
+
+.radio-container input[type="radio"] {
+  order: -1; /* Move o rádio para antes do texto */
+  margin-right: -15%/* Espaçamento entre o rádio e o texto */
+
+}
+
+/* Ocultar elementos por padrão */
+.hidden {
+  display: none;
+}
