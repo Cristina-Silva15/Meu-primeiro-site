@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="imagens do site/panelinhaIco.ico" type="image/x-icon">
     <!-- arquivo do css (externo)-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--biblioteca de icones-->
+
 </head>
 
 <body>
@@ -29,17 +31,20 @@
         <div class="frase">Nesse espaço, você encontrará receitas simples e deliciosas.</div>
     </header>
 
-    
+    <main>
         <h1>RECEITAS</h1>
         
-        <nav>
+    
+        <section class="receita">
         
-            <h3>Bolo de milho cremoso</h3>
-            <img src="imagens do site/bolo de milho.jpeg" class="imgAreceita" class="img-fluid" width="200"  alt="120">
+            <button class="btn" data-target="bolo-milho"> <i class="fas fa-chevron-down"> </i> Bolo de milho cremoso</button>
+            <div id="bolo-milho" class="content">
+            <img src="imagens do site/bolo de milho.jpeg" class="imgAreceita" class="img-fluid" >
 
                <br><div class="subtituloReceitas">Ingredientes</div> 
               
                <div class="aReceita">
+                
             <br>1 lata de milho verde
             <br>1 lata de açúcar (medida da lata de milho)
             <br>4 ovos
@@ -56,13 +61,12 @@
             <br> 2- Depois, acrescente o coco ralado e o fermento, misture novamente.
             <br>3- Despeje a massa em uma assadeira untada e leve para assar, 
                 em um forno médio a 180 °C, preaquecido por 40 minutos. </div>
-        </nav>
 
-    
+        </section>
 
-          
-        <nav> 
-            <h3>Iogurte caseiro</h3>
+        <section class="receita">
+            <button class="btn" data-target="iogurte-caseiro"> <i class="fas fa-chevron-down"> </i> Iogurte caseiro</button>
+            <div id="iogurte-caseiro" class="content">
             <img src="https://images.pexels.com/photos/7413498/pexels-photo-7413498.jpeg?auto=compress&cs=tinysrgb&w=120" class="imgAreceita" class="img-fluid"> 
 
             <div class="subtituloReceitas">Ingredientes</div>
@@ -80,8 +84,7 @@
             <br>3- De vez em quando mexa para ver como ficou a consistência.
             <br>4-Depois coloque na geladeira e sirva acompanhado com granola, quick de morango, ou algo de sua preferência.
             <br>5- Ele não fica azedo, como os iogurtes feitos com os "bichinhos" e fica ótimo!</div>
-        </nav>
-
+        </section>
         
         <br><h4 id="cliquenaImagem">Clique na imagem abaixo para ver mais receitas</h4>
         <a href = "https://www.tudogostoso.com.br/" target="_blank"> 
@@ -91,6 +94,8 @@
         
                 <div class="creditos">Receitas retiradas do site Tudo Gostoso </div>
         
+</main>
 
+<script src="script.js"></script>
 </body>
 </html>

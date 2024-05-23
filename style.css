@@ -377,17 +377,62 @@ input[type="submit"] {
     margin-left: 3%;
     margin-right: 10%;
     margin-bottom: 2%;
+    
 
 }
+
+
 
 /*imagem das receitas*/
 .imgAreceita {
-    height: auto; /* Altura automática para manter a proporção */
-    margin-bottom: 1%;
+    height: 170px; /* Altura automática para manter a proporção */
+    margin-bottom: 10px;
     margin-left: 3%;
-
+    width:200px; 
+    display: block;
+    
 
 }
+
+/*botoes retrateis das receitas*/
+
+main{
+  padding: 20px;
+  margin-left: 1%;
+}
+
+
+.receita{ 
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+
+}
+
+
+.content{
+  display: none; /* Inicialmente escondemos o conteúdo */
+  margin-top: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ee660c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: block;
+}
+.btn:hover {
+  background-color: #e7190a;
+}
+
+
+
 
 .mapa {
   margin-left: 3%;
@@ -451,3 +496,15 @@ input[type="submit"] {
   font-size: 14px;
 
 }
+
+
+/* Estilos específicos para as listas de ingredientes e modo de preparo */
+.lista-ingredientes{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.lista-ingredientes li {
+  margin-bottom: 5px;
+}
+
