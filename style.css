@@ -121,7 +121,7 @@ header {
 /*criado por..*/
                         /*tentar colocar imagem e link p linkedin depois */
 .criado {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     font-family: "Courgette", cursiva; 
 }
@@ -199,6 +199,10 @@ h3{
     margin-left: 3%;
 
   }
+  .button1:hover {
+    background-color: #ca4507;
+    
+  }
 
 
 /*formulario da pagina de dicas*/
@@ -211,6 +215,10 @@ h3{
   display: inline-block;
   font-size: 20px;
   margin-left: 3%;
+  
+}
+.button2:hover {
+  background-color: #ca4507;
   
 }
    
@@ -339,7 +347,7 @@ input[type="submit"] {
     overflow: hidden; /* Limpa o float */
     margin-right: 10%; /* Defina a largura da margem direita conforme necessário */
     margin-left: 2%;
-    margin-bottom: 50px;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
+    margin-bottom: 7%;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
 }
 
 .image2 {
@@ -348,7 +356,7 @@ input[type="submit"] {
     height: auto; /* Altura automática para manter a proporção */
     width: 219px;
     margin-left: 3%; /* Defina a largura da margem esquerda conforme necessário */
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
  
 
@@ -356,8 +364,7 @@ input[type="submit"] {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 24px;
     font-style: italic;
-    margin-left: 3%;
-
+    margin-left: 5%;
 
 }
 
@@ -403,11 +410,17 @@ main{
 
 
 .receita{ 
-  margin-bottom: 20px;
-  padding: 10px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   background: #f9f9f9;
+  margin-left: 1%;
+  border: 1px solid #ec3b04;
+  display: block;
+  width: 70%;
+  box-sizing: border-box;
+
 
 }
 
@@ -441,9 +454,9 @@ main{
 }
 
 .video {
-  margin-left: 3%;
+  margin-left: 5%;
   margin-bottom: 50px;
-  width: 500px;
+  width: 570px;
   height: 400px;
 
 }
@@ -471,7 +484,7 @@ main{
 }
 
 .imgTd {
-  margin-left: 3%;
+  margin-left: 5%;
   width: 140px;
   height: 130px;
   background-size: cover; 
@@ -492,7 +505,7 @@ main{
 /*creditos de onde tirei o video e a imagem hiperlink*/
 .creditos {
   text-align: left;
-  margin-left: 3%;
+  margin-left: 5%;
   font-size: 14px;
 
 }
