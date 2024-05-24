@@ -12,10 +12,8 @@
 <body>
 
     <header>
-      
         <div class="imagemForm">
         </div>
-
     </header>
 
 
@@ -23,7 +21,6 @@
         quiser mudar somente uma parte do site -->
     <div class="fraseForm">
              Preencha os campos para cadastrar sua dica culinária
-
     </div>
 
     <div>
@@ -44,82 +41,50 @@
     </div>
 
     <div>
-
         <br>
-
-
-
-        <!-- <div id="escrevaDica">  Escreva a dica que deseja compartilhar</div> -->
-        
-        
-        
-        
         
         <form>
-            <label for="tipo" class="escolhaOp">Escolha a opção que deseja compartilhar :</label>
-        <br><br>
 
-
-<div class="radio-group">
-
-    <label class="radio-container">
-        <input type="radio" id="dica" name="tipo" value="dica">
-        Dica
-    </label>
-
-
-    <label class="radio-container">
-        <input type="radio" id="receita" name="tipo" value="receita">
-        Receita
-    </label>
-</div>
-
-
-<div id="dicaFields" class="hidden">
-<br><br>
-    <textarea id="dicaTexto" name="texto" maxlength="300" placeholder="Escreva sua dica aqui (máximo 300 caracteres)"></textarea>
-</div>
-
-
-<div id="receitaFields" class="hidden">
-    <br><br>
-    <textarea id="receitaTexto" name="texto" placeholder="Escreva sua receita aqui"></textarea>
-</div>
-<br>
-<input type="submit" name="enviar" value="Enviar">
-
-</form>
-
-
-    <!-- <label for="dica">Dica</label> -->
-
-            <!-- <input type="radio" id="dica" name="tipo" value="dica"> -->
-            
-
-
-
-            <!-- <label for="receita">Receita</label> -->
-            <!-- <input type="radio" id="receita" name="tipo" value="receita"> -->
-            
-
-            <!-- <div id="dicaFields" class="hidden"> -->
-                <!-- <br><br> -->
-                <!-- <textarea id="dicaTexto" name="texto" maxlength="300" placeholder="Escreva sua dica aqui (máximo 300 caracteres)"></textarea> -->
-            <!-- </div> -->
-
-            <!-- <div id="receitaFields" class="hidden">
+                <label for="tipo" class="escolhaOp">Escolha a opção que deseja compartilhar :</label>
                 <br><br>
-                <textarea id="receitaTexto" name="texto" placeholder="Escreva sua receita aqui"></textarea>
-            </div> -->
-            <!-- <br> -->
-            <!-- <input type="submit" name="enviar" value="Enviar"> -->
-        <!-- </form> -->
 
 
+
+                <div class="radio-group">
+
+                    <label class="radio-container">
+                        <input type="radio" id="dica" name="tipo" value="dica">
+                            Dica
+                    </label>
+
+
+
+                    <label class="radio-container">
+                        <input type="radio" id="receita" name="tipo" value="receita">
+                            Receita
+                    </label>
+                </div>
+
+
+
+            <div id="dicaFields" class="hidden">
+                <br><br>
+                    <textarea id="dicaTexto" name="texto" maxlength="300" placeholder="Escreva sua dica aqui (máximo 300 caracteres)"></textarea>
+            </div>
+
+
+            <div id="receitaFields" class="hidden">
+                <br><br>
+                     <textarea id="receitaTexto" name="texto" placeholder="Escreva sua receita aqui"></textarea>
+            </div>
+
+            <br>
+                <input type="submit" name="enviar" value="Enviar">
+
+        </form>
 
     </div>
     
-    <script src="script.js"></script>
-
+        <script src="script.js"></script>
 </body>
 </html>
