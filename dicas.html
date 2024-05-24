@@ -6,6 +6,7 @@
     <title>Dicas Culinárias</title>
     <link rel="shortcut icon" href="imagens do site/panelinhaIco.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--biblioteca de icones-->
 </head>
 
 <body>
@@ -48,23 +49,68 @@
 
 
 
-    <section>
         <br><br><h1>DICAS</h1>
 
-        <br>1 - Sempre que for desenformar um pudim, deixe-o na geladeira no mínimo 4 horas antes para não correr o risco de quebrar.
-        <br>2 - Se deseja fazer um brigadeiro de maracujá, antes faça uma redução do suco da fruta para não talhar o leite condensado.
+    <main>
+        
+        <section class="asDicas">
+            <button class="btn" data-target="dica1"> <i class="fas fa-chevron-down"> </i> 1</button>
 
-    </section>
+            <div id="dica1" class="content">
+
+                     <br>Sempre que for desenformar um pudim, deixe-o na geladeira no mínimo 4 horas antes para não correr o risco de quebrar.
+            </div>
+
+        </section>
+
+
+        <section class="asDicas">
+
+                <button class="btn" data-target="dica2"> <i class="fas fa-chevron-down"> </i> 2</button>
+
+                <div id="dica2" class="content">
+
+                    <br>Se deseja fazer um brigadeiro de maracujá, antes faça uma redução do suco da fruta para não talhar o leite condensado.
+                </div>
+        </section>
+
+                <section class="asDicas">
+
+                    <button class="btn" data-target="dica3"> <i class="fas fa-chevron-down"> </i> 3</button>
+
+
+                <div id="dica3" class="content">
+                    <br>Para um bolo mais fofinho, peneire a farinha e os outros ingredientes secos antes de misturar.
+                </div>
+
+        </section>
+
+
+
+
+
+
+
+
+        
+
+
+
+
+    </main>
 
                     <!-- formulário em codigo -->
         <footer>
-            <br><h4>Clique no botão abaixo para acessar o formulário e compartilhar uma dica</h4>
+            <br><div class="cliquenaImagem">Clique no botão abaixo para acessar o formulário e compartilhar uma dica</div>
                      <!--target faz abrir a pagina em uma nova aba-->
 
+
                 <div><a  href="formulario.html" target= "_blank" class="button2"> FORMULÁRIO</a></div>
-                
         <br><br><br></footer>
 
-   
+
+
+        <script src="script.js"></script>
+
 </body>
 </html>

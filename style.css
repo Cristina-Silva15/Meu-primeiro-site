@@ -128,7 +128,7 @@ header {
 
 
 .frase {
-    background-color: rgb(247, 211, 171);
+    background-color: rgba(160, 240, 145, 0.562);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 3%; /* Espaço entre a imagem e o texto */
@@ -190,7 +190,7 @@ h3{
 .button1 { 
     text-decoration: none;   /* Remove o sublinhado */
     padding: 10px 20px; /* Adiciona preenchimento ao botão */
-    background-color: #e66108; /* Define a cor de fundo do botão (substitua pela cor desejada) */
+    background-color: #4CAF50; /* Define a cor de fundo do botão (substitua pela cor desejada) */
     color: #fff; /* Define a cor do texto do botão (substitua pela cor desejada) */
     border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
     display: inline-block; /* Garante que o botão se comporte como um elemento de bloco */
@@ -209,7 +209,7 @@ h3{
 .button2 {
   text-decoration: none; /* Remove o sublinhado */
   padding: 10px 20px; /* Adiciona preenchimento ao botão */
-  background-color: #e66108; /* Define a cor de fundo do botão (substitua pela cor desejada) */
+  background-color: #4CAF50; /* Define a cor de fundo do botão (substitua pela cor desejada) */
   color: #fff; /* Define a cor do texto do botão (substitua pela cor desejada) */
   border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
   display: inline-block;
@@ -226,7 +226,7 @@ h3{
 /*botoes do menu*/
   .button5 {
     display: inline;
-    background-color: #e46816 ; 
+    background-color: #066413 ; 
     border: none;
     text-align: center;
     text-decoration: none;
@@ -237,6 +237,7 @@ h3{
     padding: 3px 20px;                                                                      /* preenchimento do botão */
     word-spacing: 50px; 
     height: 43px;  
+    border-radius: 2%;
 
   }
    
@@ -285,15 +286,15 @@ h3{
 
 
 
-  /* Estilizando todos os campos de entrada */
+  /* Estilizando todos os campos de escrita do formulario*/
   input {
     width: 39%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ec3b04;
     border-radius: 5px;
     margin-left: 3%;
     display: block; /*deixa um item embaixo do outro*/
+    border: 1px solid #066413;
   }
 
 
@@ -303,10 +304,10 @@ h3{
     height: 100px;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ec3b04;
     border-radius: 5px;
     margin-left: 3%;
     display: block;
+    border: 1px solid #066413
 
 }
 
@@ -318,19 +319,6 @@ h3{
 
 }
 
-
-/* Estilizando o botão de envio */
-input[type="submit"] {
-  width: 40%;
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
- 
-
-}
 
   /*Linkedin*/
   .linkedin {
@@ -357,6 +345,7 @@ input[type="submit"] {
     width: 219px;
     margin-left: 3%; /* Defina a largura da margem esquerda conforme necessário */
     margin-bottom: 70px;
+    
 }
  
 
@@ -412,11 +401,10 @@ main{
 .receita{ 
   margin-bottom: 10px;
   padding: 8px 10px;
-  border: 1px solid #ddd;
   border-radius: 5px;
   background: #f9f9f9;
   margin-left: 1%;
-  border: 1px solid #ec3b04;
+  border: 1px solid #066413; /*borda do campo de receitas */
   display: block;
   width: 70%;
   box-sizing: border-box;
@@ -484,29 +472,41 @@ main{
 }
 
 .imgTd {
-  margin-left: 5%;
+  margin-left: 3%;
   width: 140px;
   height: 130px;
   background-size: cover; 
   outline-style: groove;
   border-radius: 10%;
-  border-color: #ec3b04;
+  border-color: #f04815;
 
 }
 
 /*frase para clicar na imagem do site*/
-#cliquenaImagem {
+.cliquenaImagem {
   margin-left: 3%;
   margin-bottom: 1%;
-  font-size: 16px;
+  font-size: 18px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(189, 68, 12);
+  margin-left: 3%;
+  margin-bottom: 3%;
+  font-weight: bold;
+
+
+
 
 }
+
 
 /*creditos de onde tirei o video e a imagem hiperlink*/
 .creditos {
   text-align: left;
-  margin-left: 5%;
+  margin-left: 3%;
   font-size: 14px;
+  font-weight: bold;
+
 
 }
 
@@ -536,7 +536,7 @@ main{
   display: block;
 }
 
-/* Estilização básica para inputs e textarea */
+/* Estilização básica para inputs e textarea (dados no inicio do formulario)*/
 input[type="text"],
 input[type="number"],
 textarea {
@@ -557,6 +557,11 @@ select {
 }
 
 
+
+
+
+
+
 /* Estilização para o botão de submit */
 input[type="submit"] {
   padding: 10px 10px;
@@ -566,6 +571,7 @@ input[type="submit"] {
   cursor: pointer;
   margin-left: 3%;
   width: 100px; /* Define uma largura específica para o botão */
+  border-radius: 5px;
 
 }
 
@@ -611,3 +617,18 @@ form {
 .hidden {
   display: none;
 }
+
+.asDicas {
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: #ccf7a8;
+  margin-left: 1%;
+  border: 1px solid #066413; /*borda do campo de receitas */
+  display: inline-table;
+  width: 15%;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
