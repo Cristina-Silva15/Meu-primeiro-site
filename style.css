@@ -285,7 +285,6 @@ h3{
 
 
 
-
   /* Estilizando todos os campos de escrita do formulario*/
   input {
     width: 39%;
@@ -366,16 +365,6 @@ h3{
     margin-bottom: 1%;
 }
 
-/*receitas (ingredientes e preparo*/
-.aReceita {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 3%;
-    margin-right: 10%;
-    margin-bottom: 2%;
-    
-
-}
 
 
 
@@ -386,8 +375,6 @@ h3{
     margin-left: 3%;
     width:200px; 
     display: block;
-    
-
 }
 
 /*botoes retrateis das receitas*/
@@ -400,15 +387,26 @@ main{
 
 .receita{ 
   margin-bottom: 10px;
-  padding: 8px 10px;
+  padding: 15px 11px;
   border-radius: 5px;
-  background: #f9f9f9;
+  background:#ccf7a8;
   margin-left: 1%;
   border: 1px solid #066413; /*borda do campo de receitas */
   display: block;
   width: 70%;
   box-sizing: border-box;
+  width: calc(97% - 7px); /*tamanho do background da frase/palavra*/
 
+}
+
+
+/*receitas (ingredientes e preparo*/
+.aReceita {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-bottom: 3%;
 
 }
 
@@ -437,8 +435,7 @@ main{
 
 .mapa {
   margin-left: 3%;
-  margin-bottom: 3%;
-  
+  margin-bottom: 3%; 
 }
 
 .video {
@@ -446,7 +443,6 @@ main{
   margin-bottom: 50px;
   width: 570px;
   height: 400px;
-
 }
 
 
@@ -461,7 +457,6 @@ main{
   padding: 5px;
   width: calc(47% - 7px); /*tamanho do background da frase/palavra*/
     
-
 }
 
 
@@ -493,10 +488,6 @@ main{
   margin-left: 3%;
   margin-bottom: 3%;
   font-weight: bold;
-
-
-
-
 }
 
 
@@ -507,10 +498,7 @@ main{
   font-size: 14px;
   font-weight: bold;
 
-
 }
-
-
 
 
 
@@ -555,10 +543,6 @@ select {
   width: 50%;
   box-sizing: border-box;
 }
-
-
-
-
 
 
 
