@@ -20,17 +20,7 @@ header {
 }
 
   
- /*Cabeçalho*/
-.imagemInicial {
-    margin: 0;
-    padding: 0;
-    background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg); /*imagem do logo sobreposta na imagem inicial*/
-    top: 0;
-    position: left;                                                    /* Define o posicionamento relativo para o elemento pai */
-    width: 1635px;
-    height: 150px;
-}
-
+ /*Cabeçalho
 
 /*imagem da pagina inicial*/
 .imagemInicial{
@@ -42,6 +32,17 @@ header {
     background-position: 50% 5%;
     
 }
+.logo{
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg); /*imagem do logo sobreposta na imagem inicial*/
+    top: 0;
+    position: left;                                                    /* Define o posicionamento relativo para o elemento pai */
+    color: #0a0a0a;
+    font-family: Roboto Condensed;
+  }
+
+
 
 .menuInicial {
     background-color: #e28b08;
