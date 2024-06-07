@@ -385,29 +385,69 @@ main{
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .receita{ 
-  margin-bottom: 10px;
+  margin-bottom: 10px; /*margem entre uma receita e outra */
   padding: 15px 11px;
   border-radius: 5px;
   background:#ccf7a8;
   margin-left: 1%;
   border: 1px solid #066413; /*borda do campo de receitas */
   display: block;
-  width: 70%;
   box-sizing: border-box;
   width: calc(97% - 7px); /*tamanho do background da frase/palavra*/
+  overflow: hidden; /* evita que o conteúdo ultrapasse a borda */
 
 }
 
 
 /*receitas (ingredientes e preparo*/
-.aReceita {
-    font-size: 16px;
+.preparo{
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3%;
     margin-right: 10%;
     margin-bottom: 3%;
+    
 
+}
+
+
+.ingredientes{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 3%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  white-space: pre-line; /* Mantém as quebras de linha */
+  
+
+}
+
+.ingredientes span {
+  display: block; /* Cada item de ingrediente em um novo bloco */
+  margin-bottom: 2px; /* Espaço entre os itens da lista */
+}
+
+
+
+.preparo ol {
+  padding-left: 20px; /* ajuste do recuo da lista */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.preparo li {
+  margin-bottom: 10px; /* espaço entre os itens da lista */
 }
 
 
@@ -429,6 +469,14 @@ main{
 .btn:hover {
   background-color: #e7190a;
 }
+
+
+
+
+
+
+
+
 
 
 
