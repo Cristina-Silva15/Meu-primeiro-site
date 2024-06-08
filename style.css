@@ -16,6 +16,8 @@ body{background-color: hsl(120, 33%, 99%);
 header {
   margin: 0;
   top: 0;
+  background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg); /*imagem do logo sobreposta na imagem inicial*/
+
     
 }
 
@@ -30,16 +32,23 @@ header {
     background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
     background-position: 50% 5%;
-    
+
+
 }
+
+
 .logo{
     margin: 0;
     padding: 0;
     background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg); /*imagem do logo sobreposta na imagem inicial*/
-    top: 0;
     position: left;                                                    /* Define o posicionamento relativo para o elemento pai */
-    color: #0a0a0a;
+    color: #cf2c0f;
     font-family: Roboto Condensed;
+    font-weight: bolder;
+    margin-left: 4px;   
+
+
+    
   }
 
 
