@@ -131,7 +131,7 @@ header {
 /*criado por..*/
                         /*tentar colocar imagem e link p linkedin depois */
 .criado {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     font-family: "Courgette", cursiva; 
 }
@@ -407,14 +407,14 @@ main{
 
 .receita{ 
   margin-bottom: 10px; /*margem entre uma receita e outra */
-  padding: 15px 11px;
+  padding: 15px;
   border-radius: 5px;
   background:#ccf7a8;
   margin-left: 1%;
   border: 1px solid #066413; /*borda do campo de receitas */
   display: block;
-  box-sizing: border-box;
-  width: calc(97% - 7px); /*tamanho do background da frase/palavra*/
+  box-sizing: border-box; /* faz com que o padding seja incluído na largura total do elemento */
+  width: calc(98% - 2%);/* largura automática para se ajustar ao conteúdo */
   overflow: hidden; /* evita que o conteúdo ultrapasse a borda */
 
 }
@@ -424,12 +424,33 @@ main{
 .preparo{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 3%;
-    margin-right: 10%;
-    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 22%;
+    margin-bottom: 5%;
+    padding: 0; /* padding interno para garantir espaçamento adequado dentro da borda */
+    box-sizing: border-box; /* faz com que o padding seja incluído na largura total do elemento */
     
+}
+
+
+.preparo ol {
+  padding-left: 20px; /* ajuste do recuo da lista */
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-position: inside; /* posiciona os números da lista dentro do contêiner */
+
+  
+  
+}
+
+.preparo li {
+  margin-bottom: 15px; /* espaço entre os itens da lista */
+  word-wrap: break-word; /* permite quebra de linha automática para evitar ultrapassar a borda */
 
 }
+
+
+
 
 
 .ingredientes{
@@ -446,19 +467,12 @@ main{
 .ingredientes span {
   display: block; /* Cada item de ingrediente em um novo bloco */
   margin-bottom: 2px; /* Espaço entre os itens da lista */
+  
 }
 
 
 
-.preparo ol {
-  padding-left: 20px; /* ajuste do recuo da lista */
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
-.preparo li {
-  margin-bottom: 10px; /* espaço entre os itens da lista */
-}
 
 
 .content{
@@ -625,6 +639,25 @@ input[type="submit"]:hover {
 form {
   margin-left: 2%;
 }
+
+.bordaForm {
+  margin-top: 2%;
+  margin-bottom: 14px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: #ccf7a8;
+  margin-left: 1%;
+  margin-right: 2%;
+  border: 1px solid #066413; /*borda do campo de receitas */
+  display: block;
+  width: 65%;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
 
 .escolhaOp {
   display: block;
