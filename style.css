@@ -9,7 +9,6 @@
   box-sizing: border-box;
 }
 
-/*corpo*/
 body{background-color: hsl(120, 33%, 99%);
 }
 
@@ -18,13 +17,12 @@ header {
   top: 0;
   background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg); /*imagem do logo sobreposta na imagem inicial*/
 
-    
 }
 
   
- /*Cabeçalho
+ /*CABEÇALHO*/
 
-/*imagem da pagina inicial*/
+/*IMAGENS DO CABEÇALHO DAS PAGINAS*/
 .imagemInicial{
     background-image: url(imagens\ do\ site/inicial3.png);
     height: 190px;                                                      /* Altura desejada para o cabeçalho */
@@ -32,8 +30,6 @@ header {
     background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
     background-position: 50% 5%;
-
-
 }
 
 
@@ -45,13 +41,60 @@ header {
     color: #cf2c0f;
     font-family: Roboto Condensed;
     font-weight: bolder;
-    margin-left: 4px;   
-
-
-    
+    margin-left: 4px;    
   }
 
 
+.imagemReceitas {
+    background-image: url(imagens\ do\ site/ingredientes3.jpeg);
+    height: 190px;                                                      /* Altura desejada para o cabeçalho */
+    width: 1348px;
+    background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+    padding: 0px;
+}
+
+.imagemDicas {
+  margin-top: 0;
+  background-image: url(imagens\ do\ site/Dicas6.png);
+  height: 190px;                                          /* Altura desejada para o cabeçalho */
+  width: 1349px;
+  background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+  padding: 11px;
+  background-position: 50% 50%;
+}
+
+
+.imagemLocal {
+  background-image: url(imagens\ do\ site/mapa.png);
+  height: 190px;                                          /* Altura desejada para o cabeçalho */
+  width: 1349px;
+  background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+  padding: 11px;
+  background-position: 50% 40%; 
+}
+
+.imagemForm{
+  margin-top: 0;
+  background-image: url(imagens\ do\ site/formulario.png);
+  height: 190px;                                          /* Altura desejada para o cabeçalho */
+  width: 1349px;
+  background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+  padding: 11px;
+  background-position: 50% 40%; /*centraliza a imagem na parte desejada, usando a porcentagem ou center*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /*MENUS */
 
 .menuInicial {
     background-color: #e28b08;
@@ -61,62 +104,20 @@ header {
 }
 
 
- /*imagem do cabeçalho pagina Receitas*/
-.imagemReceitas {
-    background-image: url(imagens\ do\ site/ingredientes3.jpeg);
-    height: 190px;                                                      /* Altura desejada para o cabeçalho */
-    width: 1348px;
-    background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-    padding: 0px;
-}
-
- /*menus*/
- /*outras estilizações*/
 .menusReceitas {
-    background-color: #e28b08;
-    padding: 23px;
-    width: 1348px;
-    word-spacing: 50px;
-    margin-bottom: 4%;
-    } 
+  background-color: #e28b08;
+  padding: 23px;
+  width: 1348px;
+  word-spacing: 50px;
+  margin-bottom: 4%;
+  } 
 
-
-.imagemDicas {
-    margin-top: 0;
-    background-image: url(imagens\ do\ site/Dicas6.png);
-    height: 190px;                                          /* Altura desejada para o cabeçalho */
-    width: 1349px;
-    background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-    padding: 11px;
-    background-position: 50% 50%;
-}
 
 .menusDicas {
     background-color: #e28b08;
     padding: 23px;
     width: 1349px;
 }
-
-
-.imagemLocal {
-    background-image: url(imagens\ do\ site/mapa.png);
-    height: 190px;                                          /* Altura desejada para o cabeçalho */
-    width: 1349px;
-    background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-    padding: 11px;
-    background-position: 50% 40%; 
-}
-
-.imagemForm{
-    margin-top: 0;
-    background-image: url(imagens\ do\ site/formulario.png);
-    height: 190px;                                          /* Altura desejada para o cabeçalho */
-    width: 1349px;
-    background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-    padding: 11px;
-    background-position: 50% 40%; /*centraliza a imagem na parte desejada, usando a porcentagem ou center*/
-}
-
 
 
 /* */
@@ -129,7 +130,6 @@ header {
 
 
 /*criado por..*/
-                        /*tentar colocar imagem e link p linkedin depois */
 .criado {
     font-size: 14px;
     text-align: center;
