@@ -24,24 +24,29 @@ header {
 
 /*IMAGENS DO CABEÇALHO DAS PAGINAS*/
 .imagemInicial{
-    background-image: url(imagens\ do\ site/inicial3.png);
-    height: 190px;                                                      /* Altura desejada para o cabeçalho */
-    width: 1349px;
-    background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-    padding: 0px;
-    background-position: 50% 5%;
+  background-image: url(imagens\ do\ site/inicial3.png);
+  height: 190px;                                                      /* Altura desejada para o cabeçalho */
+  width: 1349px;
+  background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+  padding: 0px;
+  background-position: 50% 5%;
+  opacity: 39%;
+  z-index: -1; /* Garante que fique atrás do conteúdo */
+
 }
 
 
+
 .logo{
-    margin: 0;
-    padding: 0;
-    background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg); /*imagem do logo sobreposta na imagem inicial*/
-    position: left;                                                    /* Define o posicionamento relativo para o elemento pai */
-    color: #cf2c0f;
-    font-family: Roboto Condensed;
-    font-weight: bolder;
-    margin-left: 4px;    
+  margin: 0;
+  padding: 0;
+  background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg); /*imagem do logo sobreposta na imagem inicial*/
+  color: #cf2c0f;
+  font-family: Roboto Condensed;
+  font-weight: bolder;
+  margin-left: 4px;    
+  position: relative;
+
   }
 
 
@@ -159,6 +164,44 @@ p {
 
 
  /*titulos*/
+.titulo{
+ 
+
+
+
+  font-size: 50px;
+  position:absolute;
+  top: 0;
+  width: 100%;
+  padding: 60px; /* Opcional: para adicionar algum espaçamento interno */
+  color: #e7190a;
+  font-weight: bolder;
+  display: flex; /* Usar flexbox para alinhamento */
+  align-items: center; /* Alinhar verticalmente */
+  justify-content: center; /* Centralizar horizontalmente */
+  z-index: 1;  /* Garante que o conteúdo fique na frente  */
+
+
+
+  }
+  .logo1{
+    width: 9%;
+    border-radius: 30px;
+    height: auto; /* Altura automática para manter a proporção */
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+    z-index: 1;
+
+    
+
+  }
+
+
+
+
+
+
+
+
 h1 {
     width: calc(47% - 7px);  /* 50% menos o espaçamento para a imagem */
     background-color:rgb(207, 115, 62); 
@@ -248,9 +291,36 @@ h3{
     word-spacing: 50px; 
     height: 43px;  
     border-radius: 2%;
+    color: white;
+
 
   }
    
+
+
+  /**************ultima modificação do menu **********************************/
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fffefe;
+  }
+
+
+
+  /************************************************/
+
+
+
   /* cor dos hiperlink do menu*/
   ul {
     list-style-type: none;
@@ -269,7 +339,6 @@ h3{
   
   li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
