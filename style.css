@@ -25,7 +25,7 @@ header {
 /*IMAGENS DO CABEÇALHO DAS PAGINAS*/
 .imagemInicial{
   background-image: url(imagens\ do\ site/inicial3.png);
-  height: 190px;                                                      /* Altura desejada para o cabeçalho */
+  height: 135px;                                                      /* Altura desejada para o cabeçalho */
   width: 1349px;
   background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
   padding: 0px;
@@ -52,30 +52,37 @@ header {
 
 .imagemReceitas {
     background-image: url(imagens\ do\ site/ingredientes3.jpeg);
-    height: 190px;                                                      /* Altura desejada para o cabeçalho */
+    height: 135px;                                                      /* Altura desejada para o cabeçalho */
     width: 1348px;
     background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
+    opacity: 39%;
+
 }
 
 .imagemDicas {
   margin-top: 0;
-  background-image: url(imagens\ do\ site/Dicas6.png);
-  height: 190px;                                          /* Altura desejada para o cabeçalho */
-  width: 1349px;
+ /* background-image: url(imagens\ do\ site/Dicas6.png);*/
+ height: 135px;                                                      /* Altura desejada para o cabeçalho */
+ width: 1349px;
   background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
   padding: 11px;
   background-position: 50% 50%;
+  background-color: #e8751a; /*mudar cor depois*/
+  opacity: 89%;
 }
 
 
 .imagemLocal {
-  background-image: url(imagens\ do\ site/mapa.png);
-  height: 190px;                                          /* Altura desejada para o cabeçalho */
+ /* background-image: url(imagens\ do\ site/mapa.png);*/
+ height: 135px;                                                      /* Altura desejada para o cabeçalho */
   width: 1349px;
   background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-  padding: 11px;
   background-position: 50% 40%; 
+  background-color: #e8751a;
+  opacity: 39%;
+
+
 }
 
 .imagemForm{
@@ -102,16 +109,16 @@ header {
   /*MENUS */
 
 .menuInicial {
-    background-color: #e28b08;
-    padding: 23px;
+  background-color: #9fbb73;
+  padding: 13px;
     width: 1347px;
     word-spacing: 50px;
 }
 
 
 .menusReceitas {
-  background-color: #e28b08;
-  padding: 23px;
+  background-color: #9fbb73; 
+  padding: 13px;
   width: 1348px;
   word-spacing: 50px;
   margin-bottom: 4%;
@@ -119,18 +126,20 @@ header {
 
 
 .menusDicas {
-    background-color: #e28b08;
-    padding: 23px;
+    background-color: #9fbb73;
+    padding: 13px;
     width: 1349px;
+    
 }
 
 
 /* */
 .menusLocal {
-    background-color: #e28b08;
-    padding: 24px;
+    padding: 14px;
     width: 1349px;
-    word-spacing: 50px;  
+    word-spacing: 50px; 
+    background-color: #9fbb73;
+ 
 }
 
 
@@ -169,24 +178,24 @@ p {
 
 
 
-  font-size: 50px;
+  font-size: 35px;
   position:absolute;
   top: 0;
   width: 100%;
-  padding: 60px; /* Opcional: para adicionar algum espaçamento interno */
+  padding: 48px; /* Opcional: para adicionar algum espaçamento interno */
   color: #e7190a;
   font-weight: bolder;
   display: flex; /* Usar flexbox para alinhamento */
-  align-items: center; /* Alinhar verticalmente */
-  justify-content: center; /* Centralizar horizontalmente */
+  align-items: left; /* Alinhar verticalmente */
+  justify-content: left; /* Centralizar horizontalmente */
   z-index: 1;  /* Garante que o conteúdo fique na frente  */
 
 
 
   }
   .logo1{
-    width: 9%;
-    border-radius: 30px;
+    width: 6%;
+    border-radius: 47% 47% 2% 22% ;
     height: auto; /* Altura automática para manter a proporção */
     margin-right: 10px; /* Espaçamento entre a imagem e o texto */
     z-index: 1;
@@ -277,26 +286,15 @@ h3{
    
 
 /*botoes do menu*/
-  .button5 {
-    display: inline;
-    background-color: #066413 ; 
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    padding: 3px 20px;                                                                      /* preenchimento do botão */
-    word-spacing: 50px; 
-    height: 43px;  
-    border-radius: 2%;
-    color: white;
-
-
-  }
+ 
    
-
+  .menu-container{
+    position: absolute;
+    top: 15%;
+    right: 10px;
+    z-index: 2;
+  
+  }
 
   /**************ultima modificação do menu **********************************/
   nav ul {
@@ -304,51 +302,46 @@ h3{
     padding: 0;
     margin: 0;
     display: flex;
+    gap: 7px; /* Espaçamento entre os itens do menu */
+
   }
-  
+
   nav ul li {
-    margin-right: 20px;
+    margin: 0;
+    
   }
   
   nav ul li a {
     text-decoration: none;
-    color: #fffefe;
-  }
+    color: rgb(53, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    height: 43px;  /*verificar necessidade*/
+    padding: 3px 10px;                                                                      /* preenchimento do botão */
+    word-spacing: 40px; 
+    display: inline-block;
+    text-decoration: none;
 
+
+    
+  }
+  
+  nav ul li a:hover {
+    color: #898121; /* Cor do texto ao passar o mouse */
+  }
 
 
   /************************************************/
 
 
 
-  /* cor dos hiperlink do menu*/
-  ul {
-    list-style-type: none;
-    margin: 1px;
-    padding: 1px;
-    overflow: hidden;
-    float: right;
-    text-align: right;
-  }
-
-  
-  li {
-    float: left;
-  }
-
-  
-  li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    word-spacing: 50px;  
-  }
-
   
   /* Altere a cor do link para #111 (preto) ao passar o mouse */
- .button5:hover {
-    background-color: #ca4507;
+  nav ul li a:hover {
+    background-color: #f7ac8a; /*verificar se mantem*/
     
   }
 
