@@ -168,14 +168,30 @@ header {
     font-size: 16px;
     text-align: center;
     font-family: "Roboto Condensed", sans-serif;
+    background-color: #f76e11;
+    padding: 5px 0; /* Adds padding to the top and bottom for some spacing */
+
+
+
+
+    padding: 5px 0; /* Adds padding to the top and bottom for some spacing */
+
 }
+
+.footer-content {
+  color: #fff; /* Sets text color to white for contrast */
+  display: inline-block; /* Makes the content inline block to respect text alignment */
+    vertical-align: middle; /* Aligns the text vertically in the middle */
+    margin: 0 auto; /* Centers the block element */
+}
+
 
 
 .frase {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 3%; /* Espaço entre a imagem e o texto */
-    margin-left: 5%;
+    margin-left: 3%;
     line-height: 1.5;
     margin-right: 10%;
 
@@ -242,7 +258,7 @@ h1 {
 }
 
 
-/*frases indicativas para fazer algo " clique aqui"*/
+/*frases indicativas para fazer algo " clique aqui"         /  VERIFICAR A NECESSIDADE */
 h4 {
     font-size: 18px;
     text-align: left;
@@ -275,8 +291,8 @@ h3{
     border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
     display: inline-block; /* Garante que o botão se comporte como um elemento de bloco */
     font-size: 18px;
-    margin-bottom: 3px; /* Espaçamento entre os botões */
-    margin-left: 5%;
+    margin-bottom: 5px; /* Espaçamento entre os botões */
+    margin-left: 3%;
 
   }
   .button1:hover {
@@ -289,7 +305,8 @@ h3{
 .button2 {
   text-decoration: none; /* Remove o sublinhado */
   padding: 10px 20px; /* Adiciona preenchimento ao botão */
-  background-color: #4CAF50; /* Define a cor de fundo do botão (substitua pela cor desejada) */
+  background-color: #f76e11;
+  /* Define a cor de fundo do botão (substitua pela cor desejada) */
   color: #fff; /* Define a cor do texto do botão (substitua pela cor desejada) */
   border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
   display: inline-block;
@@ -383,7 +400,7 @@ h3{
     border-radius: 5px;
     margin-left: 3%;
     display: block; /*deixa um item embaixo do outro*/
-    border: 1px solid #066413;
+    border: 1px solid #f76e11;
   }
 
 
@@ -396,7 +413,7 @@ h3{
     border-radius: 5px;
     margin-left: 3%;
     display: block;
-    border: 1px solid #066413
+    border: 1px solid #f76e11;
 
 }
 
@@ -437,15 +454,16 @@ h3{
 
 .planoDeFundo{
 
-background-color: #e5c89b;
-overflow: hidden; /* Limpa o float */
-    margin-right: 11%; /* Defina a largura da margem direita conforme necessário */
-    margin-left: 3%;
-    margin-bottom: 5%;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
-padding: 2px;
+  background-color: #e5c89b;
+  overflow: hidden; /* Limpa o float */
+  margin-right: 11%; /* Defina a largura da margem direita conforme necessário */
+  margin-left: 3%;
+  margin-bottom: 5%;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
+  padding: 2px;
 
 
 }
+
 
 
 
@@ -462,6 +480,8 @@ padding: 2px;
 
     
 }
+
+
  
 
 .bemVindo{
@@ -472,7 +492,7 @@ padding: 2px;
     font-family: Arial, Helvetica, sans-serif; 
     text-align: justify;
     margin-right: 13%;
-    margin-left: 5%;
+    margin-left: 3%;
 
     white-space: normal;
     line-height: 1.5;
@@ -511,7 +531,7 @@ padding: 2px;
 
 main{
   padding: 20px;
-  margin-left: 1%;
+  margin-left: 3%;
 }
 
 
@@ -529,9 +549,9 @@ main{
   margin-bottom: 10px; /*margem entre uma receita e outra */
   padding: 15px;
   border-radius: 5px;
-  background:#ccf7a8;
-  margin-left: 1%;
-  border: 1px solid #066413; /*borda do campo de receitas */
+  background:#e5c89b;
+  margin-left: 3%;
+  border: 1px solid #f76e11; /*borda do campo de receitas */
   display: block;
   box-sizing: border-box; /* faz com que o padding seja incluído na largura total do elemento */
   width: calc(98% - 2%);/* largura automática para se ajustar ao conteúdo */
@@ -603,7 +623,7 @@ main{
 .btn {
   cursor: pointer;
   padding: 10px;
-  background-color: #ee660c;
+  background-color: #f76e11;
   color: white;
   border: none;
   border-radius: 5px;
@@ -611,7 +631,7 @@ main{
   display: block;
 }
 .btn:hover {
-  background-color: #e7190a;
+  background-color: #ca4507;
 }
 
 
@@ -656,7 +676,7 @@ main{
 }
 
 
-.videoSos {
+.video {
   margin-left: 3%;
   margin-bottom: 1%;
   
@@ -675,8 +695,7 @@ main{
 
 /*frase para clicar na imagem do site*/
 .cliquenaImagem {
-  margin-left: 5%;
-  margin-bottom: 1%;
+  margin-left: 3%;
   font-size: 18px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -688,10 +707,10 @@ main{
 /*creditos de onde tirei o video e a imagem hiperlink*/
 .creditos {
   text-align: left;
-  margin-left: 1px;
-  font-size: 16px;
+  margin-left: 2%;
+  font-size: 18px;
   font-weight: bolder;
-text-decoration: none;
+  text-decoration: none;
 }
 
 
@@ -743,7 +762,7 @@ select {
 /* Estilização para o botão de submit */
 input[type="submit"] {
   padding: 10px 10px;
-  background-color: #4CAF50;
+  background-color: #f76e11;
   color: white;
   border: none;
   cursor: pointer;
@@ -754,7 +773,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #ca4507;
 }
 
 
@@ -767,10 +786,10 @@ form {
   margin-bottom: 14px;
   padding: 8px 10px;
   border-radius: 5px;
-  background: #ccf7a8;
+  background: #e5c89b;
   margin-left: 1%;
   margin-right: 2%;
-  border: 1px solid #066413; /*borda do campo de receitas */
+  border: 1px solid #f76e11; /*borda do campo de receitas */
   display: block;
   width: 65%;
   box-sizing: border-box;
@@ -816,12 +835,12 @@ form {
 }
 
 .asDicas {
-  margin-bottom: 1px;
+  margin-bottom: 9px;
   padding: 8px 10px;
   border-radius: 5px;
-  background: #ccf7a8;
-  margin-left: 1%;
-  border: 1px solid #066413; /*borda do campo de receitas */
+  background: #e5c89b;
+  margin-left: 3%;
+  border: 1px solid #f76e11; /*borda do campo de receitas */
   display: inline-table;
   width: 15%;
   box-sizing: border-box;
