@@ -75,30 +75,37 @@ h3{
 
 
 
+ /*TITULO DA PAGINA*/
+ .titulo{
+ 
+  font-size: 35px;
+  position:absolute;
+  top: 0;
+  width: 100%;
+  padding: 48px; /* Opcional: para adicionar algum espaçamento interno */
+  color: #e7190a;
+  font-weight: bolder;
+  display: flex; /* Usar flexbox para alinhamento */
+  align-items: left; /* Alinhar verticalmente */
+  justify-content: left; /* Centralizar horizontalmente */
+  z-index: 1;  /* Garante que o conteúdo fique na frente  */
 
 
+  }
+  .logo1{
+    width: 6%;
+    border-radius: 47% 47% 2% 22% ;
+    height: auto; /* Altura automática para manter a proporção */
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+    z-index: 1;
+    border: 2px solid #f76e11;
 
-
-
-
-
+  }
 
 
   
 
 /*IMAGENS DO CABEÇALHO DAS PAGINAS*/
-
-.logo{
-  margin: 0;
-  padding: 0;
-  background-image: url(imagens\do\site/logotipo\panela\laranja.jpeg); /*imagem do logo sobreposta na imagem inicial*/
-  color: #cf2c0f;
-  font-family: Roboto Condensed;
-  font-weight: bolder;
-  margin-left: 4px;    
-  position: relative;
-
-  }
 
 
 .imagemInicial{
@@ -126,7 +133,6 @@ h3{
 
 .imagemDicas {
   margin-top: 0;
- /* background-image: url(imagens\ do\ site/Dicas6.png);*/
  height: 135px;                                                      /* Altura desejada para o cabeçalho */
  width: 1349px;
   background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
@@ -139,7 +145,6 @@ h3{
 
 
 .imagemLocal {
-  /* background-image: url(imagens\ do\ site/mapa.png);*/
   height: 135px;                                                      /* Altura desejada para o cabeçalho */
    width: 1349px;
    background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
@@ -162,46 +167,19 @@ h3{
 
  
 
-/* MENUS */
+/* FAIXA EMBAIXO DA IMAGEM/COR DO CABEÇALHO */
 
-.menusDicas {
+.faixa {
+
   background-color: #f76e11;
-    padding: 13px;
+  padding: 13px;
   width: 1349px;
-  
+
 }
 
 
 
-
-.menuInicial {
-  background-color: #f76e11;
-  padding: 13px;
-    width: 1347px;
-    word-spacing: 50px;
-}
-
-
-.menusReceitas {
-  background-color: #f76e11;
-  padding: 13px;
-  width: 1348px;
-  word-spacing: 50px;
-  margin-bottom: 4%;
-  } 
-
-
-
-/* */
-.menusLocal {
-    padding: 14px;
-    width: 1349px;
-    word-spacing: 50px; 
-    background-color: #f76e11;
- 
-}
-
-   
+/* MENUS */
 .menu-container{
   position: absolute;
   top: 15%;
@@ -210,7 +188,6 @@ h3{
 
 }
 
-/**************ultima modificação do menu **********************************/
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -239,16 +216,11 @@ nav ul li a {
   display: inline-block;
   text-decoration: none;
 
-
-  
 }
 
 nav ul li a:hover {
   color: #f76e11; /* Cor do texto ao passar o mouse */
 }
-
-
-
 
 
 /*CRIADO POR..*/
@@ -264,8 +236,8 @@ nav ul li a:hover {
 .footer-content {
   color: #fff; /* Sets text color to white for contrast */
   display: inline-block; /* Makes the content inline block to respect text alignment */
-    vertical-align: middle; /* Aligns the text vertically in the middle */
-    margin: 0 auto; /* Centers the block element */
+  vertical-align: middle; /* Aligns the text vertically in the middle */
+  margin: 0 auto; /* Centers the block element */
 }
 
   /*Linkedin*/
@@ -276,11 +248,6 @@ nav ul li a:hover {
   .github {
     color: black;
   }
-
-
-
-
-
 
 
 
@@ -327,37 +294,6 @@ nav ul li a:hover {
 }
 
 
-
-
- /*titulos*/
-.titulo{
- 
-
-
-
-  font-size: 35px;
-  position:absolute;
-  top: 0;
-  width: 100%;
-  padding: 48px; /* Opcional: para adicionar algum espaçamento interno */
-  color: #e7190a;
-  font-weight: bolder;
-  display: flex; /* Usar flexbox para alinhamento */
-  align-items: left; /* Alinhar verticalmente */
-  justify-content: left; /* Centralizar horizontalmente */
-  z-index: 1;  /* Garante que o conteúdo fique na frente  */
-
-
-  }
-  .logo1{
-    width: 6%;
-    border-radius: 47% 47% 2% 22% ;
-    height: auto; /* Altura automática para manter a proporção */
-    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
-    z-index: 1;
-    
-
-  }
 
 
 /*BOTÕES */
