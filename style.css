@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');  /*(font-family: "Roboto Condensed", sans-serif;)*/
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); /*font-family: "Courgette", cursiva;*/
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); /*família de fontes: "Acme", sans-serif;*/
 /*fonte importada do google fonts */
 
 * {
@@ -9,8 +7,6 @@
   box-sizing: border-box;
 }
 
-body{background-color: hsl(120, 33%, 99%);
-}
 
 header {
   margin: 0;
@@ -19,23 +15,78 @@ header {
 
 }
 
-  
- /*CABEÇALHO*/
+main{
+  padding: 20px;
+  margin-left: 3%;
+}
 
-/*IMAGENS DO CABEÇALHO DAS PAGINAS*/
-.imagemInicial{
-  background-image: url(imagens\ do\ site/inicial3.png);
-  height: 135px;                                                      /* Altura desejada para o cabeçalho */
-  width: 1349px;
-  background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-  padding: 0px;
-  background-position: 50% 5%;
-  opacity: 39%;
-  z-index: -1; /* Garante que fique atrás do conteúdo */
+
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif; 
+  text-align: justify;
+  margin-right: 10%;
+  margin-left: 3%;
+  line-height: 1.5;
+ 
+}
+
+
+/*tutulos dos textos */
+h1 {
+  width: calc(47% - 7px);  /* 50% menos o espaçamento para a imagem */
+  background-color:rgb(207, 115, 62); 
+  margin-left: 3%;                           /*cor de fundo*/
+  text-align: left;                                                 /*posição do texto*/
+  font-size: 20px;                                                    /*tamanho da letra*/
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin-bottom: 1%;
+   
+}
+
+
+
+
+
+/*frase solicitando para clicar*/
+.clique {
+  margin-left: 3%;
+  font-size: 18px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+
+/*titulos das receitas"*/
+h3{
+  color: rgb(253, 252, 251);
+  background-color: #e66108;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 3%;
+  margin-bottom: 1%;
+  width: calc(20% - 7px); /*alinha o background */
 
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/*IMAGENS DO CABEÇALHO DAS PAGINAS*/
 
 .logo{
   margin: 0;
@@ -48,6 +99,19 @@ header {
   position: relative;
 
   }
+
+
+.imagemInicial{
+  background-image: url(imagens\ do\ site/inicial3.png);
+  height: 135px;                                                      /* Altura desejada para o cabeçalho */
+  width: 1349px;
+  background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+  padding: 0px;
+  background-position: 50% 5%;
+  opacity: 39%;
+  z-index: -1; /* Garante que fique atrás do conteúdo */
+
+}
 
 
 .imagemReceitas {
@@ -71,11 +135,34 @@ header {
   background-color: #ff9f45;
   opacity: 59%;
 
-   /*mudar cor depois*/
- /* opacity: 89%;*/
 }
 
 
+.imagemLocal {
+  /* background-image: url(imagens\ do\ site/mapa.png);*/
+  height: 135px;                                                      /* Altura desejada para o cabeçalho */
+   width: 1349px;
+   background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+   background-position: 50% 40%; 
+   background-color: #ff9f45;
+   opacity: 59%;
+ 
+ 
+ }
+ 
+ .imagemForm{
+   margin-top: 0;
+   background-image: url(imagens\ do\ site/formulario.png);
+   height: 190px;                                          /* Altura desejada para o cabeçalho */
+   width: 1349px;
+   background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
+   padding: 11px;
+   background-position: 50% 40%; /*centraliza a imagem na parte desejada, usando a porcentagem ou center*/
+ }
+
+ 
+
+/* MENUS */
 
 .menusDicas {
   background-color: #f76e11;
@@ -86,46 +173,6 @@ header {
 
 
 
-
-
-
-
-
-
-.imagemLocal {
- /* background-image: url(imagens\ do\ site/mapa.png);*/
- height: 135px;                                                      /* Altura desejada para o cabeçalho */
-  width: 1349px;
-  background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-  background-position: 50% 40%; 
-  background-color: #ff9f45;
-  opacity: 39%;
-
-
-}
-
-.imagemForm{
-  margin-top: 0;
-  background-image: url(imagens\ do\ site/formulario.png);
-  height: 190px;                                          /* Altura desejada para o cabeçalho */
-  width: 1349px;
-  background-size: cover;                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-  padding: 11px;
-  background-position: 50% 40%; /*centraliza a imagem na parte desejada, usando a porcentagem ou center*/
-}
-
-
-
-
-
-
-
-
-
-
-
-
-  /*MENUS */
 
 .menuInicial {
   background-color: #f76e11;
@@ -145,14 +192,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
 /* */
 .menusLocal {
     padding: 14px;
@@ -162,18 +201,62 @@ header {
  
 }
 
+   
+.menu-container{
+  position: absolute;
+  top: 15%;
+  right: 10px;
+  z-index: 2;
 
-/*criado por..*/
+}
+
+/**************ultima modificação do menu **********************************/
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 7px; /* Espaçamento entre os itens do menu */
+
+}
+
+nav ul li {
+  margin: 0;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(53, 3, 3);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  height: 43px;  /*verificar necessidade*/
+  padding: 3px 10px;                                                                      /* preenchimento do botão */
+  word-spacing: 40px; 
+  display: inline-block;
+  text-decoration: none;
+
+
+  
+}
+
+nav ul li a:hover {
+  color: #f76e11; /* Cor do texto ao passar o mouse */
+}
+
+
+
+
+
+/*CRIADO POR..*/
 .criado {
     font-size: 16px;
     text-align: center;
     font-family: "Roboto Condensed", sans-serif;
     background-color: #f76e11;
-    padding: 5px 0; /* Adds padding to the top and bottom for some spacing */
-
-
-
-
     padding: 5px 0; /* Adds padding to the top and bottom for some spacing */
 
 }
@@ -185,7 +268,51 @@ header {
     margin: 0 auto; /* Centers the block element */
 }
 
+  /*Linkedin*/
+  .linkedin {
+    color: #240cac;
+  }
 
+  .github {
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
 
 .frase {
     font-size: 18px;
@@ -194,17 +321,11 @@ header {
     margin-left: 3%;
     line-height: 1.5;
     margin-right: 10%;
-
-
-}
-
-p {
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif; 
     text-align: justify;
-    margin-right: 10%;
-    margin-left: 3%;
+
+
 }
+
 
 
 
@@ -239,47 +360,7 @@ p {
   }
 
 
-
-
-
-
-
-
-h1 {
-    width: calc(47% - 7px);  /* 50% menos o espaçamento para a imagem */
-    background-color:rgb(207, 115, 62); 
-    margin-left: 3%;                           /*cor de fundo*/
-    text-align: left;                                                 /*posição do texto*/
-    font-size: 20px;                                                    /*tamanho da letra*/
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    margin-bottom: 1%;
-     
-}
-
-
-/*frases indicativas para fazer algo " clique aqui"         /  VERIFICAR A NECESSIDADE */
-h4 {
-    font-size: 18px;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(189, 68, 12);
-    margin-left: 3%;
-    margin-bottom: 3%;
-}
-
-
-/*titulos das receitas"*/
-h3{
-    color: rgb(253, 252, 251);
-    background-color: #e66108;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 3%;
-    margin-bottom: 1%;
-    width: calc(20% - 7px); /*alinha o background */
-
-}
+/*BOTÕES */
 
 
 /*botão para spotify Youtube*/
@@ -322,63 +403,10 @@ h3{
 
 /*botoes do menu*/
  
-   
-  .menu-container{
-    position: absolute;
-    top: 15%;
-    right: 10px;
-    z-index: 2;
-  
-  }
-
-  /**************ultima modificação do menu **********************************/
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 7px; /* Espaçamento entre os itens do menu */
-
-  }
-
-  nav ul li {
-    margin: 0;
-    
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: rgb(53, 3, 3);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline;
-    height: 43px;  /*verificar necessidade*/
-    padding: 3px 10px;                                                                      /* preenchimento do botão */
-    word-spacing: 40px; 
-    display: inline-block;
-    text-decoration: none;
-
-
-    
-  }
-  
-  nav ul li a:hover {
-    color: #f76e11; /* Cor do texto ao passar o mouse */
-  }
-
-
-  /************************************************/
 
 
 
-  
-  /* Altere a cor do link para #111 (preto) ao passar o mouse *
-  nav ul li a:hover {
-    background-color: #f7ac8a; /*verificar se mantem*
-    
-  }
+  /*FORMULÁRIO*/
 
 /*frase do cabeçalho*/
   .fraseForm {
@@ -426,23 +454,19 @@ h3{
 }
 
 
-  /*Linkedin*/
-  .linkedin {
-    color: #240cac;
-  }
 
-  .github {
-    color: black;
-  }
 
+
+/* PAGINA HOME */
 
   /*imagem e texto sobre a historia da culinaria*/
 .historia {
     overflow: hidden; /* Limpa o float */
-    margin-right: 4%; /* Defina a largura da margem direita conforme necessário */
+    margin-right: 2%; /* Defina a largura da margem direita conforme necessário */
     margin-left: 2%;
     margin-bottom: 7%;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
     margin-top: 1%;
+    line-height: 1.5;
 
 
 
@@ -458,7 +482,7 @@ h3{
   overflow: hidden; /* Limpa o float */
   margin-right: 11%; /* Defina a largura da margem direita conforme necessário */
   margin-left: 3%;
-  margin-bottom: 5%;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
+  margin-bottom: 4%;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
   padding: 2px;
 
 
@@ -485,26 +509,38 @@ h3{
  
 
 .bemVindo{
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 20px;
-
-
-    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px;
     text-align: justify;
-    margin-right: 13%;
     margin-left: 3%;
-
     white-space: normal;
     line-height: 1.5;
-
-
     margin-bottom: 3%;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
     margin-top: 1%;
-
-
-
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-right: 10%;
   
 }
+
+
+
+#culinariaTerapia {
+
+
+  text-align: left;
+  background-color:rgb(207, 115, 62);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3%; /* Espaço entre a imagem e o texto */
+  margin-left: 3%;
+  padding: 5px;
+  width: calc(47% - 7px); /*tamanho do background da frase/palavra*/
+
+
+}
+
+
+
+/* PAGINA RECEITA*/
 
 
 .subtituloReceitas {
@@ -529,25 +565,12 @@ h3{
 
 /*botoes retrateis das receitas*/
 
-main{
-  padding: 20px;
-  margin-left: 3%;
-}
-
-
-
-
-
-
-
-
-
 
 
 
 .receita{ 
   margin-bottom: 10px; /*margem entre uma receita e outra */
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   background:#e5c89b;
   margin-left: 3%;
@@ -556,6 +579,7 @@ main{
   box-sizing: border-box; /* faz com que o padding seja incluído na largura total do elemento */
   width: calc(98% - 2%);/* largura automática para se ajustar ao conteúdo */
   overflow: hidden; /* evita que o conteúdo ultrapasse a borda */
+  width: 75%;
 
 }
 
@@ -569,7 +593,7 @@ main{
     margin-bottom: 5%;
     padding: 0; /* padding interno para garantir espaçamento adequado dentro da borda */
     box-sizing: border-box; /* faz com que o padding seja incluído na largura total do elemento */
-    
+    line-height: 1.5;
 }
 
 
@@ -600,7 +624,6 @@ main{
   margin-right: 10%;
   margin-bottom: 3%;
   white-space: pre-line; /* Mantém as quebras de linha */
-  
 
 }
 
@@ -609,9 +632,6 @@ main{
   margin-bottom: 2px; /* Espaço entre os itens da lista */
   
 }
-
-
-
 
 
 
@@ -636,52 +656,6 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-.mapa {
-  margin-left: 3%;
-  margin-bottom: 3%; 
-}
-
-.video { 
-  margin-left: 5%;
-  margin-bottom: 10px;
-}
-
-.video video { /*refe-se a tag video*/
-  width: 20%; /* ou ajuste conforme necessário */
-  height: 370px; /* ajuste a altura conforme necessário */
-  object-fit: cover; /* ajusta o vídeo dentro da área especificada */
-}
-
-
-
-#culinariaTerapia {
-  text-align: left;
-  background-color:rgb(207, 115, 62);
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 3%; /* Espaço entre a imagem e o texto */
-  margin-left: 3%;
-  padding: 5px;
-  width: calc(47% - 7px); /*tamanho do background da frase/palavra*/
-    
-}
-
-
-.video {
-  margin-left: 3%;
-  margin-bottom: 1%;
-  
-}
-
 .imgTd {
   margin-left: 3%;
   width: 140px;
@@ -693,25 +667,6 @@ main{
 
 }
 
-/*frase para clicar na imagem do site*/
-.cliquenaImagem {
-  margin-left: 3%;
-  font-size: 18px;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 3%;
-  font-weight: bold;
-}
-
-
-/*creditos de onde tirei o video e a imagem hiperlink*/
-.creditos {
-  text-align: left;
-  margin-left: 2%;
-  font-size: 18px;
-  font-weight: bolder;
-  text-decoration: none;
-}
 
 
 
@@ -724,6 +679,86 @@ main{
 .lista-ingredientes li {
   margin-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*PAGINA LOCAL */
+
+
+
+.mapa {
+  margin-left: 3%;
+  margin-bottom: 3%; 
+}
+
+
+
+
+
+/* PAGINA DE DICAS*/
+
+.video { 
+  margin-left: 3%;
+  margin-bottom: 10px;
+}
+
+.video video { /*refe-se a tag video*/
+  width: 20%; /* ou ajuste conforme necessário */
+  height: 370px; /* ajuste a altura conforme necessário */
+  object-fit: cover; /* ajusta o vídeo dentro da área especificada */
+
+}
+
+
+
+
+.video {
+  margin-left: 3%;
+  margin-bottom: 1%;
+  
+}
+
+
+.asDicas {
+  margin-bottom: 9px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  background: #e5c89b;
+  margin-left: 3%;
+  border: 1px solid #f76e11; /*borda do campo de receitas */
+  display: inline-table;
+  width: 15%;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*CREDITOS */
+
+/*creditos de onde tirei o video e a imagem hiperlink*/
+.creditos {
+  text-align: left;
+  margin-left: 3%;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.creditosSos{
+  margin-left: 1px;
+
+}
+
 
         /*FORMULARIO seleção */
 
@@ -834,17 +869,5 @@ form {
   display: none;
 }
 
-.asDicas {
-  margin-bottom: 9px;
-  padding: 8px 10px;
-  border-radius: 5px;
-  background: #e5c89b;
-  margin-left: 3%;
-  border: 1px solid #f76e11; /*borda do campo de receitas */
-  display: inline-table;
-  width: 15%;
-  box-sizing: border-box;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
