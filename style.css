@@ -97,7 +97,6 @@ h3{
 
 /*IMAGENS DO CABEÇALHO DAS PAGINAS*/
 
-
 .imagemInicial{
   background-image: url(imagens\ do\ site/inicial3.png);
   height: 135px;                                                      
@@ -241,13 +240,11 @@ nav ul li a:hover {
   font-size: 18px;
   margin-bottom: 5px;                                                   /* Espaçamento entre os botões */
   margin-left: 3%;
-
 }
 
 .button1:hover {
   background-color: #ca4507; 
 }
-
 
 
 /* frases "soltas" da pagina*/
@@ -260,7 +257,6 @@ nav ul li a:hover {
   margin-right: 10%;
   text-align: justify;
 }
-
 
 
 /* PAGINA HOME */
@@ -312,7 +308,6 @@ nav ul li a:hover {
   font-family: Arial, Helvetica, sans-serif; 
   margin-right: 10%;
 }
-
 
 
 
@@ -428,16 +423,12 @@ nav ul li a:hover {
 
 
 
-
-
 /*PAGINA LOCAL */
 
 .mapa {
   margin-left: 3%;
   margin-bottom: 3%; 
 }
-
-
 
 
 
@@ -469,7 +460,6 @@ nav ul li a:hover {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 
 

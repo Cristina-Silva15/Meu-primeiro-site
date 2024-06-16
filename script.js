@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
 //interação dos botoes retrateis das dicas
 document.addEventListener('DOMContentLoaded', function() {
     var buttons = document.querySelectorAll('.dicas');
