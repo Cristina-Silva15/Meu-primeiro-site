@@ -28,7 +28,6 @@ p {
   margin-right: 10%;
   margin-left: 3%;
   line-height: 1.5;
- 
 }
 
 
@@ -41,11 +40,8 @@ h1 {
   font-size: 20px;                                                    /*tamanho da letra*/
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
-  margin-bottom: 1%;
-   
+  margin-bottom: 1%; 
 }
-
-
 
 
 
@@ -69,15 +65,13 @@ h3{
   margin-left: 3%;
   margin-bottom: 1%;
   width: calc(20% - 7px); /*alinha o background */
-
 }
 
 
 
-
  /*TITULO DA PAGINA*/
+
  .titulo{
- 
   font-size: 35px;
   position:absolute;
   top: 0;
@@ -89,9 +83,8 @@ h3{
   align-items: left; /* Alinhar verticalmente */
   justify-content: left; /* Centralizar horizontalmente */
   z-index: 1;  /* Garante que o conteúdo fique na frente  */
-
-
   }
+
   .logo1{
     width: 6%;
     border-radius: 47% 47% 2% 22% ;
@@ -99,11 +92,8 @@ h3{
     margin-right: 10px; /* Espaçamento entre a imagem e o texto */
     z-index: 1;
     border: 2px solid #f76e11;
-
   }
 
-
-  
 
 /*IMAGENS DO CABEÇALHO DAS PAGINAS*/
 
@@ -117,7 +107,6 @@ h3{
   background-position: 50% 5%;
   opacity: 39%;
   z-index: -1; /* Garante que fique atrás do conteúdo */
-
 }
 
 
@@ -128,7 +117,6 @@ h3{
     background-size: cover;                                             /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     padding: 0px;
     opacity: 39%;
-
 }
 
 .imagemDicas {
@@ -140,7 +128,6 @@ h3{
   background-position: 50% 50%;
   background-color: #ff9f45;
   opacity: 59%;
-
 }
 
 
@@ -151,8 +138,6 @@ h3{
    background-position: 50% 40%; 
    background-color: #ff9f45;
    opacity: 59%;
- 
- 
  }
  
  .imagemForm{
@@ -170,11 +155,9 @@ h3{
 /* FAIXA EMBAIXO DA IMAGEM/COR DO CABEÇALHO */
 
 .faixa {
-
   background-color: #f76e11;
   padding: 13px;
   width: 1349px;
-
 }
 
 
@@ -185,7 +168,6 @@ h3{
   top: 15%;
   right: 10px;
   z-index: 2;
-
 }
 
 nav ul {
@@ -194,12 +176,10 @@ nav ul {
   margin: 0;
   display: flex;
   gap: 7px; /* Espaçamento entre os itens do menu */
-
 }
 
 nav ul li {
   margin: 0;
-  
 }
 
 nav ul li a {
@@ -215,7 +195,6 @@ nav ul li a {
   word-spacing: 40px; 
   display: inline-block;
   text-decoration: none;
-
 }
 
 nav ul li a:hover {
@@ -230,7 +209,6 @@ nav ul li a:hover {
     font-family: "Roboto Condensed", sans-serif;
     background-color: #f76e11;
     padding: 5px 0; /* Adds padding to the top and bottom for some spacing */
-
 }
 
 .footer-content {
@@ -251,36 +229,46 @@ nav ul li a:hover {
 
 
 
+/*BOTÕES */
+
+/*botão para spotify Youtube*/
+.button1 { 
+  text-decoration: none;   /* Remove o sublinhado */
+  padding: 10px 20px; /* Adiciona preenchimento ao botão */
+  background-color: #f76e11; /* Define a cor de fundo do botão (substitua pela cor desejada) */
+  color: #fff; /* Define a cor do texto do botão (substitua pela cor desejada) */
+  border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+  display: inline-block; /* Garante que o botão se comporte como um elemento de bloco */
+  font-size: 18px;
+  margin-bottom: 5px; /* Espaçamento entre os botões */
+  margin-left: 3%;
+
+}
+
+.button1:hover {
+  background-color: #ca4507; 
+}
 
 
+/*formulario da pagina de dicas*/
+.button2 {
+text-decoration: none; /* Remove o sublinhado */
+padding: 10px 20px; /* Adiciona preenchimento ao botão */
+background-color: #f76e11;
+/* Define a cor de fundo do botão (substitua pela cor desejada) */
+color: #fff; /* Define a cor do texto do botão (substitua pela cor desejada) */
+border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+display: inline-block;
+font-size: 20px;
+margin-left: 3%;
+}
+.button2:hover {
+background-color: #ca4507;
+}
+ 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* */
-
+/* frases "soltas" da pagina*/
 .frase {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -289,107 +277,7 @@ nav ul li a:hover {
     line-height: 1.5;
     margin-right: 10%;
     text-align: justify;
-
-
 }
-
-
-
-
-/*BOTÕES */
-
-
-/*botão para spotify Youtube*/
-.button1 { 
-    text-decoration: none;   /* Remove o sublinhado */
-    padding: 10px 20px; /* Adiciona preenchimento ao botão */
-    background-color: #f76e11; /* Define a cor de fundo do botão (substitua pela cor desejada) */
-    color: #fff; /* Define a cor do texto do botão (substitua pela cor desejada) */
-    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
-    display: inline-block; /* Garante que o botão se comporte como um elemento de bloco */
-    font-size: 18px;
-    margin-bottom: 5px; /* Espaçamento entre os botões */
-    margin-left: 3%;
-
-  }
-  .button1:hover {
-    background-color: #ca4507;
-    
-  }
-
-
-/*formulario da pagina de dicas*/
-.button2 {
-  text-decoration: none; /* Remove o sublinhado */
-  padding: 10px 20px; /* Adiciona preenchimento ao botão */
-  background-color: #f76e11;
-  /* Define a cor de fundo do botão (substitua pela cor desejada) */
-  color: #fff; /* Define a cor do texto do botão (substitua pela cor desejada) */
-  border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
-  display: inline-block;
-  font-size: 20px;
-  margin-left: 3%;
-  
-}
-.button2:hover {
-  background-color: #ca4507;
-  
-}
-   
-
-/*botoes do menu*/
- 
-
-
-
-  /*FORMULÁRIO*/
-
-/*frase do cabeçalho*/
-  .fraseForm {
-    font-size: 28px;
-    color: #ca4507;
-    margin-bottom: 4%;
-    margin-left: 5%;
-
-
-  }
-
-
-
-  /* Estilizando todos os campos de escrita do formulario*/
-  input {
-    width: 39%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    margin-left: 3%;
-    display: block; /*deixa um item embaixo do outro*/
-    border: 1px solid #f76e11;
-  }
-
-
-  /* Estilizando a área de texto */
-  textarea {
-    width: 39%;
-    height: 100px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    margin-left: 3%;
-    display: block;
-    border: 1px solid #f76e11;
-
-}
-
-/*id é acessado por # e não por ponto (.)*/
-#escrevaDica {
-  font-size: 18px;
-  margin-left: 3%;
-  margin-bottom: 10px;
-
-}
-
-
 
 
 
@@ -403,31 +291,22 @@ nav ul li a:hover {
     margin-bottom: 7%;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
     margin-top: 1%;
     line-height: 1.5;
-
-
-
-
-
-
-
 }
 
-.planoDeFundo{
 
+/* cor de fundo que envolve os textos da pagina Home*/
+.planoDeFundo{
   background-color: #e5c89b;
   overflow: hidden; /* Limpa o float */
   margin-right: 11%; /* Defina a largura da margem direita conforme necessário */
   margin-left: 3%;
   margin-bottom: 4%;     /* Altere o valor conforme necessário para ajustar o espaçamento (vale para botao e texto tambem)*/
   padding: 2px;
-
-
 }
 
 
 
-
-
+/*imagens da pagina Home*/
 .image2 {
     float: left; /* Faz a imagem flutuar à esquerda */
     margin-right: 10px; /* Espaçamento entre a imagem e o texto */
@@ -435,15 +314,11 @@ nav ul li a:hover {
     width: 219px;
     margin-left: 3%; /* Defina a largura da margem esquerda conforme necessário */
     margin-bottom: 70px;   
-    margin-top: 1%;
-    
-
-    
+    margin-top: 1%;   
 }
 
 
- 
-
+ /*introdução da pagina*/
 .bemVindo{
     font-size: 18px;
     text-align: justify;
@@ -454,14 +329,11 @@ nav ul li a:hover {
     margin-top: 1%;
     font-family: Arial, Helvetica, sans-serif; 
     margin-right: 10%;
-  
 }
 
 
 
 #culinariaTerapia {
-
-
   text-align: left;
   background-color:rgb(207, 115, 62);
   font-size: 20px;
@@ -470,14 +342,11 @@ nav ul li a:hover {
   margin-left: 3%;
   padding: 5px;
   width: calc(47% - 7px); /*tamanho do background da frase/palavra*/
-
-
 }
 
 
 
 /* PAGINA RECEITA*/
-
 
 .subtituloReceitas {
     font-family: Arial, Helvetica, sans-serif;
@@ -486,8 +355,6 @@ nav ul li a:hover {
     color: #ca4507;
     margin-bottom: 1%;
 }
-
-
 
 
 /*imagem das receitas*/
@@ -499,11 +366,8 @@ nav ul li a:hover {
     display: block;
 }
 
+
 /*botoes retrateis das receitas*/
-
-
-
-
 .receita{ 
   margin-bottom: 10px; /*margem entre uma receita e outra */
   padding: 10px;
@@ -516,11 +380,10 @@ nav ul li a:hover {
   width: calc(98% - 2%);/* largura automática para se ajustar ao conteúdo */
   overflow: hidden; /* evita que o conteúdo ultrapasse a borda */
   width: 75%;
-
 }
 
 
-/*receitas (ingredientes e preparo*/
+/*lista do preparo das receitas */
 .preparo{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -538,39 +401,30 @@ nav ul li a:hover {
   margin-top: 0;
   margin-bottom: 0;
   list-style-position: inside; /* posiciona os números da lista dentro do contêiner */
-
-  
-  
 }
 
 .preparo li {
   margin-bottom: 15px; /* espaço entre os itens da lista */
   word-wrap: break-word; /* permite quebra de linha automática para evitar ultrapassar a borda */
-
 }
 
 
-
-
-
+/* lista de ingredientes das receitas */
 .ingredientes{
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 3%;
+  margin-left: 4%;
   margin-right: 10%;
-  margin-bottom: 3%;
   white-space: pre-line; /* Mantém as quebras de linha */
-
 }
 
 .ingredientes span {
   display: block; /* Cada item de ingrediente em um novo bloco */
   margin-bottom: 2px; /* Espaço entre os itens da lista */
-  
 }
 
 
-
+/*botão retratil das receitas e das dicas */
 .content{
   display: none; /* Inicialmente escondemos o conteúdo */
   margin-top: 10px;
@@ -586,49 +440,26 @@ nav ul li a:hover {
   margin-top: 10px;
   display: block;
 }
+
 .btn:hover {
   background-color: #ca4507;
 }
 
 
-
+/*imagem do site Tudo Gostoso*/
 .imgTd {
   margin-left: 3%;
   width: 140px;
   height: 130px;
   background-size: cover; 
-  outline-style: groove;
   border-radius: 10%;
-  border-color: #f04815;
-
+  border: 3px solid #f76e11;
 }
-
-
-
-
-/* Estilos específicos para as listas de ingredientes e modo de preparo */
-.lista-ingredientes{
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.lista-ingredientes li {
-  margin-bottom: 5px;
-}
-
-
-
-
-
-
-
 
 
 
 
 /*PAGINA LOCAL */
-
-
 
 .mapa {
   margin-left: 3%;
@@ -650,19 +481,10 @@ nav ul li a:hover {
   width: 20%; /* ou ajuste conforme necessário */
   height: 370px; /* ajuste a altura conforme necessário */
   object-fit: cover; /* ajusta o vídeo dentro da área especificada */
-
 }
 
 
-
-
-.video {
-  margin-left: 3%;
-  margin-bottom: 1%;
-  
-}
-
-
+/*texto e layout das dicas*/
 .asDicas {
   margin-bottom: 9px;
   padding: 10px 12px;
@@ -680,9 +502,10 @@ nav ul li a:hover {
 
 
 
+
 /*CREDITOS */
 
-/*creditos de onde tirei o video e a imagem hiperlink*/
+/*texto do video e da imagem*/
 .creditos {
   text-align: left;
   margin-left: 3%;
@@ -692,45 +515,24 @@ nav ul li a:hover {
 }
 .creditosSos{
   margin-left: 1px;
-
 }
 
 
-        /*FORMULARIO seleção */
+
+
+        /*FORMULARIO  */
 
 /* Mostrar elementos se um radio button específico estiver selecionado */
 #dica:checked ~ #dicaFields {
   display: block;
-  
 }
 
 #receita:checked ~ #receitaFields {
   display: block;
 }
 
-/* Estilização básica para inputs e textarea (dados no inicio do formulario)*/
-input[type="text"],
-input[type="number"],
-textarea {
-  display: block;
-  margin: 10px 3%;
-  padding: 8px;
-  width: 50%;
-  box-sizing: border-box;
-}
 
-/* Estilização básica para o select */
-select {
-  display: block;
-  margin: 3px 3%;
-  padding: 3px;
-  width: 50%;
-  box-sizing: border-box;
-}
-
-
-
-/* Estilização para o botão de submit */
+/* Estilização para o botão de enviar */
 input[type="submit"] {
   padding: 10px 10px;
   background-color: #f76e11;
@@ -740,7 +542,8 @@ input[type="submit"] {
   margin-left: 3%;
   width: 100px; /* Define uma largura específica para o botão */
   border-radius: 5px;
-
+  font-size: 16px;
+  margin-top: 2%;
 }
 
 input[type="submit"]:hover {
@@ -748,10 +551,7 @@ input[type="submit"]:hover {
 }
 
 
-form {
-  margin-left: 2%;
-}
-
+/*borda do formulário*/
 .bordaForm {
   margin-top: 2%;
   margin-bottom: 14px;
@@ -766,44 +566,81 @@ form {
   box-sizing: border-box;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 
-
-.escolhaOp {
-  display: block;
+/*texto para de escolha entre dica e receita do formulário*/
+.escolha {
   margin-bottom: 1px;
-  font-weight: bold;
   margin-left: 3%;
   font-size: 18px;
 }
 
+
+/* Estilizando todos os campos de escrita do formulario*/
+input[type="text"],
+input[type="number"],
+textarea {
+  display: block;
+  margin: 10px 3%;
+  padding: 8px;
+  width: 60%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 14px;
+  border: 1px solid #f76e11;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* borda dos campos de texto na cor laranja AO clicar no campo*/
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border: 1px solid #f76e11; /* Borda laranja ao focar */
+  outline: none; /* Remove o outline padrão */
+}
+
+/* Estilizando a área de texto para dicas e receitas*/
+textarea {
+  height: 100px;
+}
+
+
 /* Estilização para alinhar os radio buttons e labels */
 .radio-group {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
- 
+ margin-left: 5%;
+ margin-top: 3px;
+ margin-bottom: -42%;
 }
 
 .radio-container {
-  display: flex;
+  display: block;
   align-items: center;
-  margin-bottom: 1px;
+  margin-bottom: 10%;
   margin-left: -23%;
-
 }
+
 
 .radio-container input[type="radio"] {
   order: -1; /* Move o rádio para antes do texto */
-  margin-right: -15%/* Espaçamento entre o rádio e o texto */
-
+  margin-right: -1%/* Espaçamento entre o rádio e o texto */
 }
 
-/* Ocultar elementos por padrão */
+
+/* Ocultar elementos por padrão do "radio"*/
 .hidden {
   display: none;
 }
 
 
-
+/*frase do cabeçalho do formulário*/
+.fraseForm {
+  font-size: 28px;
+  color: #ca4507;
+  margin-bottom: 4%;
+  margin-left: 3%;
+}

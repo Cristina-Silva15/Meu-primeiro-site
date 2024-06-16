@@ -19,43 +19,53 @@
     
     <main>
 
-    <section class="bordaForm">
+        <section class="bordaForm">
 
 
-        <!-- A div vai criar uma divisão no formulário (nas paginas, como se fosse divir em blocos), facilita no momento em que 
-        quiser mudar somente uma parte do site -->
-    <div class="fraseForm">
-             Preencha os campos para cadastrar sua dica culinária/receita
-    </div>
+            <!-- A div vai criar uma divisão no formulário (nas paginas, como se fosse divir em blocos), facilita no momento em que 
+            quiser mudar somente uma parte do site -->
+            <div class="fraseForm">
+                Preencha os campos para cadastrar sua dica culinária/receita
+            </div>
 
-    <div>
-        <form onSubmit="return verificaForm()">
-                <!-- Input é a parte que interage com o usuario, para que seja possivel a digitação das informações  -->
 
-                <!-- dentro das aspas de type e name (name é um atributo para o JS e se tirar não vai influenciar em nada) 
-                tem que ser tudo em minusculo -->
-                <!-- placeholder serve para colocar uma frase dentro da caixa do formulário,pode usá-lo ou não (nesse caso deverá escrever o que deseja que seja preenchido) -->
-                <div>
-                    <input type="text" name="nome" placeholder="Digite seu nome aqui">
-                    <input type="text" name="text" placeholder="Digite sua cidade/Estado">
-                    <input type="number" name="number" placeholder="Digite sua idade">  
-                </div>
-                <!-- bordas  -->
-                
-        </form> 
-    </div>
 
-    <div>
-        <br>
+
+
+
+
+
+            <!-- <div> -->
+                <form onSubmit="return verificaForm()">
+                    <!-- Input é a parte que interage com o usuario, para que seja possivel a digitação das informações  -->
+
+                    <!-- dentro das aspas de type e name (name é um atributo para o JS e se tirar não vai influenciar em nada) 
+                    tem que ser tudo em minusculo -->
+                    <!-- placeholder serve para colocar uma frase dentro da caixa do formulário,pode usá-lo ou não (nesse caso deverá escrever o que deseja que seja preenchido) -->
+                    <div>
+                        <input type="text" name="nome" placeholder="Digite seu nome aqui">
+                        <input type="text" name="text" placeholder="Digite sua cidade e Estado">
+                        <input type="number" name="number" placeholder="Digite sua idade">  
+                    </div>
+                     
+                     <!-- </form>  -->
+                    <!-- </div> -->
+
+
+
+
+
+                    <div>
+                     <br>
         
-        <form>
+                     <!-- <form> -->
 
-                <label for="tipo" class="escolhaOp">Escolha a opção que deseja compartilhar :</label>
-                <br><br>
+                        <label for="tipo" class="escolha">Escolha a opção que deseja compartilhar :</label>
+                     <br><br>
 
 
 
-                <div class="radio-group">
+                        <div class="radio-group">
 
                     <label class="radio-container">
                         <input type="radio" id="dica" name="tipo" value="dica">
@@ -63,33 +73,32 @@
                     </label>
 
 
-
                     <label class="radio-container">
                         <input type="radio" id="receita" name="tipo" value="receita">
                             Receita
                     </label>
-                </div>
+                    </div>
 
 
 
-            <div id="dicaFields" class="hidden">
-                <br><br>
+                    <div id="dicaFields" class="hidden">
+                    <br><br>
                     <textarea id="dicaTexto" name="texto" maxlength="200" placeholder="Escreva sua dica aqui (máximo 200 caracteres)"></textarea>
-            </div>
+                    </div>
 
 
-            <div id="receitaFields" class="hidden">
-                <br><br>
+                    <div id="receitaFields" class="hidden">
+                    <br><br>
                      <textarea id="receitaTexto" name="texto" placeholder="Escreva sua receita aqui"></textarea>
+                    </div>
+
+                    <br>
+                    <input type="submit" name="enviar" value="Enviar">
+
+                </form>
+
             </div>
-
-            <br>
-                <input type="submit" name="enviar" value="Enviar">
-
-        </form>
-
-    </div>
-    </section> 
+        </section> 
     </main>
     
         <script src="script.js"></script>
