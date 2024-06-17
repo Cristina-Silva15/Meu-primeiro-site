@@ -344,7 +344,7 @@ nav ul li a:hover {
   box-sizing: border-box;                                                     /* faz com que o padding seja incluído na largura total do elemento */
   width: calc(98% - 2%);                                                      /* largura automática para se ajustar ao conteúdo */
   overflow: hidden;                                                           /* evita que o conteúdo ultrapasse a borda */
-  width: 75%;
+  width: 70%;
 }
 
 
