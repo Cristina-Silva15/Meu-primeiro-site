@@ -212,8 +212,8 @@ nav ul li a:hover {
   display: inline-block; 
   vertical-align: middle;                                             /* Alinha o texto verticalmente no meio */
   margin: 0 auto;                                                     /* Centraliza o elemento do bloco */
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
   /*Linkedin*/
@@ -472,6 +472,18 @@ nav ul li a:hover {
   font-size: 18px;
   font-weight: bolder;
   text-decoration: none;
+}
+
+.creditosImg{
+  margin-top: -59px;
+  text-align: left;
+  margin-left: 3%;
+  font-size: 15px;
+  text-decoration: none;
+  float: left;                                                         
+  height: auto;                                                      
+  width: auto;
+  display: grid;
 }
 
         /*FORMULARIO  */
