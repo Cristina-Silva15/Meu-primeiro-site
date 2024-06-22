@@ -9,6 +9,7 @@
 }
 
 
+
 header {
   margin: 0;
   top: 0;
@@ -18,6 +19,7 @@ main{
   padding: 20px;
   margin-left: 3%;
 }
+
 
 
 p {
@@ -609,4 +611,405 @@ textarea {
   color: #ca4507;
   margin-bottom: 4%;
   margin-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .logo1 {
+    width: 10%; /* Ajustando o tamanho do logotipo */
+    margin-right: 10px; /* Adicionando margem à direita */
+  }
+
+  nav ul {
+    justify-content: center; /* Centralizando os itens do menu */
+    margin-right: 0; /* Removendo margem à direita */
+  }
+
+  .button1 {
+    margin-left: 0; /* Removendo margem à esquerda */
+  }
+
+  .titulo {
+    font-size: 16px; /* Reduzindo o tamanho da fonte do título */
+    padding: 10px; /* Ajustando o padding */
+  }
+
+  .imagemInicial,
+  .imagemReceitas,
+  .imagemDicas,
+  .imagemLocal,
+  .imagemForm {
+    height: 60px; /* Reduzindo a altura das imagens */
+    width: 100%;
+  }
+
+  .faixa {
+    width: 100%;
+    padding: 8px; /* Ajustando o padding */
+  }
+
+  .footer-content {
+    padding: 5px 0; /* Ajustando o padding */
+  }
+
+
+
+
+
+
+
+  /*formulario*/
+
+
+    /*ok*/
+
+input[type="submit"] {
+  margin-left: 3%;
+  font-size: 14px; /* Reduzindo o tamanho da fonte */
+  padding: 10px 6px; /* Ajustando o padding */
+  align-items: left;
+  margin-bottom: 1%;
+  }
+
+  /*ok*/
+
+input[type="text"],
+input[type="number"],
+textarea  {
+  width: 90%; /* Aumentando a largura */
+  margin: 4px 2%; /* Ajustando as margens */
+  font-size: 14px; /* Reduzindo o tamanho da fonte */
+  }
+
+
+  /*ok*/
+.escolha {
+    margin-bottom: -11%;
+    margin-left: 4%;
+    font-size: 16px;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+    align-items: left;
+    margin-top: 1%;
+    margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+    display: flex; /* Torna o container um flex container */
+
+  }
+
+
+
+   /*ok*/
+
+  .fraseForm {
+    font-size: 18px;
+    color: #ca4507;
+    margin-bottom: 4%;
+    margin-left: 3%;
+  }
+
+ 
+
+ /*ok*/
+.radio-container input[type="radio"],
+.radio-container,
+.radio-group {
+  margin-left: 3%;
+  margin-top: 2%;
+  align-items: left;
+  margin-bottom: 1%;
+  font-size: 16px;
+  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  display: flex; /* Torna o container um flex container */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
+
+}
+
+ /*ok*/
+.bordaForm {
+  padding: 8px 10px;
+  width: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Media Queries para Modo Paisagem e Tablet */
+@media only screen and (min-width: 481px) and  (max-width: 768px) {
+  .logo1 {
+    width: 10%;
+  }
+
+  nav ul {
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .button1 {
+    margin-left: 0;
+  }
+
+  .titulo {
+    font-size: 30px;
+    padding: 24px;
+  }
+
+  .imagemInicial,
+  .imagemReceitas,
+  .imagemDicas,
+  .imagemLocal,
+  .imagemForm {
+    height: 100px;
+    width: 100%;
+  }
+
+  .faixa {
+    width: 100%;
+  }
+
+  .footer-content {
+    padding: 10px 0;
+  }
+
+  .input-submit {
+    margin-left: 0;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 80%;
+    margin: 10px 10%;
+  }
+}
+
+
+
+
+
+
+/*formulario*/
+
+
+    /*ok*/
+
+    input[type="submit"] {
+      margin-left: 3%;
+      font-size: 16px; /* Reduzindo o tamanho da fonte */
+      padding: 12px 8px; /* Ajustando o padding */
+      align-items: left;
+      margin-bottom: 2%;
+      }
+    
+      /*ok*/
+    
+    input[type="text"],
+    input[type="number"],
+    textarea  {
+      width: 90%; /* Aumentando a largura */
+      margin: 4px 2%; /* Ajustando as margens */
+      font-size: 16px; /* Reduzindo o tamanho da fonte */
+      margin-top: 1%;
+
+    
+    }
+    
+    
+      /*ok*/
+    .escolha {
+        margin-bottom: -9%;
+        margin-left: 3%;
+        font-size: 18px;
+        flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+        align-items: left;
+        margin-top: 1%;
+        margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+        display: flex; /* Torna o container um flex container */
+    
+      }
+    
+    
+    
+       /*ok*/
+    
+      .fraseForm {
+        font-size: 22px;
+        margin-bottom: 4%;
+        margin-left: 3%;
+      }
+    
+     
+    
+     /*ok*/
+    .radio-container input[type="radio"],
+    .radio-container,
+    .radio-group {
+      margin-left: 3%;
+      margin-top: 2%;
+      align-items: left;
+      margin-bottom: 1%;
+      font-size: 18px;
+      margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+      display: flex; /* Torna o container um flex container */
+      flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+      justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
+    
+    }
+    
+     /*ok*/
+    .bordaForm {
+      padding: 8px 10px;
+      width: 95%;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .logo1 {
+    width: 8%;
+  }
+
+  .titulo {
+    font-size: 30px;
+    padding: 24px;
+  }
+
+  .imagemInicial,
+  .imagemReceitas,
+  .imagemDicas,
+  .imagemLocal,
+  .imagemForm {
+    height: 120px;
+    width: 100%;
+  }
+
+  .faixa {
+    width: 100%;
+  }
+
+  .input-submit {
+    margin-left: 0;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 70%;
+    margin: 10px 15%;
+  }
 }
