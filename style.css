@@ -669,126 +669,292 @@ textarea {
 
 
 
-
+/* Media Queries para celular */
 @media only screen and (max-width: 480px) {
-  .logo1 {
-    width: 10%; /* Ajustando o tamanho do logotipo */
-    margin-right: 10px; /* Adicionando margem à direita */
-  }
-
-  nav ul {
-    justify-content: center; /* Centralizando os itens do menu */
-    margin-right: 0; /* Removendo margem à direita */
-  }
-
-  .button1 {
-    margin-left: 0; /* Removendo margem à esquerda */
-  }
-
-  .titulo {
-    font-size: 16px; /* Reduzindo o tamanho da fonte do título */
-    padding: 10px; /* Ajustando o padding */
-  }
-
-  .imagemInicial,
-  .imagemReceitas,
-  .imagemDicas,
-  .imagemLocal,
-  .imagemForm {
-    height: 60px; /* Reduzindo a altura das imagens */
-    width: 100%;
-  }
-
-  .faixa {
-    width: 100%;
-    padding: 8px; /* Ajustando o padding */
-  }
-
-  .footer-content {
-    padding: 5px 0; /* Ajustando o padding */
-  }
-
-
-
-
-
-
+  
 
   /*formulario*/
-
-
-    /*ok*/
+   /*ok*/
 
 input[type="submit"] {
   margin-left: 3%;
-  font-size: 14px; /* Reduzindo o tamanho da fonte */
-  padding: 10px 6px; /* Ajustando o padding */
+  font-size: 16px; 
+  padding: 8px 4px; /* Ajustando o padding */
   align-items: left;
   margin-bottom: 1%;
   }
 
-  /*ok*/
+ /*ok*/
 
 input[type="text"],
 input[type="number"],
 textarea  {
-  width: 90%; /* Aumentando a largura */
-  margin: 4px 2%; /* Ajustando as margens */
-  font-size: 14px; /* Reduzindo o tamanho da fonte */
+  width: 87%; /* Aumentando a largura */
+  margin: 4px 2%; 
+  font-size: 14px;
   }
-
-
-  /*ok*/
-.escolha {
-    margin-bottom: -11%;
-    margin-left: 4%;
-    font-size: 16px;
-    flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-    align-items: left;
-    margin-top: 1%;
-    margin-right: 2%; /* Espaçamento entre o radio button e o texto */
-    display: flex; /* Torna o container um flex container */
-
-  }
-
-
-
-   /*ok*/
-
-  .fraseForm {
-    font-size: 18px;
-    color: #ca4507;
-    margin-bottom: 4%;
-    margin-left: 3%;
-  }
-
- 
 
  /*ok*/
-.radio-container input[type="radio"],
-.radio-container,
-.radio-group {
-  margin-left: 3%;
-  margin-top: 2%;
+
+.escolha {
+  margin-bottom: -10%;
+  margin-left: 4%;
+  font-size: 17px;
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
   align-items: left;
-  margin-bottom: 1%;
-  font-size: 16px;
+  margin-top: 1%;
+  margin-right: 2%;
+  display: flex; 
+  }
+
+ /*ok*/
+
+.fraseForm {
+  font-size: 20px;
+  color: #ca4507;
+  margin-bottom: 4%;
+  margin-left: 3%;
+  }
+
+
+ /*ok*/
+.radio-container input[type="radio"], .radio-container{
+  margin-bottom: 2%;
+  margin-top: 3%;
+  margin-left: 1%;
+  display: flex; 
+  align-items: left;
   margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  font-size: 16px;
+}
+
+.radio-container input[type="radio"]{
+  width: 15px; /* Largura do ponto central */
+  height: 15px; /* Altura do ponto central */
+  margin-bottom: 3%;
+}
+
+ /*ok*/
+
+.radio-group {
+  margin-top: 2%;
+  margin-bottom: -3%;
   display: flex; /* Torna o container um flex container */
   flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
   justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
-
 }
+
 
  /*ok*/
 .bordaForm {
   padding: 8px 10px;
-  width: 95%;
+  width:89%;
+}
+
+.logo1 {
+  width: 10%; /* Ajustando o tamanho do logotipo */
+  margin-right: 10px; /* Adicionando margem à direita */
+}
+
+.titulo {
+  font-size: 20px; /* Reduzindo o tamanho da fonte do título */
+  padding: 10px; /* Ajustando o padding */
+}
+
+
+.menu-container{
+  position: absolute;
+  top: 7%;
+  right: 8px;
+  z-index: 2;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(53, 3, 3);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  padding: 3px 10px;                                                    
+  word-spacing: 8px; 
+  display: inline-block;
+}
+
+.bemVindo{
+  font-size: 14px;
+  text-align: justify;
+  margin-left: 3%;
+  white-space: normal;
+  line-height: 1.5;
+  margin-bottom: 3%;   
+  margin-top: 1%;
+  font-family: Arial, Helvetica, sans-serif; 
+  margin-right: 8%;
+}
+
+/* frases "soltas" da pagina*/
+.frase {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 6%; 
+  margin-left: 3%;
+  line-height: 1.5;
+  margin-right: 10%;
+  text-align: justify;
+  margin-top: 6%;
+}
+
+/*frase solicitando para clicar*/
+.clique {
+  margin-left: 3%;
+  font-size: 16px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5%;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
+
+
+/*BOTÕES */
+
+/*botão para musicas no Youtube e para o formulário*/
+.button1 { 
+  text-decoration: none;                                                /* Remove o sublinhado */
+  padding: 8px 15px;                                                   /* Adiciona preenchimento ao botão */
+  background-color: #f76e11; 
+  color: #fff;
+  border-radius: 5px;                                                   /* Adiciona bordas arredondadas ao botão */
+  display: inline-block;                                                /* Garante que o botão se comporte como um elemento de bloco */
+  font-size: 16px;
+  margin-bottom: 5px;                                                   /* Espaçamento entre os botões */
+  margin-left: 3%;
+}
+
+.creditosImg{
+  margin-left: 3%;
+  font-size: 14px;
+  text-decoration: none;
+  float: none; 
+  text-align: center; 
+  margin: 10px auto;                                                      /* Adiciona espaçamento acima e abaixo dos créditos */
+  font-size: 15px;
+  display: block;   
+}
+
+/*imagens da pagina Home*/
+.image2 {
+  float: none;                                                                /* Remove qualquer flutuação */
+  margin-right:5%;                                                   
+  width: 269px;
+  margin-left: 5%; 
+  margin-bottom: 40px;   
+  margin-top: 5%; 
+  height: 200px;
+  display: block;
+}
+
+ /* cor de fundo que envolve os textos da pagina Home*/
+ .planoDeFundo{
+  background-color: #e5c89b;
+  overflow: hidden; 
+  margin-right: 9%; 
+  margin-left: 3%;
+  margin-bottom: 4%;     
+  padding: 3px;
 }
 
 
 
 
+/* PAGINA HOME */
+
+  /*imagem e texto sobre a historia da culinaria*/
+  .historia {
+    overflow: hidden;                                                     /* Limpa o float */
+    margin-right: 2%;                                                    
+    margin-left: 2%;
+    margin-bottom: 7%;     
+    margin-top: 18px;
+    line-height: 1.5;
+  }
+  
+
+  p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
+    margin-right: 6%;
+    margin-left: 3%;
+    line-height: 1.7;
+  }
+  
+  
+  /*tutulos dos textos */
+h1 {
+  background-color:rgb(207, 115, 62); 
+  margin-left: 3%;                          
+  text-align: left;                                                 
+  font-size: 18px;                                                  
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px;
+  margin-bottom: 2%; 
+  margin-right: 25%;
+  margin-top: 7%;   
+  }
+
+
+
+
+/*CRIADO POR..*/
+.footer-content {
+  background-color: #f76e11;
+  padding: 3px 0;                                          
+  text-align: center;
+}
+
+.criado {
+  color: #fff; 
+  display: inline-block; 
+  vertical-align: middle;                                             
+  margin: 0 auto;                                                  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+  /*Linkedin*/
+.linkedin {
+  color: #240cac;
+  width: 15px;                                                              /* Largura do ponto central */
+  height: 15px;                                                             /* Altura do ponto central */
+  margin-bottom: -1%;
+  margin-right: 6px;
+  }
+
+.github {
+  color: black;
+  width: 15px; /* Largura do ponto central */
+  height: 15px; /* Altura do ponto central */
+  margin-bottom: -1%;
+  }
+
+
+.imagemInicial,
+.imagemReceitas,
+.imagemDicas,
+.imagemLocal,
+.imagemForm {
+  height: 60px;                                                                   /* Reduzindo a altura das imagens */
+  width: 100%;
+}
+  
+.faixa {
+  width: 100%;
+  padding: 8px; 
+  }
 
 
 
@@ -801,6 +967,72 @@ textarea  {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****CONTINUAR ********/
+
+
+
+
+
+
+  
+ 
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-content {
+  padding: 5px 0; /* Ajustando o padding */
+}
 
 
 
@@ -855,16 +1087,98 @@ textarea  {
     padding: 10px 0;
   }
 
-  .input-submit {
-    margin-left: 0;
-  }
 
-  input[type="text"],
-  input[type="number"],
-  textarea {
-    width: 80%;
-    margin: 10px 10%;
-  }
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+
+/*formulario*/
+
+
+    /*ok*/
+
+input[type="submit"] {
+  margin-left: 3%;
+  font-size: 18px; 
+  padding: 8px 6px; /* Ajustando o padding */
+  align-items: left;
+  margin-bottom: 2%;
+}
+    
+      /*ok*/
+    
+input[type="text"],
+input[type="number"],
+textarea  {
+  width: 87%; /* Aumentando a largura */
+  margin: 4px 2%; /* Ajustando as margens */
+  font-size: 14px;
+  margin-top: 1%;
+}
+    
+    
+      /*ok*/
+.escolha {
+  margin-bottom: -7%;
+  margin-left: 3%;
+  font-size: 18px;
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  align-items: left;
+  margin-top: 1%;
+  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  display: flex; /* Torna o container um flex container */  
+}
+     
+       /*ok*/
+.fraseForm {
+  font-size: 22px;
+  margin-bottom: 4%;
+  margin-left: 3%;
+}
+    
+     
+    
+     /*ok*/
+.radio-container input[type="radio"],   .radio-container{
+  margin-bottom: 2%;
+  margin-top: 3%;
+  margin-left: 1%;
+  display: flex; /* Torna o container um flex container */
+  align-items: left;
+  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  font-size: 16px;
+}
+
+.radio-container input[type="radio"]{
+  width: 15px; /* Largura do ponto central */
+  height: 15px; /* Altura do ponto central */
+  margin-bottom: 3%;
+}
+
+
+.radio-group {
+  margin-top: 2%;
+  margin-bottom: -3%;
+  display: flex; /* Torna o container um flex container */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
+}
+    
+         /*ok*/
+.bordaForm {
+  padding: 8px 10px;
+  width:78%;
 }
 
 
@@ -872,100 +1186,10 @@ textarea  {
 
 
 
-/*formulario*/
-
-
-    /*ok*/
-
-    input[type="submit"] {
-      margin-left: 3%;
-      font-size: 16px; /* Reduzindo o tamanho da fonte */
-      padding: 12px 8px; /* Ajustando o padding */
-      align-items: left;
-      margin-bottom: 2%;
-      }
-    
-      /*ok*/
-    
-    input[type="text"],
-    input[type="number"],
-    textarea  {
-      width: 90%; /* Aumentando a largura */
-      margin: 4px 2%; /* Ajustando as margens */
-      font-size: 16px; /* Reduzindo o tamanho da fonte */
-      margin-top: 1%;
-
-    
-    }
-    
-    
-      /*ok*/
-    .escolha {
-        margin-bottom: -9%;
-        margin-left: 3%;
-        font-size: 18px;
-        flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-        align-items: left;
-        margin-top: 1%;
-        margin-right: 2%; /* Espaçamento entre o radio button e o texto */
-        display: flex; /* Torna o container um flex container */
-    
-      }
-    
-    
-    
-       /*ok*/
-    
-      .fraseForm {
-        font-size: 22px;
-        margin-bottom: 4%;
-        margin-left: 3%;
-      }
-    
-     
-    
-     /*ok*/
-    .radio-container input[type="radio"],
-    .radio-container,
-    .radio-group {
-      margin-left: 3%;
-      margin-top: 2%;
-      align-items: left;
-      margin-bottom: 1%;
-      font-size: 18px;
-      margin-right: 2%; /* Espaçamento entre o radio button e o texto */
-      display: flex; /* Torna o container um flex container */
-      flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-      justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
-    
-    }
-    
-     /*ok*/
-    .bordaForm {
-      padding: 8px 10px;
-      width: 95%;
-    }
-    
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -1009,7 +1233,336 @@ textarea  {
   input[type="text"],
   input[type="number"],
   textarea {
-    width: 70%;
+    width: 60%;
     margin: 10px 15%;
   }
+
+
+/*formulario*/
+
+
+    /*ok*/
+
+input[type="submit"] {
+  margin-left: 3%;
+  font-size: 18px; /* Reduzindo o tamanho da fonte */
+  padding: 8px 6px; /* Ajustando o padding */
+  align-items: left;
+  margin-bottom: 2%;
 }
+    
+      /*ok*/
+    
+input[type="text"],
+input[type="number"],
+textarea  {
+  width: 85%; /* Aumentando a largura */
+  margin: 4px 2%; /* Ajustando as margens */
+  font-size: 16px; /* Reduzindo o tamanho da fonte */
+  margin-top: 1%; 
+}
+        
+      /*ok*/
+.escolha {
+  margin-bottom: -7%;
+  margin-left: 3%;
+  font-size: 18px;
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  align-items: left;
+  margin-top: 1%;
+  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  display: flex; /* Torna o container um flex container */
+}
+        
+       /*ok*/
+    
+.fraseForm {
+  font-size: 24px;
+  margin-bottom: 4%;
+  margin-left: 3%;
+}
+    
+         
+     /*ok*/
+.radio-container input[type="radio"],   .radio-container{
+  margin-bottom: 2%;
+  margin-top: 3%;
+  margin-left: 1%;
+  display: flex; /* Torna o container um flex container */
+  align-items: left;
+  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  font-size: 18px;
+}
+    
+.radio-container input[type="radio"]{
+  width: 15px; /* Largura do ponto central */
+  height: 15px; /* Altura do ponto central */
+  margin-bottom: 3%;
+}
+
+
+.radio-group {
+  margin-top: 2%;
+  margin-bottom: -3%;
+  display: flex; /* Torna o container um flex container */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
+}
+    
+    
+     /*ok*/
+.bordaForm {
+  padding: 8px 10px;
+  width: 75%;
+}
+  
+    }
+
+
+    @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+      .logo1 {
+        width: 8%;
+      }
+    
+      .titulo {
+        font-size: 30px;
+        padding: 24px;
+      }
+    
+      .imagemInicial,
+      .imagemReceitas,
+      .imagemDicas,
+      .imagemLocal,
+      .imagemForm {
+        height: 120px;
+        width: 100%;
+      }
+    
+      .faixa {
+        width: 100%;
+      }
+    
+      
+    
+    
+    /*formulario*/
+    
+    
+        /*ok*/
+    
+input[type="submit"] {
+  margin-left: 3%;
+  font-size: 20px; /* Reduzindo o tamanho da fonte */
+  padding: 10px 8px; /* Ajustando o padding */
+  align-items: left;
+  margin-bottom: 2%;
+}        
+          /*ok*/
+        
+input[type="text"],
+input[type="number"],
+textarea  {
+  width: 80%; /* Aumentando a largura */
+  margin: 4px 2%; /* Ajustando as margens */
+  font-size: 16px; /* Reduzindo o tamanho da fonte */
+  margin-top: 1%;
+}
+        
+          /*ok*/
+.escolha {
+  margin-bottom: -7%;
+  margin-left: 3%;
+  font-size: 20px;
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  align-items: left;
+  margin-top: 1%;
+  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  display: flex; /* Torna o container um flex container */
+}
+                
+           /*ok*/
+.fraseForm {
+  font-size: 26px;
+  margin-bottom: 4%;
+  margin-left: 3%;
+}
+        
+                 
+         /*ok*/
+.radio-container input[type="radio"],   .radio-container{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  margin-left: 1%;
+  display: flex; /* Torna o container um flex container */
+  align-items: left;
+  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  font-size: 18px;
+}
+        
+    
+.radio-group {
+  margin-top: 5%;
+  margin-bottom: -2%;
+  display: flex; /* Torna o container um flex container */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
+}
+        
+.radio-container input[type="radio"]{
+  width: 15px; /* Largura do ponto central */
+  height: 15px; /* Altura do ponto central */  
+  margin-bottom: 2%;
+}
+        
+         /*ok*/
+.bordaForm {
+  padding: 10px 10px;
+  width: 68%;
+}
+  
+        
+
+    }
+    
+
+
+    /* Estilos específicos para desktops extra grandes (acima de 1441px) */
+@media only screen and (min-width: 1441px){
+
+  .logo1 {
+    width: 8%;
+  }
+
+  .titulo {
+    font-size: 30px;
+    padding: 24px;
+  }
+
+  .imagemInicial,
+  .imagemReceitas,
+  .imagemDicas,
+  .imagemLocal,
+  .imagemForm {
+    height: 120px;
+    width: 100%;
+  }
+
+  .faixa {
+    width: 100%;
+  }
+
+  .input-submit {
+    margin-left: 0;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 60%;
+    margin: 10px 15%;
+  }
+
+
+/*formulario*/
+
+
+    /*ok*/
+
+input[type="submit"] {
+  margin-left: 3%;
+  font-size: 22px; /* Reduzindo o tamanho da fonte */
+  padding: 10px 8px; /* Ajustando o padding */
+  align-items: left;
+  margin-bottom: 2%;
+}
+    
+      /*ok*/
+    
+input[type="text"],
+input[type="number"],
+textarea  {
+  width: 75%; /* Aumentando a largura */
+  margin: 4px 2%; /* Ajustando as margens */
+  font-size: 22px; /* Reduzindo o tamanho da fonte */
+  margin-top: 1%;
+}
+        
+      /*ok*/
+.escolha {
+  margin-bottom: -6%;
+  margin-left: 3%;
+  font-size: 28px;
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  align-items: left;
+  margin-top: 1%;
+  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  display: flex; /* Torna o container um flex container */
+}
+    
+        
+       /*ok*/
+    
+.fraseForm {
+  font-size: 36px;
+  margin-bottom: 4%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+    
+     
+    
+     /*ok*/
+.radio-container input[type="radio"],   .radio-container{
+  margin-bottom: 2%;
+  margin-top: 1%;
+  margin-left: 1%;
+  display: flex; /* Torna o container um flex container */
+  align-items: left;
+  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  font-size: 24px;
+}
+
+.radio-container input[type="radio"]{
+  width: 21px; /* Largura do ponto central */
+  height: 21px; /* Altura do ponto central */
+  margin-bottom: 1%;
+}
+
+
+
+.radio-group {
+  margin-top: 5%;
+  margin-bottom: -2%;
+  display: flex; /* Torna o container um flex container */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
+  font-size: 28px;
+}
+    
+  
+     /*ok*/
+.bordaForm {
+  padding: 10px 10px;
+  width: 75%;
+}
+
+  
+
+}
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
