@@ -73,20 +73,23 @@ h3{
 
  /*TITULO DA PAGINA*/
 .titulo{
-  font-size: 34px;
+  font-size: 40px;
   position:absolute;
-  top: 0;
   width: 100%;
-  padding: 40px;                                                              /* Opcional: para adicionar algum espaçamento interno */
+  padding: 0;                                                              /* Opcional: para adicionar algum espaçamento interno */
   color: #e7190a;
   font-weight: bolder;
   display: flex; 
   align-items: left;
   justify-content: left; 
   z-index: 1;
-  margin-top: 15px;
-
+  margin-top: 29px;
   }
+
+
+
+  
+
 
 .logo1{
   width: 7%;
@@ -97,7 +100,12 @@ h3{
   border: 2px solid #f76e11;
   margin-bottom: 1%;
   margin-top: 4px;
+  margin-left: 2%;
   }
+
+  
+  
+  
 
 
 /*IMAGENS DO CABEÇALHO DAS PAGINAS*/
@@ -166,7 +174,7 @@ h3{
 /* MENUS */
 .menu-container{
   position: absolute;
-  top: 19%;
+  top: 95px;
   right: 10px;
   z-index: 2;
 }
@@ -640,7 +648,7 @@ textarea {
 input[type="submit"] {
   margin-left: 3%;
   font-size: 14px; 
-  padding: 5px 2px;
+  padding: 5px 4px;
   align-items: left;
   margin-bottom: 1%;
   }
