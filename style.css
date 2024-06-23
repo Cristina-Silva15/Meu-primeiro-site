@@ -74,17 +74,19 @@ h3{
  /*TITULO DA PAGINA*/
 
 .titulo{
-  font-size: 35px;
+  font-size: 34px;
   position:absolute;
   top: 0;
   width: 100%;
-  padding: 48px;                                                              /* Opcional: para adicionar algum espaçamento interno */
+  padding: 40px;                                                              /* Opcional: para adicionar algum espaçamento interno */
   color: #e7190a;
   font-weight: bolder;
   display: flex; 
   align-items: left;
   justify-content: left; 
-  z-index: 1;                                                                 /* Garante que o conteúdo fique na frente  */
+  z-index: 1;
+  margin-top: 15px;
+
   }
 
 .logo1{
@@ -94,6 +96,8 @@ h3{
   margin-right: 10px;                                                       /* Espaçamento entre a imagem e o texto */
   z-index: 1;
   border: 2px solid #f76e11;
+  margin-bottom: 1%;
+  margin-top: 4px;
   }
 
 
@@ -166,7 +170,7 @@ h3{
 /* MENUS */
 .menu-container{
   position: absolute;
-  top: 15%;
+  top: 16%;
   right: 10px;
   z-index: 2;
 }
@@ -221,10 +225,19 @@ nav ul li a:hover {
   /*Linkedin*/
   .linkedin {
     color: #240cac;
+    display: inline-block; 
+    margin: 0 auto;                                                  
+    margin-left: 6px;
+    margin-top: 3px;
   }
 
   .github {
     color: black;
+    display: inline-block; 
+    margin: 0 auto;                                                  
+    margin-left: 6px;
+    margin-top: 2px;
+
   }
 
 
@@ -258,6 +271,7 @@ nav ul li a:hover {
   line-height: 1.5;
   margin-right: 10%;
   text-align: justify;
+  hyphens: auto;
 }
 
 
@@ -270,7 +284,10 @@ nav ul li a:hover {
   margin-left: 2%;
   margin-bottom: 7%;     
   margin-top: 18px;
-  line-height: 1.5;
+  line-height: 1.7;
+  text-align: justify;
+  hyphens: auto;
+
 }
 
 
@@ -278,7 +295,7 @@ nav ul li a:hover {
 .planoDeFundo{
   background-color: #e5c89b;
   overflow: hidden; 
-  margin-right: 11%; 
+  margin-right: 15%; 
   margin-left: 3%;
   margin-bottom: 4%;     
   padding: 2px;
@@ -308,7 +325,8 @@ nav ul li a:hover {
   margin-bottom: 3%;   
   margin-top: 1%;
   font-family: Arial, Helvetica, sans-serif; 
-  margin-right: 10%;
+  margin-right: 16%; 
+  hyphens: auto;
 }
 
 
@@ -530,7 +548,7 @@ input[type="submit"]:hover {
   margin-right: 2%;
   border: 1px solid #f76e11;
   display: block;
-  width: 65%;
+  width: 55%;
   box-sizing: border-box;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
@@ -552,7 +570,7 @@ textarea {
   display: block;
   margin: 10px 3%;
   padding: 8px;
-  width: 60%;
+  width: 64%;
   box-sizing: border-box;
   border-radius: 5px;
   margin-bottom: 14px;
@@ -568,6 +586,7 @@ input[type="number"]:focus,
 textarea:focus {
   border: 1px solid #f76e11; /* Borda laranja ao focar */
   outline: none; /* Remove o outline padrão */
+  
 }
 
 /* Estilizando a área de texto para dicas e receitas*/
@@ -580,22 +599,25 @@ textarea {
 .radio-group {
   display: inline-block;
   flex-direction: column;
-  margin-left: 5%;
+  margin-left: 7%;
   margin-top: 3px;
   margin-bottom: -42%;
+  
 }
 
 .radio-container {
   display: block;
   align-items: center;
-  margin-bottom: 10%;
+  margin-bottom: 22%;
   margin-left: -23%;
+  font-size: 18px;
 }
 
 
 .radio-container input[type="radio"] {
   order: -1; /* Move o rádio para antes do texto */
-  margin-right: -1%/* Espaçamento entre o rádio e o texto */
+  margin-right: 2%/* Espaçamento entre o rádio e o texto */
+  
 }
 
 
@@ -607,7 +629,7 @@ textarea {
 
 /*frase do cabeçalho do formulário*/
 .fraseForm {
-  font-size: 28px;
+  font-size: 26px;
   color: #ca4507;
   margin-bottom: 4%;
   margin-left: 3%;
@@ -674,40 +696,35 @@ textarea {
   
 
   /*formulario*/
-   /*ok*/
-
 input[type="submit"] {
   margin-left: 3%;
-  font-size: 16px; 
-  padding: 8px 4px; /* Ajustando o padding */
+  font-size: 14px; 
+  padding: 5px 2px;
   align-items: left;
   margin-bottom: 1%;
   }
 
- /*ok*/
 
 input[type="text"],
 input[type="number"],
 textarea  {
-  width: 87%; /* Aumentando a largura */
+  width: 87%;                                                                           /* Aumentando a largura */
   margin: 4px 2%; 
   font-size: 14px;
   }
 
- /*ok*/
 
 .escolha {
   margin-bottom: -10%;
   margin-left: 4%;
   font-size: 17px;
-  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+  flex-wrap: wrap;                                                      /* Permite que os itens quebrem linha quando não couberem mais */
   align-items: left;
   margin-top: 1%;
   margin-right: 2%;
   display: flex; 
   }
 
- /*ok*/
 
 .fraseForm {
   font-size: 20px;
@@ -717,49 +734,52 @@ textarea  {
   }
 
 
- /*ok*/
 .radio-container input[type="radio"], .radio-container{
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   margin-top: 3%;
   margin-left: 1%;
   display: flex; 
   align-items: left;
-  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+  margin-right: 2%;                                                           /* Espaçamento entre o radio button e o texto */
   font-size: 16px;
 }
 
+
 .radio-container input[type="radio"]{
-  width: 15px; /* Largura do ponto central */
-  height: 15px; /* Altura do ponto central */
-  margin-bottom: 3%;
+  width: 15px;                                                                        /* Largura do ponto central */
+  height: 15px;                                                                         /* Altura do ponto central */
+  margin-bottom: 4%;
 }
 
- /*ok*/
 
 .radio-group {
   margin-top: 2%;
   margin-bottom: -3%;
-  display: flex; /* Torna o container um flex container */
-  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-  justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
+  display: flex;
+  flex-wrap: wrap;                                                /* Permite que os itens quebrem linha quando não couberem mais */
+  justify-content: flex-start;                                        /* Alinha os itens no início do container */
 }
 
 
- /*ok*/
 .bordaForm {
   padding: 8px 10px;
   width:89%;
 }
 
+
+
+/*PAGINA INICIAL*/
 .logo1 {
-  width: 10%; /* Ajustando o tamanho do logotipo */
-  margin-right: 10px; /* Adicionando margem à direita */
+  width: 10%;
+  margin-right: 10px; 
 }
 
+
 .titulo {
-  font-size: 20px; /* Reduzindo o tamanho da fonte do título */
-  padding: 10px; /* Ajustando o padding */
+  font-size: 14px; 
+  padding: 5px; 
 }
+
 
 
 .menu-container{
@@ -775,22 +795,24 @@ nav ul li a {
   color: rgb(53, 3, 3);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 16px;
-  padding: 3px 10px;                                                    
-  word-spacing: 8px; 
+  font-size: 14px;
+  padding: 5px 1px;                                                    
+  word-spacing: 3px; 
   display: inline-block;
 }
 
+
 .bemVindo{
-  font-size: 14px;
-  text-align: justify;
+  font-size: 16px;
+  text-align:justify;
   margin-left: 3%;
   white-space: normal;
-  line-height: 1.5;
+  line-height: 1.7;
   margin-bottom: 3%;   
   margin-top: 1%;
   font-family: Arial, Helvetica, sans-serif; 
   margin-right: 8%;
+  hyphens: auto;                                                              /* diminui as lacunas entre as palavras do texto */
 }
 
 /* frases "soltas" da pagina*/
@@ -800,12 +822,13 @@ nav ul li a {
   margin-bottom: 6%; 
   margin-left: 3%;
   line-height: 1.5;
-  margin-right: 10%;
+  margin-right: 9%;
   text-align: justify;
   margin-top: 6%;
+  hyphens: auto; 
 }
 
-/*frase solicitando para clicar*/
+
 .clique {
   margin-left: 3%;
   font-size: 16px;
@@ -814,22 +837,21 @@ nav ul li a {
   margin-bottom: 5%;
   font-weight: bold;
   margin-top: 3%;
+  margin-right: 9%;
 }
 
 
-
 /*BOTÕES */
-
 /*botão para musicas no Youtube e para o formulário*/
 .button1 { 
-  text-decoration: none;                                                /* Remove o sublinhado */
-  padding: 8px 15px;                                                   /* Adiciona preenchimento ao botão */
+  text-decoration: none;                                               
+  padding: 8px 15px;                                                  
   background-color: #f76e11; 
   color: #fff;
-  border-radius: 5px;                                                   /* Adiciona bordas arredondadas ao botão */
+  border-radius: 5px;                                                   
   display: inline-block;                                                /* Garante que o botão se comporte como um elemento de bloco */
-  font-size: 16px;
-  margin-bottom: 5px;                                                   /* Espaçamento entre os botões */
+  font-size: 14px;
+  margin-bottom: 8px;                                                  
   margin-left: 3%;
 }
 
@@ -847,8 +869,8 @@ nav ul li a {
 /*imagens da pagina Home*/
 .image2 {
   float: none;                                                                /* Remove qualquer flutuação */
-  margin-right:5%;                                                   
-  width: 269px;
+  margin-right:8%;                                                   
+  width: 259px auto;
   margin-left: 5%; 
   margin-bottom: 40px;   
   margin-top: 5%; 
@@ -857,7 +879,7 @@ nav ul li a {
 }
 
  /* cor de fundo que envolve os textos da pagina Home*/
- .planoDeFundo{
+.planoDeFundo{
   background-color: #e5c89b;
   overflow: hidden; 
   margin-right: 9%; 
@@ -867,18 +889,14 @@ nav ul li a {
 }
 
 
-
-
-/* PAGINA HOME */
-
   /*imagem e texto sobre a historia da culinaria*/
-  .historia {
-    overflow: hidden;                                                     /* Limpa o float */
-    margin-right: 2%;                                                    
-    margin-left: 2%;
-    margin-bottom: 7%;     
-    margin-top: 18px;
-    line-height: 1.5;
+.historia {
+  overflow: hidden;                                                    
+  margin-right: 2%;                                                    
+  margin-left: 2%;
+  margin-bottom: 7%;     
+  margin-top: 18px;
+  line-height: 1.5;
   }
   
 
@@ -889,6 +907,8 @@ nav ul li a {
     margin-right: 6%;
     margin-left: 3%;
     line-height: 1.7;
+    hyphens: auto; 
+    text-align: justify;
   }
   
   
@@ -906,8 +926,6 @@ h1 {
   }
 
 
-
-
 /*CRIADO POR..*/
 .footer-content {
   background-color: #f76e11;
@@ -921,24 +939,32 @@ h1 {
   vertical-align: middle;                                             
   margin: 0 auto;                                                  
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin-right: 8px;
 }
 
   /*Linkedin*/
 .linkedin {
   color: #240cac;
-  width: 15px;                                                              /* Largura do ponto central */
-  height: 15px;                                                             /* Altura do ponto central */
+  width: 15px;                                                             
+  height: 15px;                                                            
   margin-bottom: -1%;
-  margin-right: 6px;
+  margin-right: 9px;
+  display: inline-block; 
+  margin: 0 auto;                                                  
+  margin-left: 6px;
+  margin-top: 4px;
   }
+
 
 .github {
   color: black;
-  width: 15px; /* Largura do ponto central */
-  height: 15px; /* Altura do ponto central */
+  width: 15px;
+  height: 15px; 
   margin-bottom: -1%;
+  margin: 0 auto;                                                  
+  margin-left: 6px;
+  margin-top: 4px;
   }
 
 
@@ -954,7 +980,7 @@ h1 {
 .faixa {
   width: 100%;
   padding: 8px; 
-  }
+}
 
 
 
@@ -1030,9 +1056,6 @@ h1 {
 
 
 
-.footer-content {
-  padding: 5px 0; /* Ajustando o padding */
-}
 
 
 
@@ -1052,138 +1075,311 @@ h1 {
 
 /* Media Queries para Modo Paisagem e Tablet */
 @media only screen and (min-width: 481px) and  (max-width: 768px) {
-  .logo1 {
-    width: 10%;
+
+ /*formulario*/
+
+   input[type="submit"] {
+    margin-left: 3%;
+    font-size: 16px; 
+    padding: 6px 2px; /* Ajustando o padding */
+    align-items: left;
+    margin-bottom: 1%;
+  }
+  
+  
+  input[type="text"],
+  input[type="number"],
+  textarea  {
+    width: 80%; /* Aumentando a largura */
+    margin: 4px 2%; 
+    font-size: 14px;
+  }
+  
+  
+  .escolha {
+    margin-bottom: -10%;
+    margin-left: 4%;
+    font-size: 17px;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+    align-items: left;
+    margin-top: 1%;
+    margin-right: 2%;
+    display: flex; 
+  }
+  
+  
+  .fraseForm {
+    font-size: 20px;
+    color: #ca4507;
+    margin-bottom: 4%;
+    margin-left: 3%;
+  }
+  
+  
+  .radio-container input[type="radio"], .radio-container{
+    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-left: 1%;
+    display: flex; 
+    align-items: left;
+    margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+    font-size: 16px;
   }
 
-  nav ul {
-    justify-content: center;
-    margin-right: 0;
+  
+  .radio-container input[type="radio"]{
+    width: 15px; /* Largura do ponto central */
+    height: 15px; /* Altura do ponto central */
+    margin-bottom: 4%;
   }
-
-  .button1 {
-    margin-left: 0;
+  
+  
+  .radio-group {
+    margin-top: 4%;
+    margin-bottom: -4%;
+    display: flex; /* Torna o container um flex container */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
+    justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
   }
-
-  .titulo {
-    font-size: 30px;
-    padding: 24px;
+  
+  
+  .bordaForm {
+    padding: 8px 10px;
+    width: 80%;
   }
-
-  .imagemInicial,
-  .imagemReceitas,
-  .imagemDicas,
-  .imagemLocal,
-  .imagemForm {
-    height: 100px;
-    width: 100%;
-  }
-
-  .faixa {
-    width: 100%;
-  }
-
-  .footer-content {
-    padding: 10px 0;
-  }
+  
 
 
 
+/* PAGINA HOME */
+.logo1 {
+  width: 7%;
+  margin-right: 10px; 
+  border-radius: 47% 47% 2% 22% ;                                           
+  margin-right: 10px;                                                  
+  z-index: 1;
+  margin-bottom: 1%;
+  margin-left: 2%;
+}
+
+.titulo {
+  font-size: 22px; 
+  padding: 0; 
+  margin-top: 3%;
+  position:absolute;
+  z-index: 1;
+}
 
 
+.menu-container{
+  position: absolute;
+  top: 9%;
+  right: 12px;
+  z-index: 2;
+}
 
 
+nav ul li a {
+  text-decoration: none;
+  color: rgb(53, 3, 3);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  padding: 5px 12px;                                                    
+  word-spacing: 5px; 
+  display: inline-block;
+}
 
 
-
-
-
- 
- 
-
- 
-
-/*formulario*/
-
-
-    /*ok*/
-
-input[type="submit"] {
+.bemVindo{
+  font-size: 18px;
+  text-align: justify;
   margin-left: 3%;
-  font-size: 18px; 
-  padding: 8px 6px; /* Ajustando o padding */
-  align-items: left;
-  margin-bottom: 2%;
-}
-    
-      /*ok*/
-    
-input[type="text"],
-input[type="number"],
-textarea  {
-  width: 87%; /* Aumentando a largura */
-  margin: 4px 2%; /* Ajustando as margens */
-  font-size: 14px;
+  white-space: normal;
+  line-height: 1.7;
+  margin-bottom: 3%;   
   margin-top: 1%;
+  font-family: Arial, Helvetica, sans-serif; 
+  margin-right: 11%;
+  hyphens: auto;                                                              /* diminui as lacunas entre as palavras do texto */
 }
-    
-    
-      /*ok*/
-.escolha {
-  margin-bottom: -7%;
+
+
+.frase {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 6%; 
+  margin-left: 3%;
+  line-height: 1.7;
+  margin-right: 10%;
+  text-align: justify;
+  margin-top: 5%;
+  hyphens: auto; 
+}
+
+
+.clique {
   margin-left: 3%;
   font-size: 18px;
-  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-  align-items: left;
-  margin-top: 1%;
-  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
-  display: flex; /* Torna o container um flex container */  
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5%;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-right: 9%;
 }
-     
-       /*ok*/
-.fraseForm {
-  font-size: 22px;
-  margin-bottom: 4%;
+
+
+
+/*BOTÕES */
+/*botão para musicas no Youtube e para o formulário*/
+.button1 { 
+  text-decoration: none;                                                
+  padding: 8px 15px;                                                   
+  background-color: #f76e11; 
+  color: #fff;
+  border-radius: 5px;                                                  
+  display: inline-block;                                               
+  font-size: 16px;
+  margin-bottom: 8px;                                                 
   margin-left: 3%;
 }
-    
-     
-    
-     /*ok*/
-.radio-container input[type="radio"],   .radio-container{
-  margin-bottom: 2%;
-  margin-top: 3%;
-  margin-left: 1%;
-  display: flex; /* Torna o container um flex container */
-  align-items: left;
-  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
+
+
+.creditosImg{
+  margin-left: 3%;
   font-size: 16px;
-}
-
-.radio-container input[type="radio"]{
-  width: 15px; /* Largura do ponto central */
-  height: 15px; /* Altura do ponto central */
-  margin-bottom: 3%;
-}
-
-
-.radio-group {
-  margin-top: 2%;
-  margin-bottom: -3%;
-  display: flex; /* Torna o container um flex container */
-  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-  justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
-}
-    
-         /*ok*/
-.bordaForm {
-  padding: 8px 10px;
-  width:78%;
+  text-decoration: none;
+  float: none; 
+  text-align: center; 
+  margin: 10px auto;                                                      
+  font-size: 15px;
+  display: block;   
 }
 
 
+/*imagens da pagina Home*/
+.image2 {
+  float: none;                                                             
+  margin-right:8%;                                                   
+  width: 259px;
+  margin-left: 5%; 
+  margin-bottom: 40px;   
+  margin-top: 5%; 
+  height: 220px;
+  display: block;
+}
 
 
+ /* cor de fundo que envolve os textos da pagina Home*/
+ .planoDeFundo{
+  background-color: #e5c89b;
+  overflow: hidden; 
+  margin-right: 9%; 
+  margin-left: 3%;
+  margin-bottom: 4%;     
+  padding: 3px;
+}
+
+
+  /*imagem e texto sobre a historia da culinaria*/
+.historia {
+  overflow: hidden;                                                  
+  margin-right: 1%;                                                    
+  margin-left: 2%;
+  margin-bottom: 7%;     
+  margin-top: 18px;
+  }
+  
+
+  p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
+    margin-right: 4%;
+    margin-left: 3%;
+    line-height: 1.7;
+    hyphens: auto; 
+    text-align: justify;
+  }
+  
+  
+  /*titulos dos textos */
+h1 {
+  background-color:rgb(207, 115, 62); 
+  margin-left: 3%;                          
+  text-align: left;                                                 
+  font-size: 20px;                                                  
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px;
+  margin-bottom: 2%; 
+  margin-right: 25%;
+  margin-top: 7%;   
+}
+
+
+/*CRIADO POR..*/
+.footer-content {
+  background-color: #f76e11;
+  padding: 3px 0;                                          
+  text-align: center;
+}
+
+
+.criado {
+  color: #fff; 
+  display: inline-block; 
+  vertical-align: middle;                                             
+  margin: 0 auto;                                                  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+  /*Linkedin*/
+.linkedin {
+  color: #240cac;
+  width: 17px;                                                            
+  height: 17px;                                                             
+  margin-bottom: -1%;
+  margin-right: 9px;
+  display: inline-block; 
+  margin: 0 auto;                                                  
+  margin-left: 6px;
+  }
+
+
+.github {
+  color: black;
+  width: 17px; 
+  height: 17px; 
+  margin-bottom: -1%;
+  display: inline-block; 
+  margin: 0 auto;                                                  
+  margin-left: 6px;
+  }
+
+
+.imagemInicial,
+.imagemReceitas,
+.imagemDicas,
+.imagemLocal,
+.imagemForm {
+  height: 80px;                                                                   
+  width: 100%;
+}
+  
+.faixa {
+  width: 100%;
+  padding: 8px; 
+  }
+
+
+
+
+ 
+
+ 
 
 
 
@@ -1248,7 +1444,7 @@ input[type="submit"] {
   font-size: 18px; /* Reduzindo o tamanho da fonte */
   padding: 8px 6px; /* Ajustando o padding */
   align-items: left;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
     
       /*ok*/
@@ -1256,7 +1452,7 @@ input[type="submit"] {
 input[type="text"],
 input[type="number"],
 textarea  {
-  width: 85%; /* Aumentando a largura */
+  width: 75%; /* Aumentando a largura */
   margin: 4px 2%; /* Ajustando as margens */
   font-size: 16px; /* Reduzindo o tamanho da fonte */
   margin-top: 1%; 
@@ -1278,14 +1474,15 @@ textarea  {
     
 .fraseForm {
   font-size: 24px;
-  margin-bottom: 4%;
+  margin-bottom: 5%;
   margin-left: 3%;
+  margin-top: 4%;
 }
     
          
      /*ok*/
 .radio-container input[type="radio"],   .radio-container{
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   margin-top: 3%;
   margin-left: 1%;
   display: flex; /* Torna o container um flex container */
@@ -1293,6 +1490,11 @@ textarea  {
   margin-right: 2%; /* Espaçamento entre o radio button e o texto */
   font-size: 18px;
 }
+
+
+
+
+
     
 .radio-container input[type="radio"]{
   width: 15px; /* Largura do ponto central */
@@ -1313,242 +1515,39 @@ textarea  {
      /*ok*/
 .bordaForm {
   padding: 8px 10px;
-  width: 75%;
+  width: 70%;
 }
   
     }
 
 
-    @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-      .logo1 {
-        width: 8%;
-      }
-    
-      .titulo {
-        font-size: 30px;
-        padding: 24px;
-      }
-    
-      .imagemInicial,
-      .imagemReceitas,
-      .imagemDicas,
-      .imagemLocal,
-      .imagemForm {
-        height: 120px;
-        width: 100%;
-      }
-    
-      .faixa {
-        width: 100%;
-      }
-    
-      
-    
-    
-    /*formulario*/
-    
-    
-        /*ok*/
-    
-input[type="submit"] {
-  margin-left: 3%;
-  font-size: 20px; /* Reduzindo o tamanho da fonte */
-  padding: 10px 8px; /* Ajustando o padding */
-  align-items: left;
-  margin-bottom: 2%;
-}        
-          /*ok*/
-        
-input[type="text"],
-input[type="number"],
-textarea  {
-  width: 80%; /* Aumentando a largura */
-  margin: 4px 2%; /* Ajustando as margens */
-  font-size: 16px; /* Reduzindo o tamanho da fonte */
-  margin-top: 1%;
-}
-        
-          /*ok*/
-.escolha {
-  margin-bottom: -7%;
-  margin-left: 3%;
-  font-size: 20px;
-  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-  align-items: left;
-  margin-top: 1%;
-  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
-  display: flex; /* Torna o container um flex container */
-}
-                
-           /*ok*/
-.fraseForm {
-  font-size: 26px;
-  margin-bottom: 4%;
-  margin-left: 3%;
-}
-        
-                 
-         /*ok*/
-.radio-container input[type="radio"],   .radio-container{
-  margin-bottom: 3%;
-  margin-top: 1%;
-  margin-left: 1%;
-  display: flex; /* Torna o container um flex container */
-  align-items: left;
-  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
-  font-size: 18px;
-}
-        
-    
-.radio-group {
-  margin-top: 5%;
-  margin-bottom: -2%;
-  display: flex; /* Torna o container um flex container */
-  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-  justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
-}
-        
-.radio-container input[type="radio"]{
-  width: 15px; /* Largura do ponto central */
-  height: 15px; /* Altura do ponto central */  
-  margin-bottom: 2%;
-}
-        
-         /*ok*/
-.bordaForm {
-  padding: 10px 10px;
-  width: 68%;
-}
-  
-        
-
-    }
-    
-
-
-    /* Estilos específicos para desktops extra grandes (acima de 1441px) */
-@media only screen and (min-width: 1441px){
-
-  .logo1 {
-    width: 8%;
-  }
-
-  .titulo {
-    font-size: 30px;
-    padding: 24px;
-  }
-
-  .imagemInicial,
-  .imagemReceitas,
-  .imagemDicas,
-  .imagemLocal,
-  .imagemForm {
-    height: 120px;
-    width: 100%;
-  }
-
-  .faixa {
-    width: 100%;
-  }
-
-  .input-submit {
-    margin-left: 0;
-  }
-
-  input[type="text"],
-  input[type="number"],
-  textarea {
-    width: 60%;
-    margin: 10px 15%;
-  }
-
-
-/*formulario*/
-
-
-    /*ok*/
-
-input[type="submit"] {
-  margin-left: 3%;
-  font-size: 22px; /* Reduzindo o tamanho da fonte */
-  padding: 10px 8px; /* Ajustando o padding */
-  align-items: left;
-  margin-bottom: 2%;
-}
-    
-      /*ok*/
-    
-input[type="text"],
-input[type="number"],
-textarea  {
-  width: 75%; /* Aumentando a largura */
-  margin: 4px 2%; /* Ajustando as margens */
-  font-size: 22px; /* Reduzindo o tamanho da fonte */
-  margin-top: 1%;
-}
-        
-      /*ok*/
-.escolha {
-  margin-bottom: -6%;
-  margin-left: 3%;
-  font-size: 28px;
-  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-  align-items: left;
-  margin-top: 1%;
-  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
-  display: flex; /* Torna o container um flex container */
-}
-    
-        
-       /*ok*/
-    
-.fraseForm {
-  font-size: 36px;
-  margin-bottom: 4%;
-  margin-left: 3%;
-  margin-top: 2%;
-}
-    
-     
-    
-     /*ok*/
-.radio-container input[type="radio"],   .radio-container{
-  margin-bottom: 2%;
-  margin-top: 1%;
-  margin-left: 1%;
-  display: flex; /* Torna o container um flex container */
-  align-items: left;
-  margin-right: 2%; /* Espaçamento entre o radio button e o texto */
-  font-size: 24px;
-}
-
-.radio-container input[type="radio"]{
-  width: 21px; /* Largura do ponto central */
-  height: 21px; /* Altura do ponto central */
-  margin-bottom: 1%;
-}
 
 
 
-.radio-group {
-  margin-top: 5%;
-  margin-bottom: -2%;
-  display: flex; /* Torna o container um flex container */
-  flex-wrap: wrap; /* Permite que os itens quebrem linha quando não couberem mais */
-  justify-content: flex-start; /* Alinha os itens no início do container (esquerda) */
-  font-size: 28px;
-}
-    
-  
-     /*ok*/
-.bordaForm {
-  padding: 10px 10px;
-  width: 75%;
-}
 
-  
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
