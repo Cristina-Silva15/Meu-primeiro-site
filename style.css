@@ -83,16 +83,12 @@ h3{
   align-items: left;
   justify-content: left; 
   z-index: 1;
-  margin-top: 29px;
+  margin-top: 40px;
   }
 
 
-
-  
-
-
 .logo1{
-  width: 7%;
+  width: 87px;
   border-radius: 47% 47% 2% 22% ;                                           /*bordas do logotipo*/
   height: auto;                                                             /* Altura automática para manter a proporção */
   margin-right: 10px;                                                       /* Espaçamento entre a imagem e o texto */
@@ -102,11 +98,8 @@ h3{
   margin-top: 4px;
   margin-left: 2%;
   }
-
+ 
   
-  
-  
-
 
 /*IMAGENS DO CABEÇALHO DAS PAGINAS*/
 .imagemInicial{
@@ -136,7 +129,6 @@ h3{
   width: 1349px;
   background-size: cover;                                                   /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
   padding: 11px;
-  background-position: 50% 50%;
   background-color: #ff9f45;
   opacity: 59%;
 }
@@ -146,11 +138,11 @@ h3{
   height: 135px;                                                           /* Altura desejada para o cabeçalho */
   width: 1349px;
   background-size: cover;                                                 /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
-  background-position: 50% 40%; 
   background-color: #ff9f45;
   opacity: 59%;
  }
  
+
 .imagemForm {
   margin-top: 0;
   background-image: url(imagens\ do\ site/formulario.png);
@@ -174,9 +166,10 @@ h3{
 /* MENUS */
 .menu-container{
   position: absolute;
-  top: 95px;
+  top: 90px;
   right: 10px;
   z-index: 2;
+ 
 }
 
 nav ul {
@@ -184,11 +177,12 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 7px;                                                               /* Espaçamento entre os itens do menu */
+  gap: 7px;                                                                /* Espaçamento entre os itens do menu */
 }
 
 nav ul li {
   margin: 0;
+
 }
 
 nav ul li a {
@@ -200,8 +194,8 @@ nav ul li a {
   display: inline;
   padding: 3px 10px;                                                    
   word-spacing: 40px; 
-  display: inline-block;
   
+
 }
 
 nav ul li a:hover {
@@ -437,18 +431,6 @@ nav ul li a:hover {
 }
 
 
-/*imagem do site Tudo Gostoso*/
-.imgTd {
-  margin-left: 3%;
-  width: 14%;
-  height: 130px;
-  background-size: cover; 
-  border-radius: 10%;
-  border: 3px solid #f76e11;
-}
-
-
-
 /*PAGINA LOCAL */
 .mapa iframe {
   margin-left: 3%;
@@ -531,10 +513,10 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
   margin-left: 3%;
-  width: 12%;                                                               /* Define uma largura específica para o botão */
+  width: 72px;                                                               /* Define uma largura específica para o botão */
   border-radius: 5px;
   font-size: 16px;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 input[type="submit"]:hover {
@@ -640,18 +622,24 @@ textarea {
 
 
 
+
+
 /* Media Queries para celular */
 @media only screen and (max-width: 480px) {
   
 
   /*formulario*/
 input[type="submit"] {
+  padding: 8px 8px;
+  border: none;
+  cursor: pointer;
   margin-left: 3%;
-  font-size: 14px; 
-  padding: 5px 4px;
-  align-items: left;
-  margin-bottom: 1%;
+  width: 65px;                                                               /* Define uma largura específica para o botão */
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5%;
   }
+
 
 
 input[type="text"],
@@ -719,7 +707,7 @@ textarea  {
 
 /*PAGINA INICIAL*/
 .logo1 {
-  width: 11%;
+  width: 41px;
   z-index: 1;
   margin-left: 1%;
   flex-wrap: wrap;                                                /* Permite que os itens quebrem linha quando não couberem mais */
@@ -732,7 +720,7 @@ textarea  {
 
 
 .titulo {
-  font-size: 16px; 
+  font-size: 18px; 
   padding: 2px; 
   margin-top: 1%;
   margin-left: 1%;
@@ -759,7 +747,7 @@ nav ul li a {
   font-weight: bolder;
   font-size: 14px;
   padding: 5px 1px;                                                    
-  word-spacing: 3px; 
+  word-spacing: 5px; 
   display: inline-block;
 }
 
@@ -832,7 +820,7 @@ nav ul li a {
 .image2 {
   float: none;                                                              
   margin-right:8%;                                                   
-  width: 259px auto;
+  width: 70%;
   margin-left: 5%; 
   margin-bottom: 40px;   
   margin-top: 5%; 
@@ -947,8 +935,8 @@ h1 {
 
 /* PAGINA DE DICAS*/
 .video iframe { 
-  width: 260px; 
-  height: 190px; 
+  width: 85%; 
+  height: 210px; 
   object-fit: cover;                                                        /* ajusta o vídeo dentro da área especificada */
   margin-left: 3%;
   margin-bottom: 10px;
@@ -985,10 +973,10 @@ h1 {
   float: none;                                                              
   margin-right:8%;                                                   
   margin-top: 5%; 
-  height: 140%;
+  height: 200px;
   margin-bottom: 10px;
   margin-left: 2%;
-  width:80%; 
+  width:72%; 
   display: block;
 }
 
@@ -1035,27 +1023,20 @@ h1 {
 }
 
 
-/*imagem do site Tudo Gostoso*/
-.imgTd {
-  width: 110px;
-  height: 95px;
-}
-
-
 /*PAGINA LOCAL */
 .mapa iframe {
   margin-left: 3%;
   margin-bottom: 3%; 
-  width:90%; 
-  height: 25%;
+  width: 80%; 
+  height: 200px;
   float: none;                                                               
   margin-top: 6%; 
   margin-bottom: 16px;
   display: block;
   margin-right:8%;                                                   
 }
-
 }
+
 
 
 
@@ -1068,9 +1049,10 @@ h1 {
 input[type="submit"] {
   margin-left: 3%;
   font-size: 16px; 
-  padding: 6px 2px; /* Ajustando o padding */
+  padding: 8px 2px; /* Ajustando o padding */
   align-items: left;
   margin-bottom: 1%;
+  width: 63px;
 }
   
   
@@ -1138,19 +1120,19 @@ textarea  {
 
 /* PAGINA HOME */
 .logo1 {
-  width: 7%;
-  margin-right: 10px; 
+  width: 45px;
   border-radius: 47% 47% 2% 22% ;                                           
-  margin-right: 10px;                                                  
+  margin-right: 8px;                                                  
   z-index: 1;
-  margin-bottom: 1%;
+  margin-bottom: 8px;
   margin-left: 2%;
+
 }
 
 .titulo {
-  font-size: 22px; 
+  font-size: 20px; 
   padding: 0; 
-  margin-top: 3%;
+  margin-top: 27px;
   position:absolute;
   z-index: 1;
 }
@@ -1158,8 +1140,8 @@ textarea  {
 
 .menu-container{
   position: absolute;
-  top: 9%;
-  right: 12px;
+  top: 49px;
+  right: 8px;
   z-index: 2;
 }
 
@@ -1169,9 +1151,8 @@ nav ul li a {
   color: rgb(53, 3, 3);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 22px;
-  padding: 5px 12px;                                                    
-  word-spacing: 5px; 
+  font-size: 20px;
+  padding: 5px 9px;                                                    
   display: inline-block;
 }
 
@@ -1361,8 +1342,8 @@ h1 {
  
 /* PAGINA DE DICAS*/
 .video iframe { 
-  width: 90%; 
-  height: 390px; 
+  width: 70%; 
+  height: 285px; 
   object-fit: cover;                                                        /* ajusta o vídeo dentro da área especificada */
   margin-left: 3%;
   margin-bottom: 4px;
@@ -1376,7 +1357,7 @@ h1 {
   display: inline-table;
   box-sizing: border-box;
   font-size: 18px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   padding: 8px 10px;
   border-radius: 4px;
   margin-left: 3%;
@@ -1396,10 +1377,10 @@ h1 {
 .imgAreceita {
   margin-right:8%;                                                   
   margin-top: 5%; 
-  height: 70%;
+  height: 170px;
   margin-bottom: 10px;
   margin-left: 3%;
-  width:50%; 
+  width:252px; 
 }
 
 
@@ -1443,25 +1424,20 @@ h1 {
 }
 
 
-/*imagem do site Tudo Gostoso*/
-.imgTd {
-  width: 110px;
-  height: 95px;
-}
-
 
 /*PAGINA LOCAL */
 .mapa iframe {
   margin-left: 3%;
-  width:90%; 
-  height: 200px;
+  width:85%; 
+  height: 220px;
   float: none;                                                               
   margin-top: 3%; 
   margin-bottom: 16px;
   margin-right:8%;                                                   
 }
-
 }
+
+
 
 
 
@@ -1472,10 +1448,11 @@ h1 {
   /*formulario*/
 input[type="submit"] {
   margin-left: 3%;
-  font-size: 16px; 
-  padding: 6px 2px; /* Ajustando o padding */
+  font-size: 18px; 
+  padding: 8px 4px; /* Ajustando o padding */
   align-items: left;
   margin-bottom: 1%;
+  width: 62px;
 }
   
   
@@ -1543,19 +1520,21 @@ textarea  {
 
 /* PAGINA HOME */
 .logo1 {
-  width: 7%;
+  width: 67px;
   margin-right: 10px; 
   border-radius: 47% 47% 2% 22% ;                                           
   z-index: 1;
   margin-bottom: 1%;
   margin-left: 2%;
+  height: auto;                                                             /* Altura automática para manter a proporção */
+
 }
 
 
 .titulo {
   font-size: 30px; 
   padding: 0; 
-  margin-top: 4%;
+  margin-top: 42px;
   position:absolute;
   z-index: 1;
 }
@@ -1563,7 +1542,7 @@ textarea  {
 
 .menu-container{
   position: absolute;
-  top: 16%;
+  top: 80px;
   right: 12px;
   z-index: 2;
 }
@@ -1575,7 +1554,7 @@ nav ul li a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 26px;
-  padding: 5px 14px;                                                    
+  padding: 5px 10px;                                                    
   word-spacing: 5px; 
   display: inline-block;
 }
@@ -1652,11 +1631,11 @@ nav ul li a {
 .image2 {
   float: none;                                                             
   margin-right:8%;                                                   
-  width: 259px;
+  width: 50%;
   margin-left: 5%; 
   margin-bottom: 40px;   
   margin-top: 5%; 
-  height: 220px;
+  height: 320px;
   display: block;
 }
 
@@ -1768,8 +1747,8 @@ h1 {
  
  /* PAGINA DE DICAS*/
 .video iframe { 
-  width: 560px; 
-  height: 390px; 
+  width: 70%; 
+  height: 360px; 
   object-fit: cover;                                                        /* ajusta o vídeo dentro da área especificada */
   margin-left: 3%;
   margin-bottom: 4px;
@@ -1802,13 +1781,14 @@ h1 {
 }
 
 
+
 /*imagem das receitas*/
 .imgAreceita {
   margin-right:8%;                                                   
   margin-top: 5%; 
   margin-bottom: 10px;
   margin-left: 3%;
-  width:30%; 
+  width:252px; 
   display: block;
   height: 170px;
 }
@@ -1853,21 +1833,15 @@ h1 {
 }
 
 
-/*imagem do site Tudo Gostoso*/
-.imgTd {
-  width: 110px;
-  height: 95px;
-}
  
  /*PAGINA LOCAL */
 .mapa iframe {
   margin-left: 3%;
-  width:85%; 
-  height: 200px;
+  width:75%; 
+  height: 260px;
   float: none;                                                               
   margin-top: 1%; 
   margin-bottom: 16px;
   margin-right: 8%;                                                   
 }
- 
 }
