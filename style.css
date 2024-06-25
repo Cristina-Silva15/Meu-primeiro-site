@@ -26,6 +26,7 @@ p {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif; 
   text-align: justify;
+  hyphens: auto;
   margin-right: 10%;
   margin-left: 3%;
   line-height: 1.5;
@@ -472,7 +473,7 @@ nav ul li a:hover {
 
 /*CREDITOS */
 
-/*texto do video e da imagem*/
+/*texto do video*/
 .creditos {
   text-align: left;
   margin-left: 3%;
@@ -553,7 +554,7 @@ input[type="submit"]:hover {
 /* Estilizando todos os campos de escrita do formulario*/
 input[type="text"],
 input[type="number"],
-textarea {
+textarea, .form-group select {
   display: block;
   margin: 10px 3%;
   padding: 8px;
@@ -570,7 +571,7 @@ textarea {
 /* borda dos campos de texto na cor laranja AO clicar no campo*/
 input[type="text"]:focus,
 input[type="number"]:focus,
-textarea:focus {
+textarea:focus, .form-group select:focus {
   border: 1px solid #f76e11; /* Borda laranja ao focar */
   outline: none; /* Remove o outline padrão */
 }
@@ -624,6 +625,49 @@ textarea {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*mensagem de erro do formulario*/
+.error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 22px;
+    margin-bottom: -4px;
+    display: block;
+    margin-left: 22px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Queries para celular */
 @media only screen and (max-width: 480px) {
   
@@ -644,11 +688,23 @@ input[type="submit"] {
 
 input[type="text"],
 input[type="number"],
-textarea  {
+textarea, .form-group select {
   width: 87%;                                                                           /* Aumentando a largura */
   margin: 4px 2%; 
   font-size: 14px;
   }
+
+/*mensagem de erro do formulario*/
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  display: block;
+  margin-left: 11px;
+  word-wrap: break-word; 
+}
+
 
 
 .escolha {
@@ -1058,12 +1114,23 @@ input[type="submit"] {
   
 input[type="text"],
 input[type="number"],
-textarea  {
+textarea, .form-group select  {
   width: 80%; /* Aumentando a largura */
   margin: 4px 2%; 
   font-size: 14px;
 }
-  
+ 
+
+/*mensagem de erro do formulario*/
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  display: block;
+  margin-left: 14px;
+  word-wrap: break-word; 
+}
   
 .escolha {
   margin-bottom: -10%;
@@ -1458,12 +1525,23 @@ input[type="submit"] {
   
 input[type="text"],
 input[type="number"],
-textarea  {
+textarea, .form-group select  {
   width: 80%; /* Aumentando a largura */
   margin: 4px 2%; 
-  font-size: 14px;
+  font-size: 16px;
 }
   
+
+/*mensagem de erro do formulario*/
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  display: block;
+  margin-left: 14px;
+  word-wrap: break-word; 
+}
   
 .escolha {
   margin-bottom: -10%;
@@ -1845,3 +1923,6 @@ h1 {
   margin-right: 8%;                                                   
 }
 }
+
+
+
