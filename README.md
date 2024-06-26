@@ -15,6 +15,6 @@ Nesta trilha, foram apresentados os conceitos básicos sobre linguagens de marca
 
 ##
 <h3>Próximas Trilhas:</h3>
-Trilha 2 - Avançando no caminho para a programação web.
-Trilha 3 - Construindo e integrando aplicações Front-end.
+Trilha 2 - Avançando no caminho para a programação web.<br>
+Trilha 3 - Construindo e integrando aplicações Front-end.<br>
 Trilha 4 - Construindo e integrando aplicações Back-end.
