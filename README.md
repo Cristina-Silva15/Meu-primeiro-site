@@ -2,7 +2,7 @@
 O programa Descodificadas, foi criado para capacitar mulheres na área de Desenvolvimento Web. São 4 trilhas de aprendizagem, com duração de 6 meses cada, durante cada trilha será abordado um tema especifico da programação web. 
 <br><br>
 
-Trilha 1 ( cursando) - Descobrindo o caminho para a programação (conhecimentos adquiridos: HTML, CSS e JavaScript).
+📌 Trilha 1 ( cursando) - Descobrindo o caminho para a programação (conhecimentos adquiridos: HTML, CSS e JavaScript).
 <br><br>
 Nesta trilha, foram apresentados os conceitos básicos sobre linguagens de marcação, de estilo e de programação a partir de um projeto web, com objetivo de capacitar as participantes para: 
 <br><br>
@@ -15,6 +15,6 @@ Nesta trilha, foram apresentados os conceitos básicos sobre linguagens de marca
 
 ##
 <h3>Próximas Trilhas:</h3>
-Trilha 2 - Avançando no caminho para a programação web.<br>
-Trilha 3 - Construindo e integrando aplicações Front-end.<br>
-Trilha 4 - Construindo e integrando aplicações Back-end.
+📌 Trilha 2 - Avançando no caminho para a programação web.<br>
+📌 Trilha 3 - Construindo e integrando aplicações Front-end.<br>
+📌 Trilha 4 - Construindo e integrando aplicações Back-end.
