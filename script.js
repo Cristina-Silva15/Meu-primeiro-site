@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if (estadoField.value === "") {
-            showError(estadoField, "Por favor, selecione seu estado");
+            showError(estadoField, "Por favor, selecione seu Estado");
             hasError = true;
         } else {
             hideError(estadoField);
@@ -107,18 +107,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (!hasError) {
             alert("Formulário enviado com sucesso!");
-            form.submit(); // Certifique-se de que 'form' está definido corretamente no seu contexto
+            form.submit(); 
         }
     }
 
     var form = document.querySelector('form');
     form.onsubmit = verificaForm;
-
-    // Adicionar event listener para remover mensagem de erro ao clicar no campo novamente
-    var estadoField = document.querySelector('select[name="estado"]');
-    estadoField.addEventListener('focus', function() {
-        hideError(estadoField);
-    });
 });
 
 
