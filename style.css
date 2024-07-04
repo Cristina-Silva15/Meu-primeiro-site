@@ -325,7 +325,7 @@ nav ul li a:hover {
 .image2 {
   float: left;   
   display: block;                                                    /* Faz a imagem flutuar à esquerda */
-  margin-right: 10px;                                                   /* Espaçamento entre a imagem e o texto */
+  margin-right: 10px;                                                 /* Espaçamento entre a imagem e o texto */
   height: 336px;
   width: 24%;
   margin-left: 3%; 
@@ -349,7 +349,6 @@ nav ul li a:hover {
 
 
 /* PAGINA RECEITA*/
-
 .subtituloReceitas {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
